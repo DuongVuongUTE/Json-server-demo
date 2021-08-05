@@ -28,22 +28,22 @@ server.use((req, res, next) => {
 
 // In this example, returned resources will be wrapped in a body property
 router.render = (req, res) => {
-  const header = res.getHeaders();
+  // const header = res.getHeaders();
 
-  const totalCountHeader = header["x-total-count"];
+  // const totalCountHeader = header["x-total-count"];
 
-  const queryParams = queryString.parse(req._parsedUrl.query);
-  if (req.method === "GET" && totalCountHeader) {
-    const result = {
-      data: res.locals.data,
-      pagination: {
-        _page: Number.parseInt(queryParams._page) || 1,
-        _limit: Number.parseInt(queryParams._limit) || 10,
-        _totalRows: Number.parseInt(totalCountHeader),
-      },
-    };
-    return res.jsonp(result);
-  }
+  // const queryParams = queryString.parse(req._parsedUrl.query);
+  // if (req.method === "GET" && totalCountHeader) {
+  //   const result = {
+  //     data: res.locals.data,
+  //     pagination: {
+  //       _page: Number.parseInt(queryParams._page) || 1,
+  //       _limit: Number.parseInt(queryParams._limit) || 10,
+  //       _totalRows: Number.parseInt(totalCountHeader),
+  //     },
+  //   };
+  //   return res.jsonp(result);
+  // }
   res.jsonp(res.locals.data);
 };
 

@@ -18,18 +18,38 @@ const randomCategoryList = (n) => {
   return categoryList;
 };
 
+const images = [
+  faker.image.city(500, 500),
+  faker.image.animals(500, 500),
+  faker.image.image(500, 500),
+  faker.image.imageUrl(500, 500),
+  faker.image.food(500, 500),
+  faker.image.abstract(500, 500),
+  faker.image.nature(500, 500),
+  faker.image.sports(500, 500),
+  faker.image.transport(500, 500),
+  faker.image.business(500, 500),
+];
+
+function getRandom() {
+  const number = Math.floor(Math.random() * 10);
+  return images[number];
+}
+const randomImage = () => {
+  const result = [];
+  for (let i = 0; i < 4; i++) {
+    const img = {
+      imageKey: faker.random.uuid(),
+      url: getRandom(),
+    };
+    result.push(img);
+  }
+  return result;
+};
 const randomProductList = (categoryList, numberOfProduct) => {
   if (numberOfProduct <= 0) return [];
   const productList = [];
   for (const category of categoryList) {
-    const randomImg = [];
-    for (let i = 0; i < 4; i++) {
-      const img = {
-        imageKey: faker.random.uuid(),
-        url: faker.image.imageUrl(500, 500),
-      };
-      randomImg.push(img);
-    }
     Array.from(new Array(numberOfProduct)).forEach(() => {
       const product = {
         categoryId: category.id,
@@ -40,7 +60,7 @@ const randomProductList = (categoryList, numberOfProduct) => {
         description: faker.commerce.productDescription(),
         createdAt: Date.now(),
         updatedAt: Date.now(),
-        images: randomImg,
+        images: randomImage(),
       };
       productList.push(product);
     });
