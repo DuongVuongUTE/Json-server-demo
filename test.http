@@ -1,1 +1,3 @@
 GET http://localhost:5000/products
+
+    // "start": "npm run generate-data && node main.js",
