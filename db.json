@@ -1,609 +1,519 @@
 {
+  "users": [
+    {
+      "email": "lebathanhtuan@gmail.com",
+      "password": "$2a$10$gTMHDW.C3Oc/ff64Z0tX4uT8AUt0ZC10actp9O5jXlwOTlhmaFTFK",
+      "name": "Tuan",
+      "gender": "male",
+      "role": "admin",
+      "cart": [],
+      "createdAt": 1628858791692,
+      "updatedAt": 1629083675796,
+      "id": 1
+    },
+    {
+      "email": "abc@gmail.com",
+      "password": "$2a$10$3vJIn.XbQHnrS1NG2G7rhe4y7D3kg3yIHvdMD3EEJgCPcYhD49aj2",
+      "name": "ABC",
+      "gender": "female",
+      "role": "user",
+      "cart": [
+        {
+          "id": "9c6c1de3-32eb-4595-b611-add7e2dc546e",
+          "productId": 5,
+          "name": "Galaxy Note 20",
+          "price": 20000000,
+          "count": 2
+        },
+        {
+          "id": "05284c72-023e-4b60-90dd-e80d828aae0d",
+          "productId": 2,
+          "name": "iPhone 12 Pro",
+          "price": 20000000,
+          "count": 1
+        }
+      ],
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871,
+      "id": 2
+    }
+  ],
   "categories": [
     {
-      "id": "54170acf-c5ed-4d0b-90fc-f43da03e1550",
-      "name": "Outdoors",
-      "createdAt": 1628139930035,
-      "updatedAt": 1628139930035
+      "id": 1,
+      "name": "Nike"
     },
     {
-      "id": "173ba169-53a7-4534-8629-502d3704f623",
-      "name": "Clothing",
-      "createdAt": 1628139930035,
-      "updatedAt": 1628139930035
+      "id": 2,
+      "name": "Adidas"
     },
     {
-      "id": "d378c409-7897-4bb7-94b9-2049d4d63d3f",
-      "name": "Home",
-      "createdAt": 1628139930036,
-      "updatedAt": 1628139930036
+      "name": "Biti's",
+      "id": 3
+    }
+  ],
+  "types": [
+    {
+      "id": 1,
+      "name": "Hunter",
+      "description": "Giày biti's Hunter nâng niu bàn chân việt"
     },
     {
-      "id": "c1048dd5-cede-49d1-9b20-5e3492269876",
-      "name": "Beauty",
-      "createdAt": 1628139930036,
-      "updatedAt": 1628139930036
+      "id": 2,
+      "name": "Giày thể thao",
+      "description": "Giày thể thao nâng niu bàn chân việt"
+    },
+    {
+      "id": 3,
+      "name": "Giày chạy bộ",
+      "description": "Giày chạy bộ nâng niu bàn chân việt"
+    },
+    {
+      "id": 4,
+      "name": "Giày đá bóng",
+      "description": "Giày đá bóng nâng niu bàn chân việt"
+    },
+    {
+      "id": 5,
+      "name": "Sandal",
+      "description": "Sandal nâng niu bàn chân việt"
+    },
+    {
+      "id": 6,
+      "name": "Dép",
+      "description": "Dép nâng niu bàn chân việt"
     }
   ],
   "products": [
     {
-      "categoryId": "54170acf-c5ed-4d0b-90fc-f43da03e1550",
-      "id": "1eac2d98-4549-4de6-a9e4-019477ad8380",
-      "name": "Licensed Metal Gloves",
-      "color": "white",
-      "price": "267.00",
-      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-      "createdAt": 1628139930037,
-      "updatedAt": 1628139930037,
-      "images": [
-        {
-          "imageKey": "d8e12b51-5202-4ce8-85d1-32790d33d797",
-          "url": "http://placeimg.com/500/500/business"
-        },
-        {
-          "imageKey": "761d5582-27c6-463e-b60d-8a073a84504b",
-          "url": "http://placeimg.com/500/500/business"
-        },
-        {
-          "imageKey": "2b1b7501-1273-440b-8a2a-27de9abcc250",
-          "url": "http://placeimg.com/500/500/business"
-        },
-        {
-          "imageKey": "4e7eb737-5309-4d7e-ab18-c436df25c090",
-          "url": "http://placeimg.com/500/500/business"
-        }
-      ]
-    },
-    {
-      "categoryId": "54170acf-c5ed-4d0b-90fc-f43da03e1550",
-      "id": "1931ee04-c28f-45df-af21-45df44c3bc55",
-      "name": "Tasty Soft Bacon",
-      "color": "lime",
-      "price": "720.00",
-      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-      "createdAt": 1628139930040,
-      "updatedAt": 1628139930040,
-      "images": [
-        {
-          "imageKey": "40ca3316-d2cf-4d4d-b7fc-6aec25d31b02",
-          "url": "http://placeimg.com/500/500"
-        },
-        {
-          "imageKey": "b07c7b37-392b-4272-a0d0-ef0661b6a1c3",
-          "url": "http://placeimg.com/500/500/nature"
-        },
-        {
-          "imageKey": "6db3b36c-1c3f-43aa-a632-11dee023369a",
-          "url": "http://placeimg.com/500/500/business"
-        },
-        {
-          "imageKey": "f7b9b0a3-88dc-4728-bf99-c6e128580f23",
-          "url": "http://placeimg.com/500/500/business"
-        }
-      ]
-    },
-    {
-      "categoryId": "54170acf-c5ed-4d0b-90fc-f43da03e1550",
-      "id": "2dc7699d-118d-400a-961d-950057654bea",
-      "name": "Practical Soft Tuna",
-      "color": "lime",
-      "price": "658.00",
-      "description": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
-      "createdAt": 1628139930042,
-      "updatedAt": 1628139930042,
-      "images": [
-        {
-          "imageKey": "2e7b3ce5-2a6d-47bc-97ca-63a1cd32a6df",
-          "url": "http://placeimg.com/500/500"
-        },
-        {
-          "imageKey": "b2e6b2be-c3ae-4577-ac64-1f1c4b8ddde5",
-          "url": "http://placeimg.com/500/500/food"
-        },
-        {
-          "imageKey": "de2ab075-eb28-4150-b693-87d67609a357",
-          "url": "http://placeimg.com/500/500/sports"
-        },
-        {
-          "imageKey": "b5bb3af5-f861-4595-9c82-6227bee8e123",
-          "url": "http://placeimg.com/500/500/nature"
-        }
-      ]
-    },
-    {
-      "categoryId": "54170acf-c5ed-4d0b-90fc-f43da03e1550",
-      "id": "6a3e6d1a-231f-45e3-bfcc-e3878fabda0f",
-      "name": "Gorgeous Wooden Car",
-      "color": "olive",
-      "price": "505.00",
-      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
-      "createdAt": 1628139930044,
-      "updatedAt": 1628139930044,
-      "images": [
-        {
-          "imageKey": "cceb5f05-402c-47ca-bc6f-1dd020eb2f67",
-          "url": "http://placeimg.com/500/500/nature"
-        },
-        {
-          "imageKey": "65623bcc-e104-4d17-b967-91ee9a0df768",
-          "url": "http://placeimg.com/500/500/food"
-        },
-        {
-          "imageKey": "a01b06e6-c387-4155-a3c4-f8e2a872ea89",
-          "url": "http://placeimg.com/500/500/transport"
-        },
-        {
-          "imageKey": "e8963610-7ab3-4f0b-a3a4-d29e2f003684",
-          "url": "http://placeimg.com/500/500/food"
-        }
-      ]
-    },
-    {
-      "categoryId": "54170acf-c5ed-4d0b-90fc-f43da03e1550",
-      "id": "6f1401fb-0ce4-483e-9685-7b033f102f3e",
-      "name": "Awesome Plastic Bacon",
-      "color": "teal",
-      "price": "511.00",
-      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
-      "createdAt": 1628139930046,
-      "updatedAt": 1628139930046,
-      "images": [
-        {
-          "imageKey": "8e6d1b53-f58f-4da0-b885-64f96eff0a1c",
-          "url": "http://placeimg.com/500/500"
-        },
-        {
-          "imageKey": "36ac94c1-42bf-4387-be8e-06974c6587be",
-          "url": "http://placeimg.com/500/500/transport"
-        },
-        {
-          "imageKey": "5b11bf9d-669e-40b9-840f-e6a047d143b0",
-          "url": "http://placeimg.com/500/500/abstract"
-        },
-        {
-          "imageKey": "0ad86e46-1aa5-470d-9593-b83ab03bc330",
-          "url": "http://placeimg.com/500/500"
-        }
-      ]
-    },
-    {
-      "categoryId": "173ba169-53a7-4534-8629-502d3704f623",
-      "id": "c373da1b-c27b-4d71-8876-3cf372b166c7",
-      "name": "Fantastic Fresh Pants",
-      "color": "cyan",
-      "price": "671.00",
-      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
-      "createdAt": 1628139930047,
-      "updatedAt": 1628139930047,
-      "images": [
-        {
-          "imageKey": "a920b2c6-f7d5-452e-bac6-a2f762b00e29",
-          "url": "http://placeimg.com/500/500/food"
-        },
-        {
-          "imageKey": "b4991e7d-2fcd-4a8a-9a08-70c2aa8c21d0",
-          "url": "http://placeimg.com/500/500/animals"
-        },
-        {
-          "imageKey": "75076ac2-c736-48c2-854a-1cfbde911d8d",
-          "url": "http://placeimg.com/500/500/business"
-        },
-        {
-          "imageKey": "997b8f86-4641-474a-88f8-a77b568926c0",
-          "url": "http://placeimg.com/500/500/food"
-        }
-      ]
-    },
-    {
-      "categoryId": "173ba169-53a7-4534-8629-502d3704f623",
-      "id": "369fef74-5c76-43de-b9f7-c5ad01392ffd",
-      "name": "Handmade Granite Pants",
-      "color": "ivory",
-      "price": "296.00",
-      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-      "createdAt": 1628139930048,
-      "updatedAt": 1628139930048,
-      "images": [
-        {
-          "imageKey": "b2d7a873-1b12-436d-a4bc-86ce46b17476",
-          "url": "http://placeimg.com/500/500/abstract"
-        },
-        {
-          "imageKey": "b2dcf32b-ede9-40e4-b67e-167e1f2754a8",
-          "url": "http://placeimg.com/500/500/animals"
-        },
-        {
-          "imageKey": "b4a5a3d0-197e-4b1c-affc-83ecfd97fe4e",
-          "url": "http://placeimg.com/500/500/city"
-        },
-        {
-          "imageKey": "238df164-d8d5-42c7-a421-074f56f6c325",
-          "url": "http://placeimg.com/500/500/abstract"
-        }
-      ]
-    },
-    {
-      "categoryId": "173ba169-53a7-4534-8629-502d3704f623",
-      "id": "616279b2-c5d8-467f-88d5-028e09a04426",
-      "name": "Awesome Metal Chips",
-      "color": "lime",
-      "price": "945.00",
-      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
-      "createdAt": 1628139930049,
-      "updatedAt": 1628139930049,
-      "images": [
-        {
-          "imageKey": "23de085f-7f29-4c07-9567-15137643a5ab",
-          "url": "http://placeimg.com/500/500"
-        },
-        {
-          "imageKey": "56ba21dc-2fde-4e58-bc37-8139623042bc",
-          "url": "http://placeimg.com/500/500/city"
-        },
-        {
-          "imageKey": "0b8d235a-cc3a-4746-b049-238ad72bb721",
-          "url": "http://placeimg.com/500/500/abstract"
-        },
-        {
-          "imageKey": "cb8cd817-077f-488f-9760-f0c59caaf91d",
-          "url": "http://placeimg.com/500/500/animals"
-        }
-      ]
-    },
-    {
-      "categoryId": "173ba169-53a7-4534-8629-502d3704f623",
-      "id": "96b2c737-173c-460e-91f8-d1cffe07d304",
-      "name": "Sleek Cotton Bacon",
-      "color": "orange",
-      "price": "589.00",
-      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-      "createdAt": 1628139930051,
-      "updatedAt": 1628139930051,
-      "images": [
-        {
-          "imageKey": "c049a675-62e6-4cc7-abda-28edfb2af35c",
-          "url": "http://placeimg.com/500/500/nature"
-        },
-        {
-          "imageKey": "7a329f46-bb55-4e2a-8176-02dcb6a30db6",
-          "url": "http://placeimg.com/500/500/sports"
-        },
-        {
-          "imageKey": "31dfca62-acc0-45b3-814f-8b2531859fd2",
-          "url": "http://placeimg.com/500/500/city"
-        },
-        {
-          "imageKey": "3f394312-5797-41f5-8cbe-01c953a53eda",
-          "url": "http://placeimg.com/500/500/transport"
-        }
-      ]
-    },
-    {
-      "categoryId": "173ba169-53a7-4534-8629-502d3704f623",
-      "id": "befb2517-e63b-472b-8e55-93556c49b9a4",
-      "name": "Refined Fresh Chips",
-      "color": "fuchsia",
-      "price": "554.00",
-      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-      "createdAt": 1628139930052,
-      "updatedAt": 1628139930052,
-      "images": [
-        {
-          "imageKey": "a5333e1e-a7f8-47ed-80c2-ee2a8703e832",
-          "url": "http://placeimg.com/500/500/abstract"
-        },
-        {
-          "imageKey": "34e40188-c32c-497b-a06d-6a2b10f69f0e",
-          "url": "http://placeimg.com/500/500/food"
-        },
-        {
-          "imageKey": "723299cd-0284-42fe-a6b7-63a2b2bacd0c",
-          "url": "http://placeimg.com/500/500/animals"
-        },
-        {
-          "imageKey": "bedd0c13-2a1e-452a-b75a-dfa68bb4c13f",
-          "url": "http://placeimg.com/500/500/city"
-        }
-      ]
-    },
-    {
-      "categoryId": "d378c409-7897-4bb7-94b9-2049d4d63d3f",
-      "id": "63492af5-b069-4d1b-85a5-036df36c5960",
-      "name": "Handcrafted Frozen Keyboard",
-      "color": "green",
-      "price": "419.00",
-      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-      "createdAt": 1628139930053,
-      "updatedAt": 1628139930053,
-      "images": [
-        {
-          "imageKey": "808b647d-4727-4886-923c-b3092059bc41",
-          "url": "http://placeimg.com/500/500/business"
-        },
-        {
-          "imageKey": "26160ae8-fd52-411d-aa21-9677894ea9d7",
-          "url": "http://placeimg.com/500/500/business"
-        },
-        {
-          "imageKey": "7298f14d-9422-402b-8b41-950cbb441330",
-          "url": "http://placeimg.com/500/500"
-        },
-        {
-          "imageKey": "217cc42b-9f5a-4222-acbb-4bb818925532",
-          "url": "http://placeimg.com/500/500/abstract"
-        }
-      ]
-    },
-    {
-      "categoryId": "d378c409-7897-4bb7-94b9-2049d4d63d3f",
-      "id": "82490058-9688-4ec4-b6b0-a016d89ccdd9",
-      "name": "Intelligent Concrete Ball",
-      "color": "black",
-      "price": "611.00",
-      "description": "The Football Is Good For Training And Recreational Purposes",
-      "createdAt": 1628139930055,
-      "updatedAt": 1628139930055,
-      "images": [
-        {
-          "imageKey": "b0ddb36b-8c0c-4e80-9cd3-6f8e86c22ef0",
-          "url": "http://placeimg.com/500/500/transport"
-        },
-        {
-          "imageKey": "6842abef-9e55-4cae-9ece-0d2f7a974c20",
-          "url": "http://placeimg.com/500/500"
-        },
-        {
-          "imageKey": "c74cf727-daf9-40c0-8f91-613102fa02da",
-          "url": "http://placeimg.com/500/500/animals"
-        },
-        {
-          "imageKey": "ed65cca3-53fc-4ee8-a15c-94eed7213539",
-          "url": "http://placeimg.com/500/500"
-        }
-      ]
-    },
-    {
-      "categoryId": "d378c409-7897-4bb7-94b9-2049d4d63d3f",
-      "id": "dadd0338-c28d-437e-bd6c-2293df28ceb4",
-      "name": "Refined Steel Pants",
-      "color": "ivory",
-      "price": "243.00",
-      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
-      "createdAt": 1628139930057,
-      "updatedAt": 1628139930057,
-      "images": [
-        {
-          "imageKey": "d7a2bb4e-bd8e-4083-af81-d4e7e8fd9e1e",
-          "url": "http://placeimg.com/500/500/business"
-        },
-        {
-          "imageKey": "36e42c02-ff2c-4db0-ac77-e45f3c44b662",
-          "url": "http://placeimg.com/500/500/sports"
-        },
-        {
-          "imageKey": "b10f7418-9955-4417-91ce-44d7e49a4386",
-          "url": "http://placeimg.com/500/500/food"
-        },
-        {
-          "imageKey": "912eefb3-59fd-4d24-a636-b7913b10184b",
-          "url": "http://placeimg.com/500/500/sports"
-        }
-      ]
-    },
-    {
-      "categoryId": "d378c409-7897-4bb7-94b9-2049d4d63d3f",
-      "id": "659e1767-04ea-43ce-9834-2a7a803000a3",
-      "name": "Small Steel Keyboard",
-      "color": "violet",
-      "price": "988.00",
-      "description": "The Football Is Good For Training And Recreational Purposes",
-      "createdAt": 1628139930058,
-      "updatedAt": 1628139930058,
-      "images": [
-        {
-          "imageKey": "b491456a-f4fb-4c2e-a823-3db246dc96db",
-          "url": "http://placeimg.com/500/500/nature"
-        },
-        {
-          "imageKey": "9108cdd6-bb68-4998-b4bf-a37c7f58ce94",
-          "url": "http://placeimg.com/500/500/food"
-        },
-        {
-          "imageKey": "5354cdd9-75d8-4000-a8a9-8291e5a23abc",
-          "url": "http://placeimg.com/500/500/nature"
-        },
-        {
-          "imageKey": "0357d78d-5371-4659-8158-f478318e4559",
-          "url": "http://placeimg.com/500/500/business"
-        }
-      ]
-    },
-    {
-      "categoryId": "d378c409-7897-4bb7-94b9-2049d4d63d3f",
-      "id": "7b19fb3f-03e5-45d1-b252-a9bd72524b72",
-      "name": "Rustic Steel Chips",
-      "color": "olive",
-      "price": "331.00",
-      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
-      "createdAt": 1628139930060,
-      "updatedAt": 1628139930060,
-      "images": [
-        {
-          "imageKey": "3a94cc84-ccf7-4542-8238-65336a5d68ef",
-          "url": "http://placeimg.com/500/500/business"
-        },
-        {
-          "imageKey": "11b25251-5d03-4951-9345-f41c85c3b7b4",
-          "url": "http://placeimg.com/500/500/animals"
-        },
-        {
-          "imageKey": "ffb608a3-187e-496a-af03-adf548095a66",
-          "url": "http://placeimg.com/500/500/sports"
-        },
-        {
-          "imageKey": "272830c3-9671-40df-ace8-db80891fb1ee",
-          "url": "http://placeimg.com/500/500/city"
-        }
-      ]
-    },
-    {
-      "categoryId": "c1048dd5-cede-49d1-9b20-5e3492269876",
-      "id": "41235143-0cba-406c-9f93-d514bc50cd7f",
-      "name": "Fantastic Plastic Mouse",
-      "color": "plum",
-      "price": "868.00",
-      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
-      "createdAt": 1628139930063,
-      "updatedAt": 1628139930063,
-      "images": [
-        {
-          "imageKey": "71fb831b-7de3-4860-b3a0-70f768c8981b",
-          "url": "http://placeimg.com/500/500/sports"
-        },
-        {
-          "imageKey": "d76196c5-a504-4009-a69a-2bf76bf4ee6f",
-          "url": "http://placeimg.com/500/500/animals"
-        },
-        {
-          "imageKey": "44aaf242-7c0f-47d7-b53c-f2bcc1a2aab1",
-          "url": "http://placeimg.com/500/500/animals"
-        },
-        {
-          "imageKey": "8a47cdca-c854-4d49-bc32-73fe9b8ada9f",
-          "url": "http://placeimg.com/500/500/business"
-        }
-      ]
-    },
-    {
-      "categoryId": "c1048dd5-cede-49d1-9b20-5e3492269876",
-      "id": "a51fefbe-e137-45c4-8ccb-e1f37ad0786f",
-      "name": "Rustic Fresh Table",
-      "color": "salmon",
-      "price": "397.00",
-      "description": "The Football Is Good For Training And Recreational Purposes",
-      "createdAt": 1628139930065,
-      "updatedAt": 1628139930065,
-      "images": [
-        {
-          "imageKey": "747d4ca8-0396-4553-b149-2609b4e345f7",
-          "url": "http://placeimg.com/500/500/animals"
-        },
-        {
-          "imageKey": "4fb6cc0b-9b19-42fc-8f6d-ce613f81ff6b",
-          "url": "http://placeimg.com/500/500"
-        },
-        {
-          "imageKey": "7a304d51-215d-4b97-acaa-01b74ac173f6",
-          "url": "http://placeimg.com/500/500/transport"
-        },
-        {
-          "imageKey": "4b6819a2-ff30-4719-a1b5-1520ebb8158b",
-          "url": "http://placeimg.com/500/500/food"
-        }
-      ]
-    },
-    {
-      "categoryId": "c1048dd5-cede-49d1-9b20-5e3492269876",
-      "id": "1c28afa7-0f0f-407c-9fa4-b46d4a98994f",
-      "name": "Fantastic Rubber Ball",
-      "color": "orchid",
-      "price": "274.00",
-      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-      "createdAt": 1628139930067,
-      "updatedAt": 1628139930067,
-      "images": [
-        {
-          "imageKey": "3716edfc-bc27-430e-9d08-0120f6a53c97",
-          "url": "http://placeimg.com/500/500"
-        },
-        {
-          "imageKey": "d305ce6d-5f9b-49fa-aa3d-86e9becc3f7e",
-          "url": "http://placeimg.com/500/500/transport"
-        },
-        {
-          "imageKey": "b5dcdc0f-9821-4a47-a361-7545a56a76f6",
-          "url": "http://placeimg.com/500/500/animals"
-        },
-        {
-          "imageKey": "5de5a6d0-68e8-4b0e-a776-3139c2daac18",
-          "url": "http://placeimg.com/500/500/sports"
-        }
-      ]
-    },
-    {
-      "categoryId": "c1048dd5-cede-49d1-9b20-5e3492269876",
-      "id": "67a424a1-b160-4e87-aba4-19a0c62880d5",
-      "name": "Practical Wooden Tuna",
-      "color": "orchid",
-      "price": "382.00",
-      "description": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
-      "createdAt": 1628139930069,
-      "updatedAt": 1628139930069,
-      "images": [
-        {
-          "imageKey": "a34b6abc-d113-4044-9103-1b142e77d8fa",
-          "url": "http://placeimg.com/500/500/abstract"
-        },
-        {
-          "imageKey": "89d010e4-0dc3-4cd0-a553-0f643eeddb22",
-          "url": "http://placeimg.com/500/500/nature"
-        },
-        {
-          "imageKey": "b7ac4164-ff5b-4cf6-859b-f6dc54de29ba",
-          "url": "http://placeimg.com/500/500"
-        },
-        {
-          "imageKey": "99c0e3b5-5826-4650-8004-131924e097dc",
-          "url": "http://placeimg.com/500/500/animals"
-        }
-      ]
-    },
-    {
-      "categoryId": "c1048dd5-cede-49d1-9b20-5e3492269876",
-      "id": "404bf155-6595-4908-9712-b3f4af67ec61",
-      "name": "Gorgeous Concrete Pants",
-      "color": "maroon",
-      "price": "317.00",
-      "description": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
-      "createdAt": 1628139930072,
-      "updatedAt": 1628139930072,
-      "images": [
-        {
-          "imageKey": "2e03ad60-ab91-416f-b03b-7bea4303154c",
-          "url": "http://placeimg.com/500/500/food"
-        },
-        {
-          "imageKey": "e2bdc79a-364b-4479-9919-de73f7135077",
-          "url": "http://placeimg.com/500/500/animals"
-        },
-        {
-          "imageKey": "aeda4583-0acf-4757-aefc-017a1e0ca30c",
-          "url": "http://placeimg.com/500/500/nature"
-        },
-        {
-          "imageKey": "c725d12d-9447-4764-85cd-325c73966029",
-          "url": "http://placeimg.com/500/500/food"
-        }
-      ]
-    }
-  ],
-  "users": [
-    {
       "id": 1,
-      "name": "Admin",
-      "email": "admin@gmail.com",
-      "password": "123456",
-      "gender": "male",
-      "role": "admin"
+      "description": "Đây là mô tả",
+      "name": "Nike Air Max 1 Anniversary",
+      "price": 4200000,
+      "images": [
+        "https://khangdev1998.github.io/shoe/image/product1.png",
+        "https://khangdev1998.github.io/shoe/image/product2.png"
+      ],
+      "typeId": 2,
+      "color": "white",
+      "categoryId": 1,
+      "size": [
+        {
+          "id": 1,
+          "num": 34,
+          "ratio": 1
+        },
+        {
+          "id": 1,
+          "num": 35,
+          "ratio": 1.1
+        },
+        {
+          "id": 1,
+          "num": 36,
+          "ratio": 1.3
+        },
+        {
+          "id": 1,
+          "num": 37,
+          "ratio": 1.05
+        }
+      ]
     },
     {
       "id": 2,
-      "name": "john",
-      "email": "john@gmail.com",
-      "password": "123456",
-      "gender": "male",
-      "role": "user"
+      "description": "Đây là mô tả",
+      "name": "Nike Air Max 1 Se \"Just Do It\"",
+      "price": 4900000,
+      "color": "white",
+      "typeId": 2,
+      "categoryId": 1,
+      "images": [
+        "https://khangdev1998.github.io/shoe/image/product3.png",
+        "https://khangdev1998.github.io/shoe/image/product4.png"
+      ],
+      "size": [
+        {
+          "id": 1,
+          "num": 40,
+          "ratio": 1.1
+        },
+        {
+          "id": 1,
+          "num": 41,
+          "ratio": 1.2
+        },
+        {
+          "id": 1,
+          "num": 42,
+          "ratio": 1.15
+        },
+        {
+          "id": 1,
+          "num": 43,
+          "ratio": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "description": "Đây là mô tả",
+      "name": "The 10: Nike Air Presto \"Off White\"",
+      "price": 8000000,
+      "categoryId": 1,
+      "typeId": 2,
+      "color": "white",
+      "images": [
+        "https://khangdev1998.github.io/shoe/image/product5.png",
+        "https://khangdev1998.github.io/shoe/image/product6.png"
+      ],
+      "size": [
+        {
+          "id": 1,
+          "num": 40,
+          "ratio": 1.1
+        },
+        {
+          "id": 1,
+          "num": 41,
+          "ratio": 1.2
+        },
+        {
+          "id": 1,
+          "num": 42,
+          "ratio": 1.15
+        },
+        {
+          "id": 1,
+          "num": 43,
+          "ratio": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "description": "Đây là mô tả",
+      "name": "Nike Wmns Air Huarache City Move",
+      "price": 5200000,
+      "categoryId": 1,
+      "typeId": 2,
+      "images": [
+        "https://khangdev1998.github.io/shoe/image/product7.png",
+        "https://khangdev1998.github.io/shoe/image/product8.png"
+      ],
+      "color": "#eb2c93",
+      "size": [
+        {
+          "id": 1,
+          "num": 40,
+          "ratio": 1.1
+        },
+        {
+          "id": 1,
+          "num": 41,
+          "ratio": 1.2
+        },
+        {
+          "id": 1,
+          "num": 42,
+          "ratio": 1.15
+        },
+        {
+          "id": 1,
+          "num": 43,
+          "ratio": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "description": "Đây là mô tả",
+      "name": "Nike Air Max 90 Essential \"Grape\"",
+      "price": 4800000,
+      "categoryId": 1,
+      "typeId": 2,
+      "color": "white",
+      "images": [
+        "https://khangdev1998.github.io/shoe/image/product9.png",
+        "https://khangdev1998.github.io/shoe/image/product10.png"
+      ],
+      "size": [
+        {
+          "id": 1,
+          "num": 40,
+          "ratio": 1.1
+        },
+        {
+          "id": 1,
+          "num": 41,
+          "ratio": 1.2
+        },
+        {
+          "id": 1,
+          "num": 42,
+          "ratio": 1.15
+        },
+        {
+          "id": 1,
+          "num": 43,
+          "ratio": 1
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "description": "Đây là mô tả",
+      "name": "Nike Air Max 97 Premium",
+      "price": 8400000,
+      "typeId": 2,
+      "categoryId": 1,
+      "color": "blue",
+      "images": [
+        "https://khangdev1998.github.io/shoe/image/product11.png",
+        "https://khangdev1998.github.io/shoe/image/product12.png"
+      ],
+      "size": [
+        {
+          "id": 1,
+          "num": 40,
+          "ratio": 1.1
+        },
+        {
+          "id": 1,
+          "num": 41,
+          "ratio": 1.2
+        },
+        {
+          "id": 1,
+          "num": 42,
+          "ratio": 1.15
+        },
+        {
+          "id": 1,
+          "num": 43,
+          "ratio": 1
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "description": "Đây là mô tả",
+      "name": "Adidas Nmd Xr1 W \"Pearl Grey\"",
+      "price": 5750000,
+      "typeId": 2,
+      "categoryId": 2,
+      "color": "white",
+      "images": [
+        "https://khangdev1998.github.io/shoe/image/product13.png",
+        "https://khangdev1998.github.io/shoe/image/product14.png"
+      ],
+      "size": [
+        {
+          "id": 1,
+          "num": 40,
+          "ratio": 1.1
+        },
+        {
+          "id": 1,
+          "num": 41,
+          "ratio": 1.2
+        },
+        {
+          "id": 1,
+          "num": 42,
+          "ratio": 1.15
+        },
+        {
+          "id": 1,
+          "num": 43,
+          "ratio": 1
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "description": "Đây là mô tả",
+      "name": "Nike W's Air Huarache Run \"Triple White\"",
+      "price": 7950000,
+      "categoryId": 1,
+      "typeId": 2,
+      "color": "white",
+      "images": [
+        "https://khangdev1998.github.io/shoe/image/product15.png",
+        "https://khangdev1998.github.io/shoe/image/product16.png"
+      ],
+      "size": [
+        {
+          "id": 1,
+          "num": 40,
+          "ratio": 1.1
+        },
+        {
+          "id": 1,
+          "num": 41,
+          "ratio": 1.2
+        },
+        {
+          "id": 1,
+          "num": 42,
+          "ratio": 1.15
+        },
+        {
+          "id": 1,
+          "num": 43,
+          "ratio": 1
+        }
+      ]
     }
   ],
-  "todos": []
+  "todos": [],
+  "comments": [
+    {
+      "id": 1,
+      "content": "Ahihi máy đẹp quá",
+      "rating": 5,
+      "userId": 1,
+      "productId": 2
+    },
+    {
+      "id": 3,
+      "content": "Máy xấu bỏ xừ",
+      "rating": 1,
+      "userId": 1,
+      "productId": 1
+    }
+  ],
+  "orders": [
+    {
+      "userId": 1,
+      "name": "Tuan",
+      "email": "lebathanhtuan@gmail.com",
+      "phoneNumber": "0123456789",
+      "address": "12313",
+      "products": [
+        {
+          "id": "7936af5b-42c7-4fc9-9704-4eea2202958a",
+          "productId": 9,
+          "name": "Xiaomi Mi Mix 4",
+          "price": 30000000,
+          "count": 1
+        }
+      ],
+      "totalPrice": 30000000,
+      "checkoutInfo": "momo",
+      "status": "waiting",
+      "createdAt": 1628858649230,
+      "updatedAt": 1628858649230,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "name": "ABC",
+      "email": "abc@gmail.com",
+      "phoneNumber": "1321312314",
+      "address": "124123123",
+      "products": [
+        {
+          "id": "f26ba1bc-411f-4411-a69e-dabc9daff005",
+          "productId": 11,
+          "name": "Xiaomi Ahihi",
+          "price": 10000000,
+          "count": 2
+        },
+        {
+          "id": "b40bb188-f2e3-44f4-98ea-11fc92742a31",
+          "productId": 8,
+          "name": "3213",
+          "price": 4123,
+          "count": 1
+        },
+        {
+          "id": "e2f765c5-dc49-4641-b9e0-fb376a177a42",
+          "productId": 6,
+          "name": "Galaxy S10",
+          "price": 5000000,
+          "count": 2
+        }
+      ],
+      "totalPrice": 30004123,
+      "checkoutInfo": "zalo",
+      "status": "waiting",
+      "createdAt": 1628858843753,
+      "updatedAt": 1628858843753,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "name": "Tuan",
+      "email": "lebathanhtuan@gmail.com",
+      "phoneNumber": "31241231",
+      "address": "312313",
+      "products": [
+        {
+          "id": "4b44c77f-0c9e-4bc5-9a72-4e2e7c78c3d4",
+          "productId": 9,
+          "name": "Xiaomi Mi Mix 4",
+          "price": 30000000,
+          "count": 1
+        }
+      ],
+      "totalPrice": 30000000,
+      "checkoutInfo": "momo",
+      "status": "waiting",
+      "createdAt": 1628861532077,
+      "updatedAt": 1628861532077,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "name": "Tuan",
+      "email": "lebathanhtuan@gmail.com",
+      "phoneNumber": "414213213",
+      "address": "14123",
+      "products": [
+        {
+          "id": "4b44c77f-0c9e-4bc5-9a72-4e2e7c78c3d4",
+          "productId": 9,
+          "name": "Xiaomi Mi Mix 4",
+          "price": 30000000,
+          "count": 1
+        }
+      ],
+      "totalPrice": 30000000,
+      "checkoutInfo": "zalo",
+      "status": "waiting",
+      "createdAt": 1628861609558,
+      "updatedAt": 1628861609558,
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "name": "Tuan",
+      "email": "lebathanhtuan@gmail.com",
+      "phoneNumber": "9857453758684",
+      "address": "32894hsjdfjdkjdfbjvdf",
+      "products": [
+        {
+          "id": "8c39cb6c-98d7-4c9d-9672-fe8179c06682",
+          "productId": 10,
+          "name": "Xiaomi mi 10",
+          "price": 4123123,
+          "count": 1
+        },
+        {
+          "id": "ab691f82-ab6e-419f-8b2a-65e029ff9126",
+          "productId": 8,
+          "name": "3213",
+          "price": 4123,
+          "count": 8
+        }
+      ],
+      "totalPrice": 4156107,
+      "checkoutInfo": "momo",
+      "status": "waiting",
+      "createdAt": 1629081625601,
+      "updatedAt": 1629081625601,
+      "id": 7
+    }
+  ]
 }
