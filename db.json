@@ -6,7 +6,7 @@
       "name": "Tuan",
       "gender": "male",
       "role": "admin",
-      "cart": [],
+      "carts": [],
       "createdAt": 1628858791692,
       "updatedAt": 1629083675796,
       "id": 1
@@ -17,22 +17,7 @@
       "name": "ABC",
       "gender": "female",
       "role": "user",
-      "cart": [
-        {
-          "id": "9c6c1de3-32eb-4595-b611-add7e2dc546e",
-          "productId": 5,
-          "name": "Galaxy Note 20",
-          "price": 20000000,
-          "count": 2
-        },
-        {
-          "id": "05284c72-023e-4b60-90dd-e80d828aae0d",
-          "productId": 2,
-          "name": "iPhone 12 Pro",
-          "price": 20000000,
-          "count": 1
-        }
-      ],
+      "carts": [],
       "createdAt": 1628858791692,
       "updatedAt": 1628861887871,
       "id": 2
@@ -50,38 +35,52 @@
     {
       "name": "Biti's",
       "id": 3
+    },
+    {
+      "name": "Puma",
+      "id": 4
+    },
+    {
+      "name": "Vans",
+      "id": 5
     }
   ],
   "types": [
     {
       "id": 1,
-      "name": "Hunter",
-      "description": "Giày biti's Hunter nâng niu bàn chân việt"
+      "name": "Hunter"
     },
     {
       "id": 2,
-      "name": "Giày thể thao",
-      "description": "Giày thể thao nâng niu bàn chân việt"
+      "name": "Giày thể thao"
     },
     {
       "id": 3,
-      "name": "Giày chạy bộ",
-      "description": "Giày chạy bộ nâng niu bàn chân việt"
+      "name": "Giày chạy bộ"
     },
     {
       "id": 4,
-      "name": "Giày đá bóng",
-      "description": "Giày đá bóng nâng niu bàn chân việt"
+      "name": "Giày đá bóng"
     },
     {
       "id": 5,
-      "name": "Sandal",
-      "description": "Sandal nâng niu bàn chân việt"
+      "name": "Giày bóng rổ"
     },
     {
       "id": 6,
-      "name": "Dép",
-      "description": "Dép nâng niu bàn chân việt"
+      "name": "Sandal"
+    },
+    {
+      "id": 7,
+      "name": "Ultra boost"
+    },
+    {
+      "id": 8,
+      "name": "Yeezy"
+    },
+    {
+      "id": 9,
+      "name": "Jordan"
     }
   ],
   "products": [
@@ -95,64 +94,20 @@
         "https://khangdev1998.github.io/shoe/image/product2.png"
       ],
       "typeId": 2,
-      "color": "white",
-      "categoryId": 1,
-      "size": [
-        {
-          "id": 1,
-          "num": 34,
-          "ratio": 1
-        },
-        {
-          "id": 1,
-          "num": 35,
-          "ratio": 1.1
-        },
-        {
-          "id": 1,
-          "num": 36,
-          "ratio": 1.3
-        },
-        {
-          "id": 1,
-          "num": 37,
-          "ratio": 1.05
-        }
-      ]
+      "color": "#e7352b",
+      "categoryId": 1
     },
     {
       "id": 2,
       "description": "Đây là mô tả",
       "name": "Nike Air Max 1 Se \"Just Do It\"",
       "price": 4900000,
-      "color": "white",
+      "color": "#ffffff",
       "typeId": 2,
       "categoryId": 1,
       "images": [
         "https://khangdev1998.github.io/shoe/image/product3.png",
         "https://khangdev1998.github.io/shoe/image/product4.png"
-      ],
-      "size": [
-        {
-          "id": 1,
-          "num": 40,
-          "ratio": 1.1
-        },
-        {
-          "id": 1,
-          "num": 41,
-          "ratio": 1.2
-        },
-        {
-          "id": 1,
-          "num": 42,
-          "ratio": 1.15
-        },
-        {
-          "id": 1,
-          "num": 43,
-          "ratio": 1
-        }
       ]
     },
     {
@@ -162,32 +117,10 @@
       "price": 8000000,
       "categoryId": 1,
       "typeId": 2,
-      "color": "white",
+      "color": "#ffffff",
       "images": [
         "https://khangdev1998.github.io/shoe/image/product5.png",
         "https://khangdev1998.github.io/shoe/image/product6.png"
-      ],
-      "size": [
-        {
-          "id": 1,
-          "num": 40,
-          "ratio": 1.1
-        },
-        {
-          "id": 1,
-          "num": 41,
-          "ratio": 1.2
-        },
-        {
-          "id": 1,
-          "num": 42,
-          "ratio": 1.15
-        },
-        {
-          "id": 1,
-          "num": 43,
-          "ratio": 1
-        }
       ]
     },
     {
@@ -201,29 +134,7 @@
         "https://khangdev1998.github.io/shoe/image/product7.png",
         "https://khangdev1998.github.io/shoe/image/product8.png"
       ],
-      "color": "#eb2c93",
-      "size": [
-        {
-          "id": 1,
-          "num": 40,
-          "ratio": 1.1
-        },
-        {
-          "id": 1,
-          "num": 41,
-          "ratio": 1.2
-        },
-        {
-          "id": 1,
-          "num": 42,
-          "ratio": 1.15
-        },
-        {
-          "id": 1,
-          "num": 43,
-          "ratio": 1
-        }
-      ]
+      "color": "#ffffff"
     },
     {
       "id": 5,
@@ -232,32 +143,10 @@
       "price": 4800000,
       "categoryId": 1,
       "typeId": 2,
-      "color": "white",
+      "color": "multiColor",
       "images": [
         "https://khangdev1998.github.io/shoe/image/product9.png",
         "https://khangdev1998.github.io/shoe/image/product10.png"
-      ],
-      "size": [
-        {
-          "id": 1,
-          "num": 40,
-          "ratio": 1.1
-        },
-        {
-          "id": 1,
-          "num": 41,
-          "ratio": 1.2
-        },
-        {
-          "id": 1,
-          "num": 42,
-          "ratio": 1.15
-        },
-        {
-          "id": 1,
-          "num": 43,
-          "ratio": 1
-        }
       ]
     },
     {
@@ -267,32 +156,10 @@
       "price": 8400000,
       "typeId": 2,
       "categoryId": 1,
-      "color": "blue",
+      "color": "#1790c8",
       "images": [
         "https://khangdev1998.github.io/shoe/image/product11.png",
         "https://khangdev1998.github.io/shoe/image/product12.png"
-      ],
-      "size": [
-        {
-          "id": 1,
-          "num": 40,
-          "ratio": 1.1
-        },
-        {
-          "id": 1,
-          "num": 41,
-          "ratio": 1.2
-        },
-        {
-          "id": 1,
-          "num": 42,
-          "ratio": 1.15
-        },
-        {
-          "id": 1,
-          "num": 43,
-          "ratio": 1
-        }
       ]
     },
     {
@@ -302,32 +169,10 @@
       "price": 5750000,
       "typeId": 2,
       "categoryId": 2,
-      "color": "white",
+      "color": "#808080",
       "images": [
         "https://khangdev1998.github.io/shoe/image/product13.png",
         "https://khangdev1998.github.io/shoe/image/product14.png"
-      ],
-      "size": [
-        {
-          "id": 1,
-          "num": 40,
-          "ratio": 1.1
-        },
-        {
-          "id": 1,
-          "num": 41,
-          "ratio": 1.2
-        },
-        {
-          "id": 1,
-          "num": 42,
-          "ratio": 1.15
-        },
-        {
-          "id": 1,
-          "num": 43,
-          "ratio": 1
-        }
       ]
     },
     {
@@ -337,33 +182,304 @@
       "price": 7950000,
       "categoryId": 1,
       "typeId": 2,
-      "color": "white",
+      "color": "#ffffff",
       "images": [
         "https://khangdev1998.github.io/shoe/image/product15.png",
         "https://khangdev1998.github.io/shoe/image/product16.png"
-      ],
-      "size": [
-        {
-          "id": 1,
-          "num": 40,
-          "ratio": 1.1
-        },
-        {
-          "id": 1,
-          "num": 41,
-          "ratio": 1.2
-        },
-        {
-          "id": 1,
-          "num": 42,
-          "ratio": 1.15
-        },
-        {
-          "id": 1,
-          "num": 43,
-          "ratio": 1
-        }
       ]
+    },
+    {
+      "id": 9,
+      "description": "Đây là mô tả",
+      "name": "Air Jordan 1 Mid SE",
+      "price": 3250000,
+      "categoryId": 1,
+      "typeId": 9,
+      "color": "#f36b26",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/36b884d8-e9a8-4b95-86ab-975362f98aee/air-jordan-1-mid-se-shoes-1r6S57.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/04db6ef3-f24c-4ce3-a1b0-ea3ac836e112/air-jordan-1-mid-se-shoes-1r6S57.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/7a610bed-f867-409f-a495-eca3e4ab867f/air-jordan-1-mid-se-shoes-1r6S57.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/d9750ece-8f76-4e1d-9858-35c351a3798e/air-jordan-1-mid-se-shoes-1r6S57.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/74a40f2e-3309-4383-a7af-8e60f093efb1/air-jordan-1-mid-se-shoes-1r6S57.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/43f40b0a-4de9-4062-bab0-e9db89ae35e5/air-jordan-1-mid-se-shoes-1r6S57.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/d5224dfb-dc95-4024-929f-c6892e64953e/air-jordan-1-mid-se-shoes-1r6S57.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/c6e2cdea-f2be-4d0c-b7aa-8d6de3bd8c94/air-jordan-1-mid-se-shoes-1r6S57.png"
+      ]
+    },
+    {
+      "id": 10,
+      "description": "Đây là mô tả",
+      "name": "Air Jordan 1 Mid SE Limited",
+      "price": 3250000,
+      "categoryId": 1,
+      "typeId": 9,
+      "color": "#825d41",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/62065af1-f371-4a71-b8f9-51d2fd38a03e/air-jordan-1-mid-se-shoes-wPl3bj.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/483c310f-b22b-4428-af05-7391249fe598/air-jordan-1-mid-se-shoes-wPl3bj.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/846b3e25-7a90-4def-9e39-6d013319ce38/air-jordan-1-mid-se-shoes-wPl3bj.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/158f869c-f2c1-45ee-aaae-1cc7fbf66088/air-jordan-1-mid-se-shoes-wPl3bj.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/44a0c5d5-8010-46bf-8842-a951e90acda7/air-jordan-1-mid-se-shoes-wPl3bj.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/ff313ae3-7c1d-4550-8b00-6b4f4b4d134e/air-jordan-1-mid-se-shoes-wPl3bj.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/0ded4877-6581-45a7-a7d7-a13583107f13/air-jordan-1-mid-se-shoes-wPl3bj.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/7384f42e-214d-40a1-a6df-fe792f74d811/air-jordan-1-mid-se-shoes-wPl3bj.png"
+      ]
+    },
+    {
+      "id": 11,
+      "description": "Đây là mô tả",
+      "name": "Nike Air Zoom G.T. Run",
+      "price": 2150000,
+      "categoryId": 1,
+      "typeId": 5,
+      "color": "#000000",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/3aa3717f-a407-4541-ba5d-b138a5377781/air-zoom-gt-run-basketball-shoes-fFPW28.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/a4590178-81cc-4ac5-914e-ef72f3398a55/air-zoom-gt-run-basketball-shoes-fFPW28.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/14e6f2b5-95ed-428f-8f5d-14163d51143f/air-zoom-gt-run-basketball-shoes-fFPW28.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/0a7ccf83-87bf-4d69-a27e-3d0df4ae6e97/air-zoom-gt-run-basketball-shoes-fFPW28.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/834e82fd-3531-4055-9152-29b7890c81fa/air-zoom-gt-run-basketball-shoes-fFPW28.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/cf3f46d8-4351-4eaf-b3cd-ef8453470b83/air-zoom-gt-run-basketball-shoes-fFPW28.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/17ddf584-7f41-49c6-9ed1-d991553f46f4/air-zoom-gt-run-basketball-shoes-fFPW28.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/4af725d5-78d8-4263-b644-58dfdfaadb24/air-zoom-gt-run-basketball-shoes-fFPW28.png"
+      ]
+    },
+    {
+      "id": 12,
+      "description": "Đây là mô tả",
+      "name": "Giannis Immortality \"Force Field\"",
+      "price": 2050000,
+      "categoryId": 1,
+      "typeId": 5,
+      "color": "#ffffff",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/f2277f6f-b276-477d-9646-d6ebaecf4a7e/giannis-immortality-force-field-basketball-shoe-p9QlJF.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/924f227e-3467-4bc2-b12d-6e3f6d17a0cd/giannis-immortality-force-field-basketball-shoe-p9QlJF.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/5de6040d-e8da-425c-9070-13d259e890c9/giannis-immortality-force-field-basketball-shoe-p9QlJF.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/cab913cb-027c-4a9b-80b3-c972197bc73c/giannis-immortality-force-field-basketball-shoe-p9QlJF.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/488f8f83-29ac-4adc-8be1-2b54708cc01d/giannis-immortality-force-field-basketball-shoe-p9QlJF.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/b652938a-821d-4ce6-b855-388ce3bc3e69/giannis-immortality-force-field-basketball-shoe-p9QlJF.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/38cf39a4-d1ad-428b-ae3f-1d7436916495/giannis-immortality-force-field-basketball-shoe-p9QlJF.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/d1c9a09d-afb5-450f-a11f-f68f3bf1c790/giannis-immortality-force-field-basketball-shoe-p9QlJF.png"
+      ]
+    },
+    {
+      "id": 13,
+      "description": "Đây là mô tả",
+      "name": "PG 5 \"PlayStation\"",
+      "price": 2850000,
+      "categoryId": 1,
+      "typeId": 5,
+      "color": "#ffffff",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/9920b9c5-6780-4a99-8dc9-af1aef4c3155/pg-5-playstation-basketball-shoe-6lFr5g.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/0c4194a1-89a0-4644-bebc-cb2709e0edaa/pg-5-playstation-basketball-shoe-6lFr5g.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/e87d5daf-aad7-45c4-a4a6-f15bb8021d05/pg-5-playstation-basketball-shoe-6lFr5g.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/b120612b-1919-4652-8273-86d05ae8a407/pg-5-playstation-basketball-shoe-6lFr5g.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/b4e25c78-61f9-444b-a646-9a73116294bc/pg-5-playstation-basketball-shoe-6lFr5g.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/39ef63fb-84ab-48ad-a45d-b0322a3c5a91/pg-5-playstation-basketball-shoe-6lFr5g.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/40e034c5-a9ca-4a84-8b6d-9104e1c061f4/pg-5-playstation-basketball-shoe-6lFr5g.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/b88678e9-0fb3-4853-bcc1-3714041b504e/pg-5-playstation-basketball-shoe-6lFr5g.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/701027d6-f910-41a1-8f30-e48199e89001/pg-5-playstation-basketball-shoe-6lFr5g.png"
+      ]
+    },
+    {
+      "id": 14,
+      "description": "Đây là mô tả",
+      "name": "Nike Vapor Edge Pro 360",
+      "price": 2850000,
+      "categoryId": 1,
+      "typeId": 4,
+      "color": "#808080",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/f26e45b0-c47c-4430-b7b5-4a64d4b2edfc/vapor-edge-pro-360-mens-football-cleats-HXd3nk.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/23e77d5f-f069-4829-944d-1f83afa33d99/vapor-edge-pro-360-mens-football-cleats-HXd3nk.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/b0e1b423-130e-45c4-9134-952e6e3ed816/vapor-edge-pro-360-mens-football-cleats-HXd3nk.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/5accd9ee-909d-4e70-b3fd-d8c079ec05e5/vapor-edge-pro-360-mens-football-cleats-HXd3nk.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/43614989-b93b-4dfd-ba46-bdd0ab86acfa/vapor-edge-pro-360-mens-football-cleats-HXd3nk.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/791d277c-4e3c-42a1-b08b-65a2701008ed/vapor-edge-pro-360-mens-football-cleats-HXd3nk.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/513e8ac0-f1ec-4dff-8b25-a7243ca09c27/vapor-edge-pro-360-mens-football-cleats-HXd3nk.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/0e57fced-01c3-435f-a5bb-a6e6965c66e9/vapor-edge-pro-360-mens-football-cleats-HXd3nk.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/638d2f88-7197-460c-b8e4-3ba890ec969d/vapor-edge-pro-360-mens-football-cleats-HXd3nk.png"
+      ]
+    },
+    {
+      "id": 15,
+      "description": "Đây là mô tả",
+      "name": "Nike Air Zoom Alphafly NEXT",
+      "price": 5850000,
+      "categoryId": 1,
+      "typeId": 3,
+      "color": "#02cbb5",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/676c7f91-924e-43b0-8d30-44fa9f127491/air-zoom-alphafly-next-mens-racing-shoes-fNntgL.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/906e5c98-b711-4782-872e-8f1b08013212/air-zoom-alphafly-next-mens-racing-shoes-fNntgL.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/e361b068-3970-4609-b29d-6f0f09f129a1/air-zoom-alphafly-next-mens-racing-shoes-fNntgL.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/b3c39e71-1f77-4eac-a3bb-0ea25205481e/air-zoom-alphafly-next-mens-racing-shoes-fNntgL.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/0832145e-7077-419d-a1fd-ef8d8a711dcf/air-zoom-alphafly-next-mens-racing-shoes-fNntgL.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/ddac3094-6f97-47f0-931d-8563af8fa7be/air-zoom-alphafly-next-mens-racing-shoes-fNntgL.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/d9cf5ff9-a819-495f-88be-7b7407aaa3a7/air-zoom-alphafly-next-mens-racing-shoes-fNntgL.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/fb75ecce-a9f7-4da1-b4be-ef6f22b8524f/air-zoom-alphafly-next-mens-racing-shoes-fNntgL.png"
+      ]
+    },
+    {
+      "id": 16,
+      "description": "Đây là mô tả",
+      "name": "Nike Zoom Span 3",
+      "price": 1050000,
+      "categoryId": 1,
+      "typeId": 3,
+      "color": "#000000",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/75fd9c38-a61f-4d53-9a7a-97b6a11ed910/zoom-span-3-mens-running-shoes-zXzpgd.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/17c8391f-c5c5-49c6-b865-8d57cf8cd597/zoom-span-3-mens-running-shoes-zXzpgd.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/548f4cf5-d5d5-42d5-9bf9-18bf315f0163/zoom-span-3-mens-running-shoes-zXzpgd.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/b3cc269a-feae-40f2-a840-2bc67422b835/zoom-span-3-mens-running-shoes-zXzpgd.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/da977a99-ec8c-465f-a108-30a8a3b7e88e/zoom-span-3-mens-running-shoes-zXzpgd.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/a448ec01-e5ce-48eb-a016-4bfc7882fe49/zoom-span-3-mens-running-shoes-zXzpgd.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/01b3bcca-4a6b-4d67-a96a-53aadd70a4a5/zoom-span-3-mens-running-shoes-zXzpgd.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/6ab094c8-e5ca-41e4-9d17-e6eb414673cb/zoom-span-3-mens-running-shoes-zXzpgd.png"
+      ]
+    },
+    {
+      "id": 17,
+      "description": "Đây là mô tả nữ",
+      "name": "Nike React Infinity Run Flyknit 2",
+      "price": 3050000,
+      "categoryId": 1,
+      "typeId": 3,
+      "color": "#f0728f",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/969bf9cf-7d2e-478e-b2f6-333ef205c2b3/react-infinity-run-flyknit-2-womens-running-shoes-rfh6Z8.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/74e6bc34-b51a-416e-85f3-c31c00637dfa/react-infinity-run-flyknit-2-womens-running-shoes-rfh6Z8.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/1e94c412-7da0-408b-a78f-b640810605a8/react-infinity-run-flyknit-2-womens-running-shoes-rfh6Z8.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/e68d6b40-f2b4-4135-9df9-bac6c9ff3a3a/react-infinity-run-flyknit-2-womens-running-shoes-rfh6Z8.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/cf037eec-ef1e-4284-9731-abf7683064e9/react-infinity-run-flyknit-2-womens-running-shoes-rfh6Z8.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/dd4b6c5c-a103-4a97-8938-bd2ef73bc604/react-infinity-run-flyknit-2-womens-running-shoes-rfh6Z8.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/5261e3c9-8124-4813-9d19-6e966529ad42/react-infinity-run-flyknit-2-womens-running-shoes-rfh6Z8.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/0b5a02d8-cfee-4fcc-a8e7-fecee0b3eede/react-infinity-run-flyknit-2-womens-running-shoes-rfh6Z8.png"
+      ]
+    },
+
+    {
+      "id": 18,
+      "description": "Đây là mô tả nữ",
+      "name": "Nike Air Force 1 '07",
+      "price": 1250000,
+      "categoryId": 1,
+      "typeId": 2,
+      "color": "#ffffff",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/7e8082ec-8a98-4803-8708-d5c8b60830ed/air-force-1-07-womens-shoes-GCkPzr.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/e5d1a7a2-6cc9-4e86-97a5-a28a9d893221/air-force-1-07-womens-shoes-GCkPzr.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/4906dd0a-96d2-46d3-b70c-cd7c0227deef/air-force-1-07-womens-shoes-GCkPzr.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/f094af40-f82f-4fb9-a246-e031bf6fc411/air-force-1-07-womens-shoes-GCkPzr.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/e4a3fabb-5cda-46cd-9a12-4f9cc3840ab5/air-force-1-07-womens-shoes-GCkPzr.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/d81dae0f-e39d-4c22-a2a1-ee4b8b82a839/air-force-1-07-womens-shoes-GCkPzr.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/5dbeb615-bdee-4737-9a94-ab7c67bd9219/air-force-1-07-womens-shoes-GCkPzr.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/cb1fa13c-a1bf-4477-8b7c-78ac7bc16f80/air-force-1-07-womens-shoes-GCkPzr.png"
+      ]
+    },
+    {
+      "id": 19,
+      "description": "Đây là mô tả nữ",
+      "name": "Nike Air Force 1 Shadow",
+      "price": 1450000,
+      "categoryId": 1,
+      "typeId": 2,
+      "color": "multiColor",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/eba1584a-b605-466e-83cf-d56b927461ec/air-force-1-shadow-womens-shoes-ghxQmm.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/989c383c-0117-4582-892c-5fc7aee12466/air-force-1-shadow-womens-shoes-ghxQmm.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/ba485cf3-b9e8-47bc-a936-971a9400ed88/air-force-1-shadow-womens-shoes-ghxQmm.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/10137707-994e-4c28-96ca-1c0a6745a9fe/air-force-1-shadow-womens-shoes-ghxQmm.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/cd3c9178-05fa-4c3c-9946-1f6abec4aeb3/air-force-1-shadow-womens-shoes-ghxQmm.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/daa7deb8-c34a-439d-9aa6-ce40493bbaba/air-force-1-shadow-womens-shoes-ghxQmm.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/b88467bb-2274-451a-b0d1-8f7898704503/air-force-1-shadow-womens-shoes-ghxQmm.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/3f51a8f1-87eb-49b0-ad8b-704e7db2e966/air-force-1-shadow-womens-shoes-ghxQmm.png"
+      ]
+    },
+    {
+      "id": 20,
+      "description": "Đây là mô tả nữ",
+      "name": "Nike Air Zoom G.T. Cut",
+      "price": 3450000,
+      "categoryId": 1,
+      "typeId": 4,
+      "color": "#e7352b",
+      "images": [
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/3b15aaaa-0168-421d-8da9-531620da2e78/air-zoom-gt-cut-basketball-shoes-kTDfNK.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/cd1b5106-2c8c-4b8b-a274-f1deb1c926be/air-zoom-gt-cut-basketball-shoes-kTDfNK.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/1d94405d-95ff-47c2-800a-922194396cde/air-zoom-gt-cut-basketball-shoes-kTDfNK.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5/05b6f8f5-5404-490a-90fe-ac925a40c7a7/air-zoom-gt-cut-basketball-shoes-kTDfNK.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/a024efb4-c76b-4663-bf9c-9aaaf047c717/air-zoom-gt-cut-basketball-shoes-kTDfNK.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/02b3e3b7-73de-4b9f-8dc9-158039b9fcbf/air-zoom-gt-cut-basketball-shoes-kTDfNK.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/ab006e9d-2a14-4dba-b876-e177afcc9c0d/air-zoom-gt-cut-basketball-shoes-kTDfNK.png",
+        "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/224d8241-33fb-4165-b787-3a13fcad899f/air-zoom-gt-cut-basketball-shoes-kTDfNK.png"
+      ]
+    }
+  ],
+  "productOptions": [
+    {
+      "id": 1,
+      "productId": 1,
+      "size": 41,
+      "price": 3000000
+    },
+    {
+      "id": 2,
+      "productId": 1,
+      "size": 42,
+      "price": 3200000
+    },
+    {
+      "id": 3,
+      "productId": 1,
+      "size": 43,
+      "price": 4000000
+    },
+    {
+      "id": 4,
+      "productId": 1,
+      "size": 44,
+      "price": 4100000
+    },
+    {
+      "id": 5,
+      "productId": 3,
+      "size": 38,
+      "price": 2500000
+    },
+    {
+      "id": 6,
+      "productId": 3,
+      "size": 39,
+      "price": 0
+    },
+    {
+      "productId": 2,
+      "size": 40,
+      "price": 100000,
+      "id": 7
+    },
+    {
+      "productId": 4,
+      "size": 41,
+      "price": 2000000,
+      "id": 9
+    },
+    {
+      "productId": 10,
+      "size": 42,
+      "price": 10000000,
+      "id": 10
+    },
+    {
+      "productId": 10,
+      "size": 43,
+      "price": 5000000,
+      "id": 11
     }
   ],
   "todos": [],
@@ -383,137 +499,5 @@
       "productId": 1
     }
   ],
-  "orders": [
-    {
-      "userId": 1,
-      "name": "Tuan",
-      "email": "lebathanhtuan@gmail.com",
-      "phoneNumber": "0123456789",
-      "address": "12313",
-      "products": [
-        {
-          "id": "7936af5b-42c7-4fc9-9704-4eea2202958a",
-          "productId": 9,
-          "name": "Xiaomi Mi Mix 4",
-          "price": 30000000,
-          "count": 1
-        }
-      ],
-      "totalPrice": 30000000,
-      "checkoutInfo": "momo",
-      "status": "waiting",
-      "createdAt": 1628858649230,
-      "updatedAt": 1628858649230,
-      "id": 3
-    },
-    {
-      "userId": 2,
-      "name": "ABC",
-      "email": "abc@gmail.com",
-      "phoneNumber": "1321312314",
-      "address": "124123123",
-      "products": [
-        {
-          "id": "f26ba1bc-411f-4411-a69e-dabc9daff005",
-          "productId": 11,
-          "name": "Xiaomi Ahihi",
-          "price": 10000000,
-          "count": 2
-        },
-        {
-          "id": "b40bb188-f2e3-44f4-98ea-11fc92742a31",
-          "productId": 8,
-          "name": "3213",
-          "price": 4123,
-          "count": 1
-        },
-        {
-          "id": "e2f765c5-dc49-4641-b9e0-fb376a177a42",
-          "productId": 6,
-          "name": "Galaxy S10",
-          "price": 5000000,
-          "count": 2
-        }
-      ],
-      "totalPrice": 30004123,
-      "checkoutInfo": "zalo",
-      "status": "waiting",
-      "createdAt": 1628858843753,
-      "updatedAt": 1628858843753,
-      "id": 4
-    },
-    {
-      "userId": 1,
-      "name": "Tuan",
-      "email": "lebathanhtuan@gmail.com",
-      "phoneNumber": "31241231",
-      "address": "312313",
-      "products": [
-        {
-          "id": "4b44c77f-0c9e-4bc5-9a72-4e2e7c78c3d4",
-          "productId": 9,
-          "name": "Xiaomi Mi Mix 4",
-          "price": 30000000,
-          "count": 1
-        }
-      ],
-      "totalPrice": 30000000,
-      "checkoutInfo": "momo",
-      "status": "waiting",
-      "createdAt": 1628861532077,
-      "updatedAt": 1628861532077,
-      "id": 5
-    },
-    {
-      "userId": 1,
-      "name": "Tuan",
-      "email": "lebathanhtuan@gmail.com",
-      "phoneNumber": "414213213",
-      "address": "14123",
-      "products": [
-        {
-          "id": "4b44c77f-0c9e-4bc5-9a72-4e2e7c78c3d4",
-          "productId": 9,
-          "name": "Xiaomi Mi Mix 4",
-          "price": 30000000,
-          "count": 1
-        }
-      ],
-      "totalPrice": 30000000,
-      "checkoutInfo": "zalo",
-      "status": "waiting",
-      "createdAt": 1628861609558,
-      "updatedAt": 1628861609558,
-      "id": 6
-    },
-    {
-      "userId": 1,
-      "name": "Tuan",
-      "email": "lebathanhtuan@gmail.com",
-      "phoneNumber": "9857453758684",
-      "address": "32894hsjdfjdkjdfbjvdf",
-      "products": [
-        {
-          "id": "8c39cb6c-98d7-4c9d-9672-fe8179c06682",
-          "productId": 10,
-          "name": "Xiaomi mi 10",
-          "price": 4123123,
-          "count": 1
-        },
-        {
-          "id": "ab691f82-ab6e-419f-8b2a-65e029ff9126",
-          "productId": 8,
-          "name": "3213",
-          "price": 4123,
-          "count": 8
-        }
-      ],
-      "totalPrice": 4156107,
-      "checkoutInfo": "momo",
-      "status": "waiting",
-      "createdAt": 1629081625601,
-      "updatedAt": 1629081625601,
-      "id": 7
-    }
-  ]
+  "orders": []
 }
