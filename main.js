@@ -1,12 +1,14 @@
 const jsonServer = require("json-server");
+const auth = require("json-server-auth");
+const moment = require("moment");
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middlewares = jsonServer.defaults();
 
+server.db = router.db;
 const queryString = require("query-string");
 // Set default middlewares (logger, static, cors and no-cache)
 server.use(middlewares);
-
 // Add custom routes before JSON Server router
 server.get("/echo", (req, res) => {
   res.jsonp(req.query);
@@ -17,12 +19,18 @@ server.get("/echo", (req, res) => {
 server.use(jsonServer.bodyParser);
 server.use((req, res, next) => {
   if (req.method === "POST") {
-    req.body.createdAt = Date.now();
-    req.body.updatedAt = Date.now();
-  } else if (req.method === "PATCH") {
-    req.body.updatedAt = Date.now();
+    req.body.createdAt = moment().valueOf();
+    req.body.updatedAt = moment().valueOf();
   }
-  // Continue to JSON Server router
+
+  if (req.method === "PUT") {
+    req.method = "PATCH";
+  }
+
+  if (req.method === "PATCH") {
+    req.body.updatedAt = moment().valueOf();
+  }
+
   next();
 });
 
@@ -49,6 +57,8 @@ router.render = (req, res) => {
 
 // Use default router
 const PORT = process.env.PORT || 5000;
+
+server.use(auth);
 server.use(router);
 server.listen(PORT, () => {
   console.log("JSON Server is running");
