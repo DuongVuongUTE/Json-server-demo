@@ -100,115 +100,149 @@
   "products": [
     {
       "id": 1,
-      "description": "Đây là mô tả",
-      "name": "Nike Air Max 1 Anniversary",
-      "price": 4200000,
+      "description": "Đây là mô tả giày trẻ em",
+      "name": "Biti's Hunter Street JUNIOR x Vietmax Hanoi Culture Patchwork - Old Wall Yellow",
+      "price": 479000,
       "images": [
-        "https://khangdev1998.github.io/shoe/image/product1.png",
-        "https://khangdev1998.github.io/shoe/image/product2.png"
+        "https://product.hstatic.net/1000230642/product/dsbh00500nau__2__4f52d9fc2f3144d78b45d933c7eb58df_1024x1024.jpg",
+        "https://product.hstatic.net/1000230642/product/dsbh00500nau__4__0ee1be7053314c85a6c9160676cc06fc_1024x1024.jpg",
+        "https://product.hstatic.net/1000230642/product/dsbh00500nau__5__8593db9307bb47db862408e113026e7d_1024x1024.jpg",
+        "https://product.hstatic.net/1000230642/product/dsbh00500nau__1__2e23fffc786241ce874ddf9a419251d6_1024x1024.jpg",
+        "https://product.hstatic.net/1000230642/product/dsbh00500nau__2__4f52d9fc2f3144d78b45d933c7eb58df_1024x1024.jpg"
       ],
-      "typeId": 2,
-      "color": "#e7352b",
-      "categoryId": 1,
-      "departmentId": 1
+      "typeId": 1,
+      "color": "#825d41",
+      "categoryId": 3,
+      "departmentId": 3
     },
     {
       "id": 2,
-      "description": "Đây là mô tả",
-      "name": "Nike Air Max 1 Se \"Just Do It\"",
-      "price": 4900000,
-      "color": "#ffffff",
+      "description": "Đây là mô tả giày trẻ em",
+      "name": "Giày Thể Thao Trẻ Em Biti's DSG003600DEN (Đen)",
+      "price": 360000,
+      "color": "#000000",
       "typeId": 2,
-      "categoryId": 1,
+      "categoryId": 3,
       "images": [
-        "https://khangdev1998.github.io/shoe/image/product3.png",
-        "https://khangdev1998.github.io/shoe/image/product4.png"
+        "https://product.hstatic.net/1000230642/product/dsg003600den32_2__0cbc86b61b804ad991bbc2810e09eeca_1024x1024.jpg",
+        "https://product.hstatic.net/1000230642/product/dsg003600den32_6__326e5d7b3fc641fa9995cb7cbb6581b1_1024x1024.jpg",
+        "https://product.hstatic.net/1000230642/product/dsg003600den32_4__0e73393d8e524de6904f948c92b42b7b_1024x1024.jpg",
+        "https://product.hstatic.net/1000230642/product/dsg003600den32_1__e9cde49ff6ac40e084065d64dd3b1576_1024x1024.jpg",
+        "https://product.hstatic.net/1000230642/product/dsg003600den32_5__8a8d283ebde64685a4ca1ce5771bd5bc_1024x1024.jpg"
       ],
-      "departmentId": 1
+      "departmentId": 3
     },
     {
       "id": 3,
       "description": "Đây là mô tả",
-      "name": "The 10: Nike Air Presto \"Off White\"",
-      "price": 8000000,
-      "categoryId": 1,
+      "name": "Giày Thể Thao Bé Gái Biti's DSG137000HOG (Hồng)",
+      "price": 375000,
+      "categoryId": 3,
       "typeId": 2,
-      "color": "#ffffff",
+      "color": "#f0728f",
       "images": [
-        "https://khangdev1998.github.io/shoe/image/product5.png",
-        "https://khangdev1998.github.io/shoe/image/product6.png"
+        "https://product.hstatic.net/1000230642/product/dsg137000hog32_2__53f5245a4d2149939e790f992b3c64ae_1024x1024.jpg",
+        "https://product.hstatic.net/1000230642/product/dsg137000hog32_3__5b71c8ac5dbd4350beca9daa282d6f8f_1024x1024.jpg",
+        "https://product.hstatic.net/1000230642/product/dsg137000hog32_5__83fca7c616b64098b3bf2aed3a2df08f_1024x1024.jpg",
+        "https://product.hstatic.net/1000230642/product/dsg137000hog32_4__05cb96a33c524a7e9beca12426ac67c3_1024x1024.jpg",
+        "https://product.hstatic.net/1000230642/product/dsg137000hog32_1__6b026d72cc274ec1ba2abb63b246ba09_1024x1024.jpg"
       ],
-      "departmentId": 1
+      "departmentId": 3
     },
     {
       "id": 4,
-      "description": "Đây là mô tả",
-      "name": "Nike Wmns Air Huarache City Move",
-      "price": 5200000,
-      "categoryId": 1,
-      "typeId": 2,
+      "description": "Đây là mô tả giày trẻ em",
+      "name": "Sandal Xốp Biti's Bé Trai DXB12421 - (Đỏ)",
+      "price": 130000,
+      "categoryId": 3,
+      "typeId": 6,
       "images": [
-        "https://khangdev1998.github.io/shoe/image/product7.png",
-        "https://khangdev1998.github.io/shoe/image/product8.png"
+        "https://cf.shopee.vn/file/f8f30d843d708f33a9397ad3f8c76720",
+        "https://cf.shopee.vn/file/1a34dba788e1997e943ffea1799a8d6e",
+        "https://cf.shopee.vn/file/ef1f95e3c952118eee1aa7c6cbdc4602",
+        "https://cf.shopee.vn/file/846aba4cc324b02c3e4c9b81f0f71d45",
+        "https://cf.shopee.vn/file/d331b22c7abbfc7f145e874927ac9938",
+        "https://cf.shopee.vn/file/92d9e9f171f659600812330494ef4206"
       ],
-      "color": "#ffffff",
-      "departmentId": 1
+      "color": "#e7352b",
+      "departmentId": 3
     },
     {
       "id": 5,
       "description": "Đây là mô tả",
-      "name": "Nike Air Max 90 Essential \"Grape\"",
-      "price": 4800000,
-      "categoryId": 1,
-      "typeId": 2,
-      "color": "multiColor",
+      "name": "Bitis Hunter X Festive Frosty White Nam",
+      "price": 761000,
+      "categoryId": 3,
+      "typeId": 1,
+      "color": "#ffffff",
       "images": [
-        "https://khangdev1998.github.io/shoe/image/product9.png",
-        "https://khangdev1998.github.io/shoe/image/product10.png"
+        "https://cf.shopee.vn/file/090086d0d398c642bf20b4d589a15e8e",
+        "https://cf.shopee.vn/file/31aedbb114049e43998b16cf441a3a01",
+        "https://cf.shopee.vn/file/28ac2f89044c26bec21936fdaf1ce8fd",
+        "https://cf.shopee.vn/file/8a387c468ef4a05ef4db0e5a3678c27f",
+        "https://cf.shopee.vn/file/d0ee245f823575bcfb5e85dd923532eb",
+        "https://cf.shopee.vn/file/d54a7d7b28d389f216382acdffca3add",
+        "https://cf.shopee.vn/file/73dc1c5fad5e698ae4ba6a133a882cc1"
       ],
       "departmentId": 1
     },
     {
       "id": 6,
       "description": "Đây là mô tả",
-      "name": "Nike Air Max 97 Premium",
-      "price": 8400000,
-      "typeId": 2,
-      "categoryId": 1,
-      "color": "#1790c8",
+      "name": "Bitis Hunter X Festive Frosty White Nữ",
+      "price": 761000,
+      "typeId": 1,
+      "categoryId": 3,
+      "color": "#ffffff",
       "images": [
-        "https://khangdev1998.github.io/shoe/image/product11.png",
-        "https://khangdev1998.github.io/shoe/image/product12.png"
+        "https://cf.shopee.vn/file/090086d0d398c642bf20b4d589a15e8e",
+        "https://cf.shopee.vn/file/31aedbb114049e43998b16cf441a3a01",
+        "https://cf.shopee.vn/file/28ac2f89044c26bec21936fdaf1ce8fd",
+        "https://cf.shopee.vn/file/8a387c468ef4a05ef4db0e5a3678c27f",
+        "https://cf.shopee.vn/file/d0ee245f823575bcfb5e85dd923532eb",
+        "https://cf.shopee.vn/file/d54a7d7b28d389f216382acdffca3add",
+        "https://cf.shopee.vn/file/73dc1c5fad5e698ae4ba6a133a882cc1"
       ],
-      "departmentId": 1
+      "departmentId": 2
     },
     {
       "id": 7,
       "description": "Đây là mô tả",
-      "name": "Adidas Nmd Xr1 W \"Pearl Grey\"",
-      "price": 5750000,
-      "typeId": 2,
-      "categoryId": 2,
-      "color": "#808080",
+      "name": "Biti's HunterX Multi Layer Forest",
+      "price": 845000,
+      "typeId": 1,
+      "categoryId": 3,
+      "color": "#000000",
       "images": [
-        "https://khangdev1998.github.io/shoe/image/product13.png",
-        "https://khangdev1998.github.io/shoe/image/product14.png"
+        "https://cf.shopee.vn/file/7809fbd1e39fb4c0fba6c9630584b3b9",
+        "https://cf.shopee.vn/file/8c2843b39d5b253361bc5767b1d8f15f",
+        "https://cf.shopee.vn/file/999c258a8d02be09720e2b26078b1484",
+        "https://cf.shopee.vn/file/43dbb9b94dd3c7704f19797686f56668",
+        "https://cf.shopee.vn/file/163eb895a6f1a65c796c15854fd7962e",
+        "https://cf.shopee.vn/file/579eb3123482074c67b26bb11807e09f"
       ],
       "departmentId": 1
     },
     {
       "id": 8,
       "description": "Đây là mô tả",
-      "name": "Nike W's Air Huarache Run \"Triple White\"",
-      "price": 7950000,
-      "categoryId": 1,
+      "name": "ADIDAS X LEGO® SPORT SHOES",
+      "price": 2100000,
+      "categoryId": 2,
       "typeId": 2,
-      "color": "#ffffff",
+      "color": "#1790c8",
       "images": [
-        "https://khangdev1998.github.io/shoe/image/product15.png",
-        "https://khangdev1998.github.io/shoe/image/product16.png"
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/f74e2bccabf044838a86ad2e00fb53bb_9366/adidas_x_LEGO(r)_Sport_Shoes_Blue_FZ5440_01_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/01bd3aa009f840d7980bad2e00fb6432_9366/adidas_x_LEGO(r)_Sport_Shoes_Blue_FZ5440_02_standard_hover.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/3cc6896d5f4e414895bead2e00fb6bbd_9366/adidas_x_LEGO(r)_Sport_Shoes_Blue_FZ5440_03_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/3722b069ce6a462fac86ad2e00fb7370_9366/adidas_x_LEGO(r)_Sport_Shoes_Blue_FZ5440_04_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/898d75e01cd34dd8b2cfad2e00fb7ccf_9366/adidas_x_LEGO(r)_Sport_Shoes_Blue_FZ5440_05_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/e266a551c5904adf8b51ad2e00fb5ca7_9366/adidas_x_LEGO(r)_Sport_Shoes_Blue_FZ5440_06_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/2d1fa118094c4aa8959aad2e00fb9626_9366/adidas_x_LEGO(r)_Sport_Shoes_Blue_FZ5440_09_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/adbee9ccac894d519fe7ad2e00fb8620_9366/adidas_x_LEGO(r)_Sport_Shoes_Blue_FZ5440_41_detail.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/53936eeaabf74beca249ad2e00fb8ca6_9366/adidas_x_LEGO(r)_Sport_Shoes_Blue_FZ5440_42_detail.jpg"
       ],
-      "departmentId": 1
+      "departmentId": 3
     },
     {
       "id": 9,
@@ -451,6 +485,297 @@
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/224d8241-33fb-4165-b787-3a13fcad899f/air-zoom-gt-cut-basketball-shoes-kTDfNK.png"
       ],
       "departmentId": 2
+    },
+    {
+      "id": 21,
+      "description": "Đây là mô tả giày trẻ em",
+      "name": "FORUM LOW SHOES",
+      "price": 1500000,
+      "categoryId": 2,
+      "typeId": 2,
+      "color": "#ffffff",
+      "images": [
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/fdf82fe116314a3e99c2ad570116b179_9366/Forum_Low_Shoes_White_Q47376_01_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/04b937d938794739b04bad570116c221_9366/Forum_Low_Shoes_White_Q47376_02_standard_hover.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/db5a896694e746108c7aad570116c9fc_9366/Forum_Low_Shoes_White_Q47376_03_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/8e98672c20254f9499ecad570116d13c_9366/Forum_Low_Shoes_White_Q47376_04_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/91d34b52b1dc44e58001ad570116d9b8_9366/Forum_Low_Shoes_White_Q47376_05_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/6f3f3eb54b77440d8d18ad570116ba34_9366/Forum_Low_Shoes_White_Q47376_06_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/7d9972e27f264ff6b9fbad570116f421_9366/Forum_Low_Shoes_White_Q47376_09_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/802bc4976c734a119daaad570116e346_9366/Forum_Low_Shoes_White_Q47376_41_detail.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/a7b37e89a795447bba2aad570116e9ca_9366/Forum_Low_Shoes_White_Q47376_42_detail.jpg"
+      ],
+      "departmentId": 3
+    },
+    {
+      "id": 22,
+      "description": "Đây là mô tả giày trẻ em",
+      "name": "ALTASWIM SANDALS",
+      "price": 650000,
+      "categoryId": 2,
+      "typeId": 6,
+      "color": "#f0728f",
+      "images": [
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/c2e3e7b0dea4491c9dd4abaa0137b479_9366/Altaswim_Sandals_Pink_FX1201_01_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/fcb7cc0ffbb64234a1d4abaa0137c25e_9366/Altaswim_Sandals_Pink_FX1201_02_standard_hover.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/fbd7f654f7674a7fb54babaa0137ca02_9366/Altaswim_Sandals_Pink_FX1201_03_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/70d6acc9f96946c2bd41abaa0137d2a3_9366/Altaswim_Sandals_Pink_FX1201_04_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/1763c0b63dfd4eea8addabaa0137d940_9366/Altaswim_Sandals_Pink_FX1201_05_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/3831d06a3f0a43c1a250abaa0137bbcc_9366/Altaswim_Sandals_Pink_FX1201_06_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/c56802fb33db469d8c6aabab002e4bf5_9366/Altaswim_Sandals_Pink_FX1201_41_detail.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/cef5f1f909984348a1edabaa0137e211_9366/Altaswim_Sandals_Pink_FX1201_42_detail.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/5f8e669cf3fd45a38ae6abaa0137e832_9366/Altaswim_Sandals_Pink_FX1201_43_detail.jpg"
+      ],
+      "departmentId": 3
+    },
+    {
+      "id": 23,
+      "description": "Đây là mô tả giày trẻ em",
+      "name": "STAN SMITH SHOES",
+      "price": 1500000,
+      "categoryId": 2,
+      "typeId": 2,
+      "color": "#ffffff",
+      "images": [
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/467b981e89394ea2a905ac6400cb73dd_9366/Stan_Smith_Shoes_White_FX7540_01_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/22fbc3ef4c444343ae67ac6400cb870d_9366/Stan_Smith_Shoes_White_FX7540_02_standard_hover.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/1d148c6d9a8b4731be7aac6400cb917c_9366/Stan_Smith_Shoes_White_FX7540_03_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/03eb08e3b80e4076a7b1ac6400cb988a_9366/Stan_Smith_Shoes_White_FX7540_04_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/491e4b1605a3495285f4ac6400cb9fe5_9366/Stan_Smith_Shoes_White_FX7540_05_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/176a9f2f77944316b151ac6400cb7e9d_9366/Stan_Smith_Shoes_White_FX7540_06_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/271b880660e3450db73cac6400cbb301_9366/Stan_Smith_Shoes_White_FX7540_09_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/6bca14675c8b4ddbb791ac6400cba774_9366/Stan_Smith_Shoes_White_FX7540_41_detail.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/2ba2f773fca24cc290fdac6400cbad4a_9366/Stan_Smith_Shoes_White_FX7540_42_detail.jpg"
+      ],
+      "departmentId": 3
+    },
+    {
+      "id": 24,
+      "description": "Đây là mô tả giày trẻ em",
+      "name": "ADIDAS X LEGO® SPORT SHOES",
+      "price": 2200000,
+      "categoryId": 2,
+      "typeId": 2,
+      "color": "#fed533",
+      "images": [
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/526c5eda6cdb429a8a45ad2400c382e0_9366/adidas_x_LEGO(r)_Sport_Shoes_Yellow_FZ5439_01_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/a01aa9dd51674bbbafa9ad2400c38dbd_9366/adidas_x_LEGO(r)_Sport_Shoes_Yellow_FZ5439_02_standard_hover.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/e81af546216e4ec186a4ad2400c39241_9366/adidas_x_LEGO(r)_Sport_Shoes_Yellow_FZ5439_03_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/539f6b095d8d4eb0a147ad2400c397fa_9366/adidas_x_LEGO(r)_Sport_Shoes_Yellow_FZ5439_04_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/078e7211272949bd8c91ad2400c39d51_9366/adidas_x_LEGO(r)_Sport_Shoes_Yellow_FZ5439_05_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/20975ff832894b77b99dad2400c388fd_9366/adidas_x_LEGO(r)_Sport_Shoes_Yellow_FZ5439_06_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/1243a81caa924ca0a386ad24013ec6be_9366/adidas_x_LEGO(r)_Sport_Shoes_Yellow_FZ5439_09_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/beb793943ba54bec8921ad2400c3a3c7_9366/adidas_x_LEGO(r)_Sport_Shoes_Yellow_FZ5439_41_detail.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/777cf3ce6c5c4d41a6cfad2400c3a99a_9366/adidas_x_LEGO(r)_Sport_Shoes_Yellow_FZ5439_42_detail.jpg"
+      ],
+      "departmentId": 3
+    },
+
+    {
+      "id": 25,
+      "description": "Đây là mô tả giày nữ",
+      "name": "ULTRABOOST 21 SHOES",
+      "price": 5000000,
+      "categoryId": 2,
+      "typeId": 7,
+      "color": "#ffffff",
+      "images": [
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/8ca8607f4c344ffd966eaca6011245ac_9366/Ultraboost_21_Shoes_White_FY0379_01_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/07bb839ea2b64cac8ae7aca60111e1c6_9366/Ultraboost_21_Shoes_White_FY0379_02_standard_hover.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/aa97a7c0153f4fdbace9aca60114fc62_9366/Ultraboost_21_Shoes_White_FY0379_03_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/392fc62ad7ef46d28eceaca60115b3a9_9366/Ultraboost_21_Shoes_White_FY0379_04_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/de23f4c516a842e89ee3aca60113469a_9366/Ultraboost_21_Shoes_White_FY0379_05_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/8bf2aeee82f145d9b96eaca601127fd8_9366/Ultraboost_21_Shoes_White_FY0379_06_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/19ca422a52fc4d6faa0baca60114ac82_9366/Ultraboost_21_Shoes_White_FY0379_09_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/ef7bb56fe8de41dbbb1eaca60111f9e5_9366/Ultraboost_21_Shoes_White_FY0379_41_detail.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/ddf27cef87f74633997faca6011298cb_9366/Ultraboost_21_Shoes_White_FY0379_42_detail.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/727688f5636744a7ab11ad94013de48b_9366/Ultraboost_21_Shoes_White_FY0379_43_detail.jpg"
+      ],
+      "departmentId": 2
+    },
+    {
+      "id": 26,
+      "description": "Đây là mô tả giày nữ",
+      "name": "FORUM PLUS SHOES",
+      "price": 2500000,
+      "categoryId": 2,
+      "typeId": 2,
+      "color": "#ffffff",
+      "images": [
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/61da7495aee340f7ae7dad2f00e371e8_9366/Forum_Plus_Shoes_White_GX5073_01_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/42842bebb8c640018569ad2f00e37eab_9366/Forum_Plus_Shoes_White_GX5073_02_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/410300ef6abd4a8e8efdad2f00e385c6_9366/Forum_Plus_Shoes_White_GX5073_03_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/e995fe36a2584be9a009ad2f00e38bbb_9366/Forum_Plus_Shoes_White_GX5073_04_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/d5f05061a5b742048329ad2f00e3919a_9366/Forum_Plus_Shoes_White_GX5073_05_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/4e05a3c6223345aa8cf7ad2f00e37819_9366/Forum_Plus_Shoes_White_GX5073_06_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/99438a5f61cc4021903cad2f00e39b91_9366/Forum_Plus_Shoes_White_GX5073_09_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/5ecd163d6fd14991a56bad2f00ebc2b6_9366/Forum_Plus_Shoes_White_GX5073_41_detail.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/8685ba810167423bb37dad2f00ebcd20_9366/Forum_Plus_Shoes_White_GX5073_42_detail.jpg"
+      ],
+      "departmentId": 2
+    },
+
+    {
+      "id": 27,
+      "description": "Đây là mô tả giày nữ",
+      "name": "ALPHAMAGMA SHOES",
+      "price": 3000000,
+      "categoryId": 2,
+      "typeId": 3,
+      "color": "#000000",
+      "images": [
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/f740aaa3326c4c03b767ad0a00a34e30_9366/Alphamagma_Shoes_Black_GV7917_01_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/bc8b4b96d40245b1a2e0ad0a00a35a03_9366/Alphamagma_Shoes_Black_GV7917_02_standard_hover.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/5c3f7d4296b44b1a9c20ad0a00a361bb_9366/Alphamagma_Shoes_Black_GV7917_03_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/059c06ef6e574430ba91ad0a00a36895_9366/Alphamagma_Shoes_Black_GV7917_04_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/5e86a1f521b546ccb885ad0a00a36e56_9366/Alphamagma_Shoes_Black_GV7917_05_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/d3a254b5ae2140c7a1d6ad0a00a3542d_9366/Alphamagma_Shoes_Black_GV7917_06_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/e8aeba61e3a741baa12ead0a00a375f3_9366/Alphamagma_Shoes_Black_GV7917_41_detail.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/d5ab169b628b4b1f8642ad0a00a37b60_9366/Alphamagma_Shoes_Black_GV7917_42_detail.jpg"
+      ],
+      "departmentId": 2
+    },
+    {
+      "id": 28,
+      "description": "Đây là mô tả giày nam",
+      "name": "SUPERSTAR SHOES",
+      "price": 2400000,
+      "categoryId": 2,
+      "typeId": 3,
+      "color": "#000000",
+      "images": [
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/aee516268d3c4f73a3bfab97004bd862_9366/Superstar_Shoes_Black_FY1589_01_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/1a6a8558c95d43de93c4ab97004bbf22_9366/Superstar_Shoes_Black_FY1589_02_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/a4b6809b8f604e5eb4b0abb10167de17_9366/Superstar_Shoes_Black_FY1589_010_hover_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/022e3b44a29a43baa458ab9700490f7c_9366/Superstar_Shoes_Black_FY1589_03_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/bcec272814aa4f298234ab97004a481e_9366/Superstar_Shoes_Black_FY1589_04_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/310bb8b0bdff411fb957ab97004d3ec4_9366/Superstar_Shoes_Black_FY1589_05_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/90301efa60c74ae581beab97004c8805_9366/Superstar_Shoes_Black_FY1589_06_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/5db8742b93724216805dab97004ce4fc_9366/Superstar_Shoes_Black_FY1589_41_detail.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/396f6c0f063a4741b7b6ab97004bfd38_9366/Superstar_Shoes_Black_FY1589_42_detail.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/f85f8affa84b45fab55bab97004a95f9_9366/Superstar_Shoes_Black_FY1589_43_detail.jpg"
+      ],
+      "departmentId": 1
+    },
+    {
+      "id": 29,
+      "description": "Đây là mô tả giày nam",
+      "name": "ULTRABOOST 5.0 DNA SHOES",
+      "price": 5000000,
+      "categoryId": 2,
+      "typeId": 7,
+      "color": "multiColor",
+      "images": [
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/fd7424d087c64c038704ac84012e06a5_9366/Ultraboost_5.0_DNA_Shoes_White_GW5125_01_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/fe4a5358bc6b4499beacac84012db926_9366/Ultraboost_5.0_DNA_Shoes_White_GW5125_02_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/96dedb03a2384adf8660ac840127e03c_9366/Ultraboost_5.0_DNA_Shoes_White_GW5125_03_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/40f98c319f7849eeb1c7ac84012b0cfa_9366/Ultraboost_5.0_DNA_Shoes_White_GW5125_04_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/025f044c9b3241fea4b8ac8401301e4f_9366/Ultraboost_5.0_DNA_Shoes_White_GW5125_05_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/4085a1b69f624c64af8dac84012f4ffa_9366/Ultraboost_5.0_DNA_Shoes_White_GW5125_06_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/bace9a760f7346e39067ad34010f8f93_9366/Ultraboost_5.0_DNA_Shoes_White_GW5125_09_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/bcb8c79d7746463f9dc9ac84012e6bfa_9366/Ultraboost_5.0_DNA_Shoes_White_GW5125_41_detail.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/ec152967028f42c9b8f4ac84012ec86f_9366/Ultraboost_5.0_DNA_Shoes_White_GW5125_42_detail.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/957bf1e16ab74f868ce3ad32015ea6f7_9366/Ultraboost_5.0_DNA_Shoes_White_GW5125_011_hover_standard.jpg"
+      ],
+      "departmentId": 1
+    },
+    {
+      "id": 30,
+      "description": "Đây là mô tả giày nam",
+      "name": "ULTRABOOST 21 SHOES",
+      "price": 5000000,
+      "categoryId": 2,
+      "typeId": 7,
+      "color": "#000000",
+      "images": [
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/8453a9e0695644ae9002ad2100ad29c9_9366/Ultraboost_21_Shoes_Black_S23870_01_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/1b174d79b63342c98cbfad2100b2080e_9366/Ultraboost_21_Shoes_Black_S23870_02_standard_hover.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/cf310f3d0b654c679b3cad2100b20e81_9366/Ultraboost_21_Shoes_Black_S23870_03_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/0de8fd00b8344e24b98fad2100b21574_9366/Ultraboost_21_Shoes_Black_S23870_04_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/581b5c828c1b4e9f9a0aad2100b21d85_9366/Ultraboost_21_Shoes_Black_S23870_05_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/5821291f678b494bb007ad2100b2012a_9366/Ultraboost_21_Shoes_Black_S23870_06_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/9d7b8d2e30344b48a378ad2100b235cb_9366/Ultraboost_21_Shoes_Black_S23870_09_standard.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/4b41e8642dfb4edd93f9ad2100b22580_9366/Ultraboost_21_Shoes_Black_S23870_41_detail.jpg",
+        "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/03baf6d47c5a494fa0d7ad2100b22bda_9366/Ultraboost_21_Shoes_Black_S23870_42_detail.jpg"
+      ],
+      "departmentId": 1
+    },
+    {
+      "id": 31,
+      "description": "Đây là mô tả giày nữ",
+      "name": "Deviate NITRO Women's Running Shoes",
+      "price": 3500000,
+      "categoryId": 3,
+      "typeId": 3,
+      "color": "#000000",
+      "images": [
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194453/07/sv03/fnd/PNA/fmt/png/Deviate-NITRO-Women's-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194453/07/sv02/fnd/PNA/fmt/png/Deviate-NITRO-Women's-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194453/07/fnd/PNA/fmt/png/Deviate-NITRO-Women's-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194453/07/bv/fnd/PNA/fmt/png/Deviate-NITRO-Women's-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194453/07/sv04/fnd/PNA/fmt/png/Deviate-NITRO-Women's-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194453/07/sv01/fnd/PNA/fmt/png/Deviate-NITRO-Women's-Running-Shoes"
+      ],
+      "departmentId": 2
+    },
+    {
+      "id": 32,
+      "description": "Đây là mô tả giày nam",
+      "name": "Deviate Nitro Elite Racer SP Men's Running Sneakers",
+      "price": 4600000,
+      "categoryId": 3,
+      "typeId": 3,
+      "color": "multiColor",
+      "images": [
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/195419/01/sv03/fnd/PNA/fmt/png/Deviate-Nitro-Elite-Racer-SP-Men's-Running-Sneakers",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/195419/01/sv02/fnd/PNA/fmt/png/Deviate-Nitro-Elite-Racer-SP-Men's-Running-Sneakers",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/195419/01/fnd/PNA/fmt/png/Deviate-Nitro-Elite-Racer-SP-Men's-Running-Sneakers",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/195419/01/sv04/fnd/PNA/fmt/png/Deviate-Nitro-Elite-Racer-SP-Men's-Running-Sneakers",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/195419/01/dt02/fnd/PNA/fmt/png/Deviate-Nitro-Elite-Racer-SP-Men's-Running-Sneakers",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/195419/01/dt01/fnd/PNA/fmt/png/Deviate-Nitro-Elite-Racer-SP-Men's-Running-Sneakers",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/195419/01/sv01/fnd/PNA/fmt/png/Deviate-Nitro-Elite-Racer-SP-Men's-Running-Sneakers"
+      ],
+      "departmentId": 1
+    },
+    {
+      "id": 33,
+      "description": "Đây là mô tả giày nam",
+      "name": "Scorch Runner Men's Running Shoes",
+      "price": 900000,
+      "categoryId": 3,
+      "typeId": 3,
+      "color": "#e7352b",
+      "images": [
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/sv03/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/sv02/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/bv/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/sv01/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/sv04/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/195419/01/sv01/fnd/PNA/fmt/png/Deviate-Nitro-Elite-Racer-SP-Men's-Running-Sneakers",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/dt02/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes"
+      ],
+      "departmentId": 1
+    },
+    {
+      "id": 34,
+      "description": "Đây là mô tả giày nam",
+      "name": "Future Z 4.2 TT Soccer Cleats JR",
+      "price": 125000,
+      "categoryId": 3,
+      "typeId": 4,
+      "color": "#1790c8",
+      "images": [
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/106509/01/sv03/fnd/PNA/fmt/png/Future-Z-4.2-TT-Soccer-Cleats-JR",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/106509/01/sv02/fnd/PNA/fmt/png/Future-Z-4.2-TT-Soccer-Cleats-JR",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/106509/01/fnd/PNA/fmt/png/Future-Z-4.2-TT-Soccer-Cleats-JR",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/106509/01/bv/fnd/PNA/fmt/png/Future-Z-4.2-TT-Soccer-Cleats-JR",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/106509/01/sv01/fnd/PNA/fmt/png/Future-Z-4.2-TT-Soccer-Cleats-JR",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/106509/01/sv04/fnd/PNA/fmt/png/Future-Z-4.2-TT-Soccer-Cleats-JR",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/106509/01/dt01/fnd/PNA/fmt/png/Future-Z-4.2-TT-Soccer-Cleats-JR",
+        "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/106509/01/dt02/fnd/PNA/fmt/png/Future-Z-4.2-TT-Soccer-Cleats-JR"
+      ],
+      "departmentId": 3
     }
   ],
   "departments": [
@@ -474,138 +799,547 @@
     {
       "id": 1,
       "productId": 1,
-      "size": 41,
-      "price": 3000000
+      "size": 28,
+      "price": 479000
     },
     {
       "id": 2,
       "productId": 1,
-      "size": 42,
-      "price": 3200000
+      "size": 29,
+      "price": 479000
     },
     {
       "id": 3,
       "productId": 1,
-      "size": 43,
-      "price": 4000000
+      "size": 30,
+      "price": 479000
     },
     {
       "id": 4,
       "productId": 1,
-      "size": 44,
-      "price": 4100000
+      "size": 31,
+      "price": 479000
     },
-
     {
       "id": 5,
-      "productId": 3,
-      "size": 38,
-      "price": 2500000
+      "productId": 1,
+      "size": 32,
+      "price": 479000
     },
     {
       "id": 6,
-      "productId": 3,
-      "size": 39,
-      "price": 0
+      "productId": 1,
+      "size": 33,
+      "price": 449000
     },
     {
+      "id": 7,
+      "productId": 1,
+      "size": 34,
+      "price": 459000
+    },
+    {
+      "id": 8,
       "productId": 2,
-      "size": 40,
-      "price": 100000,
-      "id": 7
+      "size": 28,
+      "price": 360000
     },
     {
-      "productId": 4,
-      "size": 41,
-      "price": 2000000,
-      "id": 9
+      "id": 9,
+      "productId": 2,
+      "size": 29,
+      "price": 360000
     },
     {
-      "productId": 10,
-      "size": 42,
-      "price": 10000000,
-      "id": 10
+      "id": 10,
+      "productId": 2,
+      "size": 30,
+      "price": 360000
     },
     {
-      "productId": 10,
-      "size": 43,
-      "price": 5000000,
-      "id": 11
+      "id": 11,
+      "productId": 2,
+      "size": 31,
+      "price": 360000
     },
     {
       "id": 12,
       "productId": 2,
-      "size": 41,
-      "price": 3000000
+      "size": 32,
+      "price": 360000
     },
     {
       "id": 13,
       "productId": 2,
-      "size": 42,
-      "price": 3200000
+      "size": 33,
+      "price": 360000
     },
     {
       "id": 14,
       "productId": 2,
-      "size": 43,
-      "price": 4000000
+      "size": 34,
+      "price": 385000
     },
     {
       "id": 15,
-      "productId": 2,
-      "size": 44,
-      "price": 4100000
+      "productId": 3,
+      "size": 28,
+      "price": 375000
     },
     {
       "id": 16,
       "productId": 3,
-      "size": 41,
-      "price": 3000000
+      "size": 29,
+      "price": 375000
     },
     {
       "id": 17,
       "productId": 3,
-      "size": 42,
-      "price": 3200000
+      "size": 30,
+      "price": 375000
     },
     {
       "id": 18,
       "productId": 3,
-      "size": 43,
-      "price": 4000000
+      "size": 31,
+      "price": 375000
     },
     {
       "id": 19,
       "productId": 3,
-      "size": 44,
-      "price": 4100000
+      "size": 32,
+      "price": 375000
     },
     {
       "id": 20,
-      "productId": 20,
-      "size": 41,
-      "price": 3000000
+      "productId": 3,
+      "size": 33,
+      "price": 375000
     },
     {
       "id": 21,
-      "productId": 20,
-      "size": 42,
-      "price": 3200000
+      "productId": 3,
+      "size": 34,
+      "price": 400000
     },
     {
       "id": 22,
-      "productId": 20,
-      "size": 43,
-      "price": 4000000
+      "productId": 3,
+      "size": 35,
+      "price": 400000
     },
+
     {
       "id": 23,
-      "productId": 20,
+      "productId": 4,
+      "size": 28,
+      "price": 130000
+    },
+    {
+      "id": 24,
+      "productId": 4,
+      "size": 29,
+      "price": 130000
+    },
+    {
+      "id": 25,
+      "productId": 4,
+      "size": 30,
+      "price": 130000
+    },
+    {
+      "id": 26,
+      "productId": 4,
+      "size": 31,
+      "price": 130000
+    },
+    {
+      "id": 27,
+      "productId": 4,
+      "size": 32,
+      "price": 145000
+    },
+    {
+      "id": 28,
+      "productId": 4,
+      "size": 33,
+      "price": 145000
+    },
+    {
+      "id": 29,
+      "productId": 4,
+      "size": 34,
+      "price": 145000
+    },
+    {
+      "id": 30,
+      "productId": 5,
+      "size": 39,
+      "price": 761000
+    },
+    {
+      "id": 31,
+      "productId": 5,
+      "size": 40,
+      "price": 824000
+    },
+    {
+      "id": 32,
+      "productId": 5,
+      "size": 41,
+      "price": 824000
+    },
+    {
+      "id": 33,
+      "productId": 5,
+      "size": 42,
+      "price": 824000
+    },
+    {
+      "id": 34,
+      "productId": 5,
+      "size": 43,
+      "price": 824000
+    },
+    {
+      "id": 35,
+      "productId": 5,
       "size": 44,
-      "price": 4100000
+      "price": 840000
+    },
+    {
+      "id": 36,
+      "productId": 5,
+      "size": 45,
+      "price": 840000
+    },
+    {
+      "id": 37,
+      "productId": 6,
+      "size": 35,
+      "price": 761000
+    },
+    {
+      "id": 38,
+      "productId": 6,
+      "size": 36,
+      "price": 761000
+    },
+    {
+      "id": 39,
+      "productId": 6,
+      "size": 37,
+      "price": 761000
+    },
+    {
+      "id": 40,
+      "productId": 6,
+      "size": 38,
+      "price": 785000
+    },
+    {
+      "id": 41,
+      "productId": 6,
+      "size": 39,
+      "price": 770000
+    },
+    {
+      "id": 42,
+      "productId": 7,
+      "size": 39,
+      "price": 915000
+    },
+    {
+      "id": 43,
+      "productId": 7,
+      "size": 40,
+      "price": 915000
+    },
+    {
+      "id": 44,
+      "productId": 7,
+      "size": 41,
+      "price": 915000
+    },
+    {
+      "id": 45,
+      "productId": 7,
+      "size": 42,
+      "price": 915000
+    },
+    {
+      "id": 46,
+      "productId": 7,
+      "size": 43,
+      "price": 950000
+    },
+    {
+      "id": 47,
+      "productId": 7,
+      "size": 44,
+      "price": 950000
+    },
+    {
+      "id": 48,
+      "productId": 7,
+      "size": 45,
+      "price": 950000
+    },
+    {
+      "id": 49,
+      "productId": 8,
+      "size": 28,
+      "price": 2100000
+    },
+    {
+      "id": 50,
+      "productId": 8,
+      "size": 29,
+      "price": 2100000
+    },
+    {
+      "id": 51,
+      "productId": 8,
+      "size": 30,
+      "price": 2100000
+    },
+    {
+      "id": 52,
+      "productId": 8,
+      "size": 31,
+      "price": 2100000
+    },
+    {
+      "id": 53,
+      "productId": 8,
+      "size": 32,
+      "price": 2250000
+    },
+    {
+      "id": 54,
+      "productId": 8,
+      "size": 33,
+      "price": 2250000
+    },
+    {
+      "id": 55,
+      "productId": 8,
+      "size": 34,
+      "price": 2250000
+    },
+    {
+      "id": 56,
+      "productId": 9,
+      "size": 39,
+      "price": 3250000
+    },
+    {
+      "id": 57,
+      "productId": 9,
+      "size": 40,
+      "price": 3250000
+    },
+    {
+      "id": 58,
+      "productId": 9,
+      "size": 41,
+      "price": 3250000
+    },
+    {
+      "id": 59,
+      "productId": 9,
+      "size": 42,
+      "price": 3250000
+    },
+    {
+      "id": 60,
+      "productId": 9,
+      "size": 43,
+      "price": 3350000
+    },
+    {
+      "id": 61,
+      "productId": 9,
+      "size": 44,
+      "price": 3350000
+    },
+    {
+      "id": 62,
+      "productId": 9,
+      "size": 45,
+      "price": 3350000
+    },
+
+    {
+      "id": 63,
+      "productId": 21,
+      "size": 28,
+      "price": 1500000
+    },
+    {
+      "id": 64,
+      "productId": 21,
+      "size": 29,
+      "price": 1500000
+    },
+    {
+      "id": 65,
+      "productId": 21,
+      "size": 30,
+      "price": 1500000
+    },
+    {
+      "id": 66,
+      "productId": 21,
+      "size": 31,
+      "price": 1500000
+    },
+    {
+      "id": 67,
+      "productId": 21,
+      "size": 32,
+      "price": 1600000
+    },
+    {
+      "id": 68,
+      "productId": 21,
+      "size": 33,
+      "price": 1650000
+    },
+    {
+      "id": 69,
+      "productId": 21,
+      "size": 34,
+      "price": 1700000
+    },
+    {
+      "id": 70,
+      "productId": 22,
+      "size": 28,
+      "price": 650000
+    },
+    {
+      "id": 71,
+      "productId": 22,
+      "size": 29,
+      "price": 650000
+    },
+    {
+      "id": 72,
+      "productId": 22,
+      "size": 30,
+      "price": 650000
+    },
+    {
+      "id": 73,
+      "productId": 22,
+      "size": 31,
+      "price": 650000
+    },
+    {
+      "id": 74,
+      "productId": 22,
+      "size": 32,
+      "price": 700000
+    },
+    {
+      "id": 75,
+      "productId": 22,
+      "size": 33,
+      "price": 750000
+    },
+    {
+      "id": 76,
+      "productId": 22,
+      "size": 34,
+      "price": 750000
+    },
+    {
+      "id": 77,
+      "productId": 23,
+      "size": 28,
+      "price": 1500000
+    },
+    {
+      "id": 78,
+      "productId": 23,
+      "size": 29,
+      "price": 1500000
+    },
+    {
+      "id": 79,
+      "productId": 23,
+      "size": 30,
+      "price": 1500000
+    },
+    {
+      "id": 80,
+      "productId": 23,
+      "size": 31,
+      "price": 1500000
+    },
+    {
+      "id": 81,
+      "productId": 23,
+      "size": 32,
+      "price": 1600000
+    },
+    {
+      "id": 82,
+      "productId": 23,
+      "size": 33,
+      "price": 1650000
+    },
+    {
+      "id": 83,
+      "productId": 23,
+      "size": 34,
+      "price": 1700000
+    },
+
+    {
+      "id": 84,
+      "productId": 24,
+      "size": 28,
+      "price": 2200000
+    },
+    {
+      "id": 85,
+      "productId": 24,
+      "size": 29,
+      "price": 2200000
+    },
+    {
+      "id": 86,
+      "productId": 24,
+      "size": 30,
+      "price": 2200000
+    },
+    {
+      "id": 87,
+      "productId": 24,
+      "size": 31,
+      "price": 2200000
+    },
+    {
+      "id": 88,
+      "productId": 24,
+      "size": 32,
+      "price": 2300000
+    },
+    {
+      "id": 89,
+      "productId": 24,
+      "size": 33,
+      "price": 2350000
+    },
+    {
+      "id": 90,
+      "productId": 24,
+      "size": 34,
+      "price": 2400000
     }
   ],
-  "todos": [],
   "comments": [
     {
       "id": 1,
