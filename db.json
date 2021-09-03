@@ -705,7 +705,7 @@
       "description": "Đây là mô tả giày nữ",
       "name": "Deviate NITRO Women's Running Shoes",
       "price": 3500000,
-      "categoryId": 3,
+      "categoryId": 4,
       "typeId": 3,
       "color": "#000000",
       "images": [
@@ -723,7 +723,7 @@
       "description": "Đây là mô tả giày nam",
       "name": "Deviate Nitro Elite Racer SP Men's Running Sneakers",
       "price": 4600000,
-      "categoryId": 3,
+      "categoryId": 4,
       "typeId": 3,
       "color": "multiColor",
       "images": [
@@ -742,7 +742,7 @@
       "description": "Đây là mô tả giày nam",
       "name": "Scorch Runner Men's Running Shoes",
       "price": 900000,
-      "categoryId": 3,
+      "categoryId": 4,
       "typeId": 3,
       "color": "#e7352b",
       "images": [
@@ -762,7 +762,7 @@
       "description": "Đây là mô tả giày nam",
       "name": "Future Z 4.2 TT Soccer Cleats JR",
       "price": 125000,
-      "categoryId": 3,
+      "categoryId": 4,
       "typeId": 4,
       "color": "#1790c8",
       "images": [
