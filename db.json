@@ -4,14 +4,15 @@
       "email": "hothituyet@gmail.com",
       "password": "$2a$10$gTMHDW.C3Oc/ff64Z0tX4uT8AUt0ZC10actp9O5jXlwOTlhmaFTFK",
       "avatar": "https://thuthuatnhanh.com/wp-content/uploads/2020/09/avatar-cho-con-gai-mau-hong-cute.jpg",
-      "name": "Tuyết",
+      "name": "Tuyết hihi",
       "gender": "female",
       "role": "admin",
       "carts": [],
       "wishlist": [],
       "createdAt": 1628858791692,
-      "updatedAt": 1629083675796,
-      "id": 1
+      "updatedAt": 1631008559530,
+      "id": 1,
+      "status": "active"
     },
     {
       "email": "abc@gmail.com",
@@ -30,27 +31,15 @@
       "email": "quocvuongta1023@gmail.com",
       "password": "$2a$10$lthVzYBXqAQj7MXx85qJmu32BivU5d6VyDeiy6m9ttv8D6zD/K2hu",
       "name": "Dương Vương",
-      "avatar": "https://thuthuatnhanh.com/wp-content/uploads/2020/09/avatar-cho-con-gai-mau-hong-cute.jpg",
+      "avatar": "https://res.cloudinary.com/vuongute/image/upload/v1631419550/runner-images/yq6gplrhhojuq1gl9pwx.jpg",
       "gender": "male",
       "carts": [
         {
-          "productId": "29",
-          "count": 1,
-          "name": "ULTRABOOST 5.0 DNA SHOES",
-          "price": 5000000,
-          "color": "multiColor",
-          "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/fd7424d087c64c038704ac84012e06a5_9366/Ultraboost_5.0_DNA_Shoes_White_GW5125_01_standard.jpg",
-          "category": "Adidas",
-          "type": "Ultra boost",
-          "department": "Giày nam",
-          "option": {}
-        },
-        {
           "productId": "30",
-          "count": 3,
+          "count": 1,
           "name": "ULTRABOOST 21 SHOES",
           "price": 5000000,
-          "color": "#000000",
+          "color": "000000",
           "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/8453a9e0695644ae9002ad2100ad29c9_9366/Ultraboost_21_Shoes_Black_S23870_01_standard.jpg",
           "category": "Adidas",
           "type": "Ultra boost",
@@ -58,25 +47,37 @@
           "option": {}
         }
       ],
-      "wishlist": [],
+      "wishlist": [
+        {
+          "productId": "28",
+          "name": "SUPERSTAR SHOES",
+          "price": 2400000,
+          "color": "000000",
+          "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/aee516268d3c4f73a3bfab97004bd862_9366/Superstar_Shoes_Black_FY1589_01_standard.jpg",
+          "category": "Adidas",
+          "type": "Giày chạy bộ",
+          "department": "Giày nam"
+        }
+      ],
       "role": "admin",
       "createdAt": 1630471043599,
-      "updatedAt": 1630733889632,
+      "updatedAt": 1631532609600,
       "id": 3,
       "cart": []
     },
     {
       "email": "hotuyet214@gmail.com",
       "password": "$2a$10$yyEuMPk2dAV9CuaiiGqOvOQ..RQ7DonDZMfY4ZF8Q4Sfjyva76O32",
-      "name": "tuyet",
+      "name": "tuyet t2",
       "avatar": "https://thuthuatnhanh.com/wp-content/uploads/2020/09/avatar-cho-con-gai-mau-hong-cute.jpg",
       "gender": "female",
       "carts": [],
       "wishlist": [],
       "role": "admin",
       "createdAt": 1630593094197,
-      "updatedAt": 1630593094197,
-      "id": 4
+      "updatedAt": 1631436505742,
+      "id": 4,
+      "status": "active"
     },
     {
       "email": "hoaianh@gmail.com",
@@ -88,8 +89,9 @@
       "wishlist": [],
       "role": "user",
       "createdAt": 1630734004121,
-      "updatedAt": 1630739141148,
-      "id": 5
+      "updatedAt": 1631113282421,
+      "id": 5,
+      "status": "block"
     },
     {
       "email": "phuonghang@gmail.com",
@@ -97,36 +99,14 @@
       "name": "Phương Hằng",
       "avatar": "https://img-9gag-fun.9cache.com/photo/aLpNbjg_700bwp.webp",
       "gender": "female",
-      "carts": [
-        {
-          "productId": "32",
-          "count": 2,
-          "name": "Deviate Nitro Elite Racer SP Men's Running Sneakers",
-          "price": 4600000,
-          "color": "multiColor",
-          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/195419/01/sv03/fnd/PNA/fmt/png/Deviate-Nitro-Elite-Racer-SP-Men's-Running-Sneakers",
-          "category": "Puma",
-          "type": "Giày chạy bộ",
-          "department": "Giày nam",
-          "option": {}
-        }
-      ],
-      "wishlist": [
-        {
-          "productId": "32",
-          "name": "Deviate Nitro Elite Racer SP Men's Running Sneakers",
-          "price": 4600000,
-          "color": "multiColor",
-          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/195419/01/sv03/fnd/PNA/fmt/png/Deviate-Nitro-Elite-Racer-SP-Men's-Running-Sneakers",
-          "category": "Puma",
-          "type": "Giày chạy bộ",
-          "department": "Giày nam"
-        }
-      ],
+      "carts": [],
+      "wishlist": [],
       "role": "user",
       "createdAt": 1630740022540,
-      "updatedAt": 1630746610674,
-      "id": 6
+      "updatedAt": 1631436312053,
+      "id": 6,
+      "cart": [],
+      "status": "active"
     }
   ],
   "categories": [
@@ -149,12 +129,6 @@
     {
       "name": "Vans",
       "id": 5
-    },
-    {
-      "name": "tuyết",
-      "createdAt": 1630591242424,
-      "updatedAt": 1630591242424,
-      "id": 6
     }
   ],
   "types": [
@@ -209,7 +183,7 @@
         "https://product.hstatic.net/1000230642/product/dsbh00500nau__2__4f52d9fc2f3144d78b45d933c7eb58df_1024x1024.jpg"
       ],
       "typeId": 1,
-      "color": "#825d41",
+      "color": "825d41",
       "categoryId": 3,
       "departmentId": 3
     },
@@ -218,7 +192,7 @@
       "description": "Đây là mô tả giày trẻ em",
       "name": "Giày Thể Thao Trẻ Em Biti's DSG003600DEN (Đen)",
       "price": 360000,
-      "color": "#000000",
+      "color": "000000",
       "typeId": 2,
       "categoryId": 3,
       "images": [
@@ -237,7 +211,7 @@
       "price": 375000,
       "categoryId": 3,
       "typeId": 2,
-      "color": "#f0728f",
+      "color": "f0728f",
       "images": [
         "https://product.hstatic.net/1000230642/product/dsg137000hog32_2__53f5245a4d2149939e790f992b3c64ae_1024x1024.jpg",
         "https://product.hstatic.net/1000230642/product/dsg137000hog32_3__5b71c8ac5dbd4350beca9daa282d6f8f_1024x1024.jpg",
@@ -262,7 +236,7 @@
         "https://cf.shopee.vn/file/d331b22c7abbfc7f145e874927ac9938",
         "https://cf.shopee.vn/file/92d9e9f171f659600812330494ef4206"
       ],
-      "color": "#e7352b",
+      "color": "e7352b",
       "departmentId": 3
     },
     {
@@ -272,7 +246,7 @@
       "price": 761000,
       "categoryId": 3,
       "typeId": 1,
-      "color": "#ffffff",
+      "color": "ffffff",
       "images": [
         "https://cf.shopee.vn/file/090086d0d398c642bf20b4d589a15e8e",
         "https://cf.shopee.vn/file/31aedbb114049e43998b16cf441a3a01",
@@ -291,7 +265,7 @@
       "price": 761000,
       "typeId": 1,
       "categoryId": 3,
-      "color": "#ffffff",
+      "color": "ffffff",
       "images": [
         "https://cf.shopee.vn/file/090086d0d398c642bf20b4d589a15e8e",
         "https://cf.shopee.vn/file/31aedbb114049e43998b16cf441a3a01",
@@ -310,7 +284,7 @@
       "price": 845000,
       "typeId": 1,
       "categoryId": 3,
-      "color": "#000000",
+      "color": "000000",
       "images": [
         "https://cf.shopee.vn/file/7809fbd1e39fb4c0fba6c9630584b3b9",
         "https://cf.shopee.vn/file/8c2843b39d5b253361bc5767b1d8f15f",
@@ -328,7 +302,7 @@
       "price": 2100000,
       "categoryId": 2,
       "typeId": 2,
-      "color": "#1790c8",
+      "color": "1790c8",
       "images": [
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/f74e2bccabf044838a86ad2e00fb53bb_9366/adidas_x_LEGO(r)_Sport_Shoes_Blue_FZ5440_01_standard.jpg",
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/01bd3aa009f840d7980bad2e00fb6432_9366/adidas_x_LEGO(r)_Sport_Shoes_Blue_FZ5440_02_standard_hover.jpg",
@@ -349,7 +323,7 @@
       "price": 3250000,
       "categoryId": 1,
       "typeId": 9,
-      "color": "#f36b26",
+      "color": "f36b26",
       "images": [
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/36b884d8-e9a8-4b95-86ab-975362f98aee/air-jordan-1-mid-se-shoes-1r6S57.png",
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/04db6ef3-f24c-4ce3-a1b0-ea3ac836e112/air-jordan-1-mid-se-shoes-1r6S57.png",
@@ -369,7 +343,7 @@
       "price": 3250000,
       "categoryId": 1,
       "typeId": 9,
-      "color": "#825d41",
+      "color": "825d41",
       "images": [
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/62065af1-f371-4a71-b8f9-51d2fd38a03e/air-jordan-1-mid-se-shoes-wPl3bj.png",
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/483c310f-b22b-4428-af05-7391249fe598/air-jordan-1-mid-se-shoes-wPl3bj.png",
@@ -389,7 +363,7 @@
       "price": 2150000,
       "categoryId": 1,
       "typeId": 5,
-      "color": "#000000",
+      "color": "000000",
       "images": [
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/3aa3717f-a407-4541-ba5d-b138a5377781/air-zoom-gt-run-basketball-shoes-fFPW28.png",
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/a4590178-81cc-4ac5-914e-ef72f3398a55/air-zoom-gt-run-basketball-shoes-fFPW28.png",
@@ -409,7 +383,7 @@
       "price": 2050000,
       "categoryId": 1,
       "typeId": 5,
-      "color": "#ffffff",
+      "color": "ffffff",
       "images": [
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/f2277f6f-b276-477d-9646-d6ebaecf4a7e/giannis-immortality-force-field-basketball-shoe-p9QlJF.png",
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/924f227e-3467-4bc2-b12d-6e3f6d17a0cd/giannis-immortality-force-field-basketball-shoe-p9QlJF.png",
@@ -429,7 +403,7 @@
       "price": 2850000,
       "categoryId": 1,
       "typeId": 5,
-      "color": "#ffffff",
+      "color": "ffffff",
       "images": [
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/9920b9c5-6780-4a99-8dc9-af1aef4c3155/pg-5-playstation-basketball-shoe-6lFr5g.png",
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/0c4194a1-89a0-4644-bebc-cb2709e0edaa/pg-5-playstation-basketball-shoe-6lFr5g.png",
@@ -450,7 +424,7 @@
       "price": 2850000,
       "categoryId": 1,
       "typeId": 4,
-      "color": "#808080",
+      "color": "808080",
       "images": [
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/f26e45b0-c47c-4430-b7b5-4a64d4b2edfc/vapor-edge-pro-360-mens-football-cleats-HXd3nk.png",
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/23e77d5f-f069-4829-944d-1f83afa33d99/vapor-edge-pro-360-mens-football-cleats-HXd3nk.png",
@@ -471,7 +445,7 @@
       "price": 5850000,
       "categoryId": 1,
       "typeId": 3,
-      "color": "#02cbb5",
+      "color": "02cbb5",
       "images": [
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/676c7f91-924e-43b0-8d30-44fa9f127491/air-zoom-alphafly-next-mens-racing-shoes-fNntgL.png",
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/906e5c98-b711-4782-872e-8f1b08013212/air-zoom-alphafly-next-mens-racing-shoes-fNntgL.png",
@@ -491,7 +465,7 @@
       "price": 1050000,
       "categoryId": 1,
       "typeId": 3,
-      "color": "#000000",
+      "color": "000000",
       "images": [
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/75fd9c38-a61f-4d53-9a7a-97b6a11ed910/zoom-span-3-mens-running-shoes-zXzpgd.png",
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/17c8391f-c5c5-49c6-b865-8d57cf8cd597/zoom-span-3-mens-running-shoes-zXzpgd.png",
@@ -511,7 +485,7 @@
       "price": 3050000,
       "categoryId": 1,
       "typeId": 3,
-      "color": "#f0728f",
+      "color": "f0728f",
       "images": [
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/969bf9cf-7d2e-478e-b2f6-333ef205c2b3/react-infinity-run-flyknit-2-womens-running-shoes-rfh6Z8.png",
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/74e6bc34-b51a-416e-85f3-c31c00637dfa/react-infinity-run-flyknit-2-womens-running-shoes-rfh6Z8.png",
@@ -531,7 +505,7 @@
       "price": 1250000,
       "categoryId": 1,
       "typeId": 2,
-      "color": "#ffffff",
+      "color": "ffffff",
       "images": [
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/7e8082ec-8a98-4803-8708-d5c8b60830ed/air-force-1-07-womens-shoes-GCkPzr.png",
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/e5d1a7a2-6cc9-4e86-97a5-a28a9d893221/air-force-1-07-womens-shoes-GCkPzr.png",
@@ -571,7 +545,7 @@
       "price": 3450000,
       "categoryId": 1,
       "typeId": 4,
-      "color": "#e7352b",
+      "color": "e7352b",
       "images": [
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/3b15aaaa-0168-421d-8da9-531620da2e78/air-zoom-gt-cut-basketball-shoes-kTDfNK.png",
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/cd1b5106-2c8c-4b8b-a274-f1deb1c926be/air-zoom-gt-cut-basketball-shoes-kTDfNK.png",
@@ -591,7 +565,7 @@
       "price": 1500000,
       "categoryId": 2,
       "typeId": 2,
-      "color": "#ffffff",
+      "color": "ffffff",
       "images": [
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/fdf82fe116314a3e99c2ad570116b179_9366/Forum_Low_Shoes_White_Q47376_01_standard.jpg",
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/04b937d938794739b04bad570116c221_9366/Forum_Low_Shoes_White_Q47376_02_standard_hover.jpg",
@@ -612,7 +586,7 @@
       "price": 650000,
       "categoryId": 2,
       "typeId": 6,
-      "color": "#f0728f",
+      "color": "f0728f",
       "images": [
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/c2e3e7b0dea4491c9dd4abaa0137b479_9366/Altaswim_Sandals_Pink_FX1201_01_standard.jpg",
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/fcb7cc0ffbb64234a1d4abaa0137c25e_9366/Altaswim_Sandals_Pink_FX1201_02_standard_hover.jpg",
@@ -633,7 +607,7 @@
       "price": 1500000,
       "categoryId": 2,
       "typeId": 2,
-      "color": "#ffffff",
+      "color": "ffffff",
       "images": [
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/467b981e89394ea2a905ac6400cb73dd_9366/Stan_Smith_Shoes_White_FX7540_01_standard.jpg",
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/22fbc3ef4c444343ae67ac6400cb870d_9366/Stan_Smith_Shoes_White_FX7540_02_standard_hover.jpg",
@@ -654,7 +628,7 @@
       "price": 2200000,
       "categoryId": 2,
       "typeId": 2,
-      "color": "#fed533",
+      "color": "fed533",
       "images": [
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/526c5eda6cdb429a8a45ad2400c382e0_9366/adidas_x_LEGO(r)_Sport_Shoes_Yellow_FZ5439_01_standard.jpg",
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/a01aa9dd51674bbbafa9ad2400c38dbd_9366/adidas_x_LEGO(r)_Sport_Shoes_Yellow_FZ5439_02_standard_hover.jpg",
@@ -675,7 +649,7 @@
       "price": 5000000,
       "categoryId": 2,
       "typeId": 7,
-      "color": "#ffffff",
+      "color": "ffffff",
       "images": [
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/8ca8607f4c344ffd966eaca6011245ac_9366/Ultraboost_21_Shoes_White_FY0379_01_standard.jpg",
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/07bb839ea2b64cac8ae7aca60111e1c6_9366/Ultraboost_21_Shoes_White_FY0379_02_standard_hover.jpg",
@@ -697,7 +671,7 @@
       "price": 2500000,
       "categoryId": 2,
       "typeId": 2,
-      "color": "#ffffff",
+      "color": "ffffff",
       "images": [
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/61da7495aee340f7ae7dad2f00e371e8_9366/Forum_Plus_Shoes_White_GX5073_01_standard.jpg",
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/42842bebb8c640018569ad2f00e37eab_9366/Forum_Plus_Shoes_White_GX5073_02_standard.jpg",
@@ -718,7 +692,7 @@
       "price": 3000000,
       "categoryId": 2,
       "typeId": 3,
-      "color": "#000000",
+      "color": "000000",
       "images": [
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/f740aaa3326c4c03b767ad0a00a34e30_9366/Alphamagma_Shoes_Black_GV7917_01_standard.jpg",
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/bc8b4b96d40245b1a2e0ad0a00a35a03_9366/Alphamagma_Shoes_Black_GV7917_02_standard_hover.jpg",
@@ -738,7 +712,7 @@
       "price": 2400000,
       "categoryId": 2,
       "typeId": 3,
-      "color": "#000000",
+      "color": "000000",
       "images": [
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/aee516268d3c4f73a3bfab97004bd862_9366/Superstar_Shoes_Black_FY1589_01_standard.jpg",
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/1a6a8558c95d43de93c4ab97004bbf22_9366/Superstar_Shoes_Black_FY1589_02_standard.jpg",
@@ -782,7 +756,7 @@
       "price": 5000000,
       "categoryId": 2,
       "typeId": 7,
-      "color": "#000000",
+      "color": "000000",
       "images": [
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/8453a9e0695644ae9002ad2100ad29c9_9366/Ultraboost_21_Shoes_Black_S23870_01_standard.jpg",
         "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/1b174d79b63342c98cbfad2100b2080e_9366/Ultraboost_21_Shoes_Black_S23870_02_standard_hover.jpg",
@@ -803,7 +777,7 @@
       "price": 3500000,
       "categoryId": 4,
       "typeId": 3,
-      "color": "#000000",
+      "color": "000000",
       "images": [
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194453/07/sv03/fnd/PNA/fmt/png/Deviate-NITRO-Women's-Running-Shoes",
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194453/07/sv02/fnd/PNA/fmt/png/Deviate-NITRO-Women's-Running-Shoes",
@@ -831,7 +805,9 @@
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/195419/01/dt01/fnd/PNA/fmt/png/Deviate-Nitro-Elite-Racer-SP-Men's-Running-Sneakers",
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/195419/01/sv01/fnd/PNA/fmt/png/Deviate-Nitro-Elite-Racer-SP-Men's-Running-Sneakers"
       ],
-      "departmentId": 1
+      "departmentId": 1,
+      "quantity": 12,
+      "updatedAt": 1631371855530
     },
     {
       "id": 33,
@@ -840,7 +816,7 @@
       "price": 900000,
       "categoryId": 4,
       "typeId": 3,
-      "color": "#e7352b",
+      "color": "e7352b",
       "images": [
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/sv03/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes",
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/sv02/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes",
@@ -850,7 +826,9 @@
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/sv04/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes",
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/dt02/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes"
       ],
-      "departmentId": 1
+      "departmentId": 1,
+      "quantity": 5,
+      "updatedAt": 1631371840393
     },
     {
       "id": 34,
@@ -859,7 +837,7 @@
       "price": 1250000,
       "categoryId": 4,
       "typeId": 4,
-      "color": "#1790c8",
+      "color": "1790c8",
       "images": [
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/106509/01/sv03/fnd/PNA/fmt/png/Future-Z-4.2-TT-Soccer-Cleats-JR",
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/106509/01/sv02/fnd/PNA/fmt/png/Future-Z-4.2-TT-Soccer-Cleats-JR",
@@ -870,7 +848,9 @@
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/106509/01/dt01/fnd/PNA/fmt/png/Future-Z-4.2-TT-Soccer-Cleats-JR",
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/106509/01/dt02/fnd/PNA/fmt/png/Future-Z-4.2-TT-Soccer-Cleats-JR"
       ],
-      "departmentId": 3
+      "departmentId": 3,
+      "updatedAt": 1631371555168,
+      "quantity": 10
     }
   ],
   "departments": [
