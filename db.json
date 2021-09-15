@@ -109,6 +109,139 @@
       "status": "active"
     }
   ],
+  "comments": [
+    {
+      "id": 1,
+      "content": "Giày đẹp quá",
+      "rating": 5,
+      "userId": 3,
+      "productId": 2,
+      "createdAt": 1628858791692
+    },
+    {
+      "id": 2,
+      "content": "Sản phẩm tuyệt vời đáng mua",
+      "rating": 4.5,
+      "userId": 3,
+      "productId": 1,
+      "createdAt": 1628858791692
+    },
+    {
+      "id": 3,
+      "content": "Sản phẩm tuyệt vời",
+      "rating": 4.5,
+      "userId": 5,
+      "productId": 1,
+      "createdAt": 1628858791692
+    },
+    {
+      "id": 4,
+      "content": "Giày đẹp quá",
+      "rating": 5,
+      "userId": 3,
+      "productId": 28,
+      "createdAt": 1628858791692
+    },
+    {
+      "rating": 3.5,
+      "content": "giày đẹp quá",
+      "userId": 5,
+      "productId": "32",
+      "createdAt": 1631703164288,
+      "updatedAt": 1631703164289,
+      "id": 5
+    },
+    {
+      "rating": 3,
+      "content": "sản phẩm tuyệt vời",
+      "userId": 5,
+      "productId": "32",
+      "createdAt": 1631703281014,
+      "updatedAt": 1631703281015,
+      "id": 6
+    },
+    {
+      "rating": 4.5,
+      "content": "Sản phẩm rất đẹp",
+      "userId": 3,
+      "productId": "33",
+      "createdAt": 1631703664040,
+      "updatedAt": 1631703664040,
+      "id": 7
+    },
+    {
+      "rating": 1.5,
+      "content": "giày hơi bó đau chân",
+      "userId": 3,
+      "productId": "32",
+      "createdAt": 1631703699401,
+      "updatedAt": 1631703699401,
+      "id": 8
+    },
+    {
+      "rating": 4.5,
+      "content": "sản phẩm tốt",
+      "userId": 5,
+      "productId": "30",
+      "createdAt": 1631704219976,
+      "updatedAt": 1631704219976,
+      "id": 9
+    },
+    {
+      "rating": 4.5,
+      "content": "Sản phẩm đẹp",
+      "userId": 5,
+      "productId": "26",
+      "createdAt": 1631706458319,
+      "updatedAt": 1631706458319,
+      "id": 10
+    },
+    {
+      "rating": 4,
+      "content": "Giày tuyệt đẹp",
+      "userId": 5,
+      "productId": "25",
+      "createdAt": 1631707591535,
+      "updatedAt": 1631707591536,
+      "id": 11
+    },
+    {
+      "rating": 3.5,
+      "content": "sản phẩm tốt ",
+      "userId": 5,
+      "productId": "31",
+      "createdAt": 1631712136551,
+      "updatedAt": 1631712136552,
+      "id": 12
+    },
+    {
+      "rating": 2.5,
+      "content": "hello",
+      "userId": 5,
+      "productId": "24",
+      "createdAt": 1631714653137,
+      "updatedAt": 1631714653138,
+      "id": 13
+    },
+    {
+      "rating": 4,
+      "content": "test comment",
+      "userId": 5,
+      "productId": "34",
+      "createdAt": 1631717981964,
+      "updatedAt": 1631717981964,
+      "id": 14
+    },
+    {
+      "rating": 3.5,
+      "content": "Giày khá chắc chắn",
+      "userId": 5,
+      "productId": "29",
+      "createdAt": 1631723033098,
+      "updatedAt": 1631723033099,
+      "id": 15
+    }
+  ],
   "categories": [
     {
       "id": 1,
