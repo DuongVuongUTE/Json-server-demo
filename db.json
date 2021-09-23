@@ -35,36 +35,35 @@
       "gender": "male",
       "carts": [
         {
-          "productId": "30",
-          "count": 2,
-          "name": "ULTRABOOST 21 SHOES",
-          "price": 5000000,
-          "color": "000000",
-          "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/8453a9e0695644ae9002ad2100ad29c9_9366/Ultraboost_21_Shoes_Black_S23870_01_standard.jpg",
-          "category": "Adidas",
-          "type": "Ultra boost",
-          "department": "Giày nam",
-          "option": {}
-        },
-        {
-          "productId": "33",
-          "count": 2,
-          "name": "Scorch Runner Men's Running Shoes",
-          "price": 900000,
-          "color": "e7352b",
-          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/sv03/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes",
+          "productId": 32,
+          "count": 7,
+          "name": "Deviate Nitro Elite Racer SP Men's Running Sneakers",
+          "price": 4600000,
+          "color": "multiColor",
+          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/195419/01/sv03/fnd/PNA/fmt/png/Deviate-Nitro-Elite-Racer-SP-Men's-Running-Sneakers",
+          "quantity": 12,
           "category": "Puma",
           "type": "Giày chạy bộ",
           "department": "Giày nam",
           "option": {}
         }
       ],
-      "wishlist": [],
+      "wishlist": [
+        {
+          "productId": "33",
+          "name": "Scorch Runner Men's Running Shoes",
+          "price": 900000,
+          "color": "e7352b",
+          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/sv03/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes",
+          "category": "Puma",
+          "type": "Giày chạy bộ",
+          "department": "Giày nam"
+        }
+      ],
       "role": "admin",
       "createdAt": 1630471043599,
-      "updatedAt": 1631687660160,
-      "id": 3,
-      "cart": []
+      "updatedAt": 1632374030354,
+      "id": 3
     },
     {
       "email": "hotuyet214@gmail.com",
@@ -99,16 +98,6 @@
           "department": "Giày nữ"
         },
         {
-          "productId": "33",
-          "name": "Scorch Runner Men's Running Shoes",
-          "price": 900000,
-          "color": "e7352b",
-          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/sv03/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes",
-          "category": "Puma",
-          "type": "Giày chạy bộ",
-          "department": "Giày nam"
-        },
-        {
           "productId": "27",
           "name": "ALPHAMAGMA SHOES",
           "price": 3000000,
@@ -129,16 +118,6 @@
           "department": "Giày trẻ em"
         },
         {
-          "productId": "28",
-          "name": "SUPERSTAR SHOES",
-          "price": 2400000,
-          "color": "000000",
-          "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/aee516268d3c4f73a3bfab97004bd862_9366/Superstar_Shoes_Black_FY1589_01_standard.jpg",
-          "category": "Adidas",
-          "type": "Giày chạy bộ",
-          "department": "Giày nam"
-        },
-        {
           "productId": "29",
           "name": "ULTRABOOST 5.0 DNA SHOES",
           "price": 5000000,
@@ -147,11 +126,31 @@
           "category": "Adidas",
           "type": "Ultra boost",
           "department": "Giày nam"
+        },
+        {
+          "productId": "20",
+          "name": "Nike Air Zoom G.T. Cut",
+          "price": 3450000,
+          "color": "e7352b",
+          "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/3b15aaaa-0168-421d-8da9-531620da2e78/air-zoom-gt-cut-basketball-shoes-kTDfNK.png",
+          "category": "Nike",
+          "type": "Giày đá bóng",
+          "department": "Giày nữ"
+        },
+        {
+          "productId": "18",
+          "name": "Nike Air Force 1 '07",
+          "price": 1250000,
+          "color": "ffffff",
+          "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/7e8082ec-8a98-4803-8708-d5c8b60830ed/air-force-1-07-womens-shoes-GCkPzr.png",
+          "category": "Nike",
+          "type": "Giày thể thao",
+          "department": "Giày nữ"
         }
       ],
       "role": "user",
       "createdAt": 1630734004121,
-      "updatedAt": 1631803375311,
+      "updatedAt": 1632320825518,
       "id": 5,
       "status": "block"
     },
@@ -169,6 +168,32 @@
       "id": 6,
       "cart": [],
       "status": "active"
+    },
+    {
+      "email": "hotuyet@gmail.com",
+      "password": "$2a$10$xRnIBas.4SGQsQ9oxiJokuoXJdVIdLO5fTPfYa/i9hFjOcuVWzRKS",
+      "name": "tuyet",
+      "avatar": "https://img-9gag-fun.9cache.com/photo/aLpNbjg_700bwp.webp",
+      "gender": "female",
+      "carts": [
+        {
+          "productId": "32",
+          "count": 1,
+          "name": "Deviate Nitro Elite Racer SP Men's Running Sneakers",
+          "price": 4600000,
+          "color": "multiColor",
+          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/195419/01/sv03/fnd/PNA/fmt/png/Deviate-Nitro-Elite-Racer-SP-Men's-Running-Sneakers",
+          "category": "Puma",
+          "type": "Giày chạy bộ",
+          "department": "Giày nam",
+          "option": {}
+        }
+      ],
+      "wishlist": [],
+      "role": "user",
+      "createdAt": 1631696264346,
+      "updatedAt": 1631710508515,
+      "id": 7
     }
   ],
   "comments": [
@@ -344,65 +369,93 @@
     {
       "id": 1,
       "name": "Nike",
-      "logo": "https://res.cloudinary.com/vuongute/image/upload/v1631780209/brand-images/4375014_logo_nike_icon_xgw75e.png"
+      "logo": "https://res.cloudinary.com/vuongute/image/upload/v1631780209/brand-images/4375014_logo_nike_icon_xgw75e.png",
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871
     },
     {
       "id": 2,
       "name": "Adidas",
-      "logo": "https://res.cloudinary.com/vuongute/image/upload/v1631780209/brand-images/4373887_adidas_logo_logos_icon_dbygas.png"
+      "logo": "https://res.cloudinary.com/vuongute/image/upload/v1631780209/brand-images/4373887_adidas_logo_logos_icon_dbygas.png",
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871
     },
     {
       "name": "Biti's",
       "id": 3,
-      "logo": "https://res.cloudinary.com/vuongute/image/upload/v1631770395/brand-images/bitis.png"
+      "logo": "https://res.cloudinary.com/vuongute/image/upload/v1631770395/brand-images/bitis.png",
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871
     },
     {
       "name": "Puma",
       "id": 4,
-      "logo": "https://res.cloudinary.com/vuongute/image/upload/v1631780208/brand-images/7422471_puma_animal_shoes_clothes_sport_icon_inlbca.png"
+      "logo": "https://res.cloudinary.com/vuongute/image/upload/v1631780208/brand-images/7422471_puma_animal_shoes_clothes_sport_icon_inlbca.png",
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871
     },
     {
       "name": "Vans",
       "id": 5,
-      "logo": "https://res.cloudinary.com/vuongute/image/upload/v1631770459/brand-images/vans.png"
+      "logo": "https://res.cloudinary.com/vuongute/image/upload/v1631770459/brand-images/vans.png",
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871
     }
   ],
   "types": [
     {
       "id": 1,
-      "name": "Hunter"
+      "name": "Hunter",
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871
     },
     {
       "id": 2,
-      "name": "Giày thể thao"
+      "name": "Giày thể thao",
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871
     },
     {
       "id": 3,
-      "name": "Giày chạy bộ"
+      "name": "Giày chạy bộ",
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871
     },
     {
       "id": 4,
-      "name": "Giày đá bóng"
+      "name": "Giày đá bóng",
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871
     },
     {
       "id": 5,
-      "name": "Giày bóng rổ"
+      "name": "Giày bóng rổ",
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871
     },
     {
       "id": 6,
-      "name": "Sandal"
+      "name": "Sandal",
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871
     },
     {
       "id": 7,
-      "name": "Ultra boost"
+      "name": "Ultra boost",
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871
     },
     {
       "id": 8,
-      "name": "Yeezy"
+      "name": "Yeezy",
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871
     },
     {
       "id": 9,
-      "name": "Jordan"
+      "name": "Jordan",
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871
     }
   ],
   "products": [
@@ -423,7 +476,9 @@
       "categoryId": 3,
       "departmentId": 3,
       "quantity": 45,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871
     },
     {
       "id": 2,
@@ -442,7 +497,9 @@
       ],
       "departmentId": 3,
       "quantity": 41,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858791333,
+      "updatedAt": 1628861887871
     },
     {
       "id": 3,
@@ -461,7 +518,9 @@
       ],
       "departmentId": 3,
       "quantity": 40,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858792222,
+      "updatedAt": 1628861887871
     },
     {
       "id": 4,
@@ -481,7 +540,9 @@
       "color": "e7352b",
       "departmentId": 3,
       "quantity": 30,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858791111,
+      "updatedAt": 1628861887871
     },
     {
       "id": 5,
@@ -502,7 +563,9 @@
       ],
       "departmentId": 1,
       "quantity": 50,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858794444,
+      "updatedAt": 1628861887871
     },
     {
       "id": 6,
@@ -523,7 +586,9 @@
       ],
       "departmentId": 2,
       "quantity": 80,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858793332,
+      "updatedAt": 1628861887871
     },
     {
       "id": 7,
@@ -543,7 +608,9 @@
       ],
       "departmentId": 1,
       "quantity": 120,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858791692,
+      "updatedAt": 1628861887871
     },
     {
       "id": 8,
@@ -566,7 +633,9 @@
       ],
       "departmentId": 3,
       "quantity": 129,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858791611,
+      "updatedAt": 1628861887871
     },
     {
       "id": 9,
@@ -588,7 +657,9 @@
       ],
       "departmentId": 1,
       "quantity": 28,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858794391,
+      "updatedAt": 1628861887871
     },
     {
       "id": 10,
@@ -610,7 +681,9 @@
       ],
       "departmentId": 1,
       "quantity": 88,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858791888,
+      "updatedAt": 1628861887871
     },
     {
       "id": 11,
@@ -632,7 +705,9 @@
       ],
       "departmentId": 1,
       "quantity": 100,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858791622,
+      "updatedAt": 1628861887871
     },
     {
       "id": 12,
@@ -654,7 +729,9 @@
       ],
       "departmentId": 1,
       "quantity": 300,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858799999,
+      "updatedAt": 1628861887871
     },
     {
       "id": 13,
@@ -677,7 +754,9 @@
       ],
       "departmentId": 1,
       "quantity": 33,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858791212,
+      "updatedAt": 1628861887871
     },
     {
       "id": 14,
@@ -700,7 +779,9 @@
       ],
       "departmentId": 1,
       "quantity": 83,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858797772,
+      "updatedAt": 1628861887871
     },
     {
       "id": 15,
@@ -722,7 +803,9 @@
       ],
       "departmentId": 1,
       "quantity": 33,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858791654,
+      "updatedAt": 1628861887871
     },
     {
       "id": 16,
@@ -744,7 +827,9 @@
       ],
       "departmentId": 1,
       "quantity": 44,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858811692,
+      "updatedAt": 1628861887871
     },
     {
       "id": 17,
@@ -766,7 +851,9 @@
       ],
       "departmentId": 2,
       "quantity": 55,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858781192,
+      "updatedAt": 1628861887871
     },
     {
       "id": 18,
@@ -788,7 +875,9 @@
       ],
       "departmentId": 2,
       "quantity": 49,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858191111,
+      "updatedAt": 1628869987871
     },
     {
       "id": 19,
@@ -810,7 +899,9 @@
       ],
       "departmentId": 2,
       "quantity": 40,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858111692,
+      "updatedAt": 1628861997871
     },
     {
       "id": 20,
@@ -831,8 +922,10 @@
         "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/224d8241-33fb-4165-b787-3a13fcad899f/air-zoom-gt-cut-basketball-shoes-kTDfNK.png"
       ],
       "departmentId": 2,
-      "quantity": 74,
-      "sold": 0
+      "quantity": 72,
+      "sold": 2,
+      "createdAt": 1628851791692,
+      "updatedAt": 1632314059348
     },
     {
       "id": 21,
@@ -856,6 +949,7 @@
       "departmentId": 3,
       "quantity": 81,
       "sold": 3,
+      "createdAt": 1628858111692,
       "updatedAt": 1631801997119
     },
     {
@@ -879,7 +973,9 @@
       ],
       "departmentId": 3,
       "quantity": 59,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628851111692,
+      "updatedAt": 1631801997119
     },
     {
       "id": 23,
@@ -902,7 +998,9 @@
       ],
       "departmentId": 3,
       "quantity": 100,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858111692,
+      "updatedAt": 1631801997119
     },
     {
       "id": 24,
@@ -925,7 +1023,9 @@
       ],
       "departmentId": 3,
       "quantity": 20,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858111692,
+      "updatedAt": 1631801997119
     },
     {
       "id": 25,
@@ -949,7 +1049,9 @@
       ],
       "departmentId": 2,
       "quantity": 35,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858111692,
+      "updatedAt": 1631801997119
     },
     {
       "id": 26,
@@ -973,6 +1075,7 @@
       "departmentId": 2,
       "quantity": 24,
       "sold": 0,
+      "createdAt": 1628858111692,
       "updatedAt": 1631800730147
     },
     {
@@ -995,7 +1098,9 @@
       ],
       "departmentId": 2,
       "quantity": 17,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858111692,
+      "updatedAt": 1631801997119
     },
     {
       "id": 28,
@@ -1019,7 +1124,9 @@
       ],
       "departmentId": 1,
       "quantity": 30,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858111692,
+      "updatedAt": 1631801997119
     },
     {
       "id": 29,
@@ -1043,7 +1150,9 @@
       ],
       "departmentId": 1,
       "quantity": 34,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858111692,
+      "updatedAt": 1631801997119
     },
     {
       "id": 30,
@@ -1067,6 +1176,7 @@
       "departmentId": 1,
       "quantity": 48,
       "sold": 5,
+      "createdAt": 1628858111692,
       "updatedAt": 1631801609988
     },
     {
@@ -1086,9 +1196,10 @@
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194453/07/sv01/fnd/PNA/fmt/png/Deviate-NITRO-Women's-Running-Shoes"
       ],
       "departmentId": 2,
-      "quantity": 20,
-      "sold": 6,
-      "updatedAt": 1631800451135
+      "quantity": 19,
+      "sold": 7,
+      "updatedAt": 1631970251440,
+      "createdAt": 1628858111692
     },
     {
       "id": 32,
@@ -1110,7 +1221,8 @@
       "departmentId": 1,
       "quantity": 12,
       "updatedAt": 1631371855530,
-      "sold": 0
+      "sold": 0,
+      "createdAt": 1628858111692
     },
     {
       "id": 33,
@@ -1130,9 +1242,10 @@
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/dt02/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes"
       ],
       "departmentId": 1,
-      "quantity": 10,
-      "updatedAt": 1631799987813,
-      "sold": 5
+      "quantity": 5,
+      "updatedAt": 1632314874841,
+      "createdAt": 1628858111692,
+      "sold": 10
     },
     {
       "id": 34,
@@ -1153,26 +1266,33 @@
         "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/106509/01/dt02/fnd/PNA/fmt/png/Future-Z-4.2-TT-Soccer-Cleats-JR"
       ],
       "departmentId": 3,
-      "updatedAt": 1631371555168,
-      "quantity": 10,
-      "sold": 0
+      "createdAt": 1628858111692,
+      "updatedAt": 1632314703326,
+      "quantity": 5,
+      "sold": 5
     }
   ],
   "departments": [
     {
       "id": 1,
       "name": "Nam",
-      "description": "Giày nam"
+      "description": "Giày nam",
+      "createdAt": 1628858111692,
+      "updatedAt": 1631801997119
     },
     {
       "id": 2,
       "name": "Nữ",
-      "description": "Giày nữ"
+      "description": "Giày nữ",
+      "createdAt": 1628858111692,
+      "updatedAt": 1631801997119
     },
     {
       "id": 3,
       "name": "Trẻ em",
-      "description": "Giày trẻ em"
+      "description": "Giày trẻ em",
+      "createdAt": 1628858111692,
+      "updatedAt": 1631801997119
     }
   ],
   "productOptions": [
@@ -1717,6 +1837,80 @@
       "price": 2400000
     }
   ],
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Top 5 Bí Quyết Tuyển Chọn Được Đôi Giày Da Nam Chất Lượng",
+      "desc": "Rất nhiều chàng thắc mắc đến cách thức mua giày da nam như thế nào, cách chọn giày nam ra sao hay địa chỉ mua giày nam ở đâu tốt nhất…? Cùng Ngọc Quang mang tới cho bạn những kinh nghiệm mua giày nam cực chuẩn ngay dưới đây.",
+      "content": "<h2><strong>&nbsp;1. Nên mua giày da nam lúc nào</strong></h2><p>Chọn mua giày da nam giới cực đẹp, cực chất và phong cách thì các bạn nên để tâm đến nhiều yếu tố, đặc biệt là thời gian mua giày.</p><p>Theo nghiên cứu của các nhà khoa học thì thời điểm lý tưởng nhất để đi thử giày là từ 10-17h hàng ngày, vì lúc này đôi bàn chân của bạn giãn nở tối đa do quá trình hoạt động nên lựa chọn size giày là chính xác nhất.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/1-23.jpg\" alt=\"giày da nam\" data-proportion=\"true\" data-align=\"none\" data-index=\"19\" data-file-name=\"1-23.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h2><strong>&nbsp;2. Chọn size giày da nam thật phù hợp</strong></h2><p>Size giày nam cũng là một yếu tố quan trọng không kém khi các bạn nam quyết định mua 1 đôi giày bất kỳ cho mình. Vì đặc điểm bàn chân của người Việt Nam có kích thước ngắn và rộng nên bạn cần lựa chọn những đôi giày quy chuẩn sang size trong nước sao cho phù hợp và lựa chọn những đôi giày chuẩn size để khi sử dụng luôn cảm thấy thoải mái.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/2-23.jpg\" alt=\"giày da nam\" data-proportion=\"true\" data-align=\"none\" data-index=\"20\" data-file-name=\"2-23.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h2><strong>&nbsp;3. Thử giày da nam như thế nào mới đúng</strong></h2><p>Khi đi chọn giày tại cửa hàng bạn nên đi cả 2 chiếc giày vào chân và di chuyển để xem có thoải mái với size giày đó không vì chân người Việt không đều nhau, bên to bên nhỏ. Ngồi xuống thử giày, đứng lên di chuyển sau đó quyết định lựa chọn, và lựa chọn những đôi giày có size chuẩn, kèm với chân cách mũi giày khoảng 0,5-1cm là vừa</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/3-20.jpg\" alt=\"giày da nam\" data-proportion=\"true\" data-align=\"none\" data-index=\"21\" data-file-name=\"3-20.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h2><strong>&nbsp;4. Cần chọn giày da nam phù hợp với quần áo và chuẩn phong cách</strong></h2><p>Bạn nên lựa chọn<span>&nbsp;</span><a target=\"_self\" href=\"https://thatlungnam.com.vn/giay-nam-dep/\">giày nam đẹp</a><span>&nbsp;</span>trước khi mua quần áo, bởi vì số lượng quần áo của bạn luôn nhiều hơn số lượng giày. Chọn giày sau đó đi chọn các trang phục mà mặc đẹp với giày, tạo ra những phong cách cực chuẩn cho quý ông</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/4.-7.jpg\" alt=\"giày da nam\" data-proportion=\"true\" data-align=\"none\" data-index=\"22\" data-file-name=\"4.-7.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h2><strong>&nbsp;5. Nên chọn một địa chỉ bán giày da nam đẹp và uy tín</strong></h2><p>Một địa chỉ bán&nbsp;<a target=\"_self\" href=\"https://thatlungnam.com.vn/giay-nam-dep/\">giày nam đẹp</a>, uy tín và chất lượng luôn khiến các chàng trai yên tâm hơn rất nhiều nhờ những đôi giày đẹp và chất lượng cùng chính sách bảo hành và giá cả vô cùng hợp lý.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/5-19.jpg\" alt=\"giày da nam\" data-proportion=\"true\" data-align=\"none\" data-index=\"23\" data-file-name=\"5-19.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h2><strong>Cách chọn và bảo quản một đôi giày da nam tốt</strong></h2><p>Để có những đôi&nbsp;giày da nam&nbsp;vừa đẹp vừa bền, ngoài việc chọn được đôi giày tốt chúng ta cần biết cách bảo quản chúng nữa, “của bền tại người”. Trong bài viết này, Ngọc Quang sẽ hướng dẫn các bạn cách chọn và bảo quản một đôi giày da nam tốt nhé.</p><h3><strong>&nbsp;1. Cách chọn giày da nam</strong></h3><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/6-21.jpg\" alt=\"giày da nam\" data-proportion=\"true\" data-align=\"none\" data-index=\"24\" data-file-name=\"6-21.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Giày da&nbsp;được làm từ nhiều loại da khác nhau: da bò, da dê, da ngựa, da trâu,… nhưng cho đến nay da bò vẫn thuộc loại da được sử dụng phổ biến trong ngành công nghiệp sản xuất giày, dép da. Từ<span>&nbsp;</span><a target=\"_self\" href=\"https://thatlungnam.com.vn/phan-biet-cac-loai-da/\">các loại da</a><span>&nbsp;</span>trên người sản xuất biến tấu thêm loại da khác như: da sáp, da trơn, da bóng,… tùy vào kiểu giày mà người sản xuất lựa chọn loại da phù hợp.</p><p><strong>Khi mua giày da nên chú ý điểm sau:</strong></p><p>–&nbsp;Đế giày: đế trong và đế ngoài (phần chạm đất).</p><p>– Lót mặt trong giày (nơi xỏ chân vào).</p><p>– Phần gót giày (gồm lớp tạo độ cao gót).</p><p>– Lớp da bao ngoài (là mặt ngoài ta thấy được, bao ngoài lớp lót giày).</p><p>Phần lớn&nbsp;đế giày làm bằng cao su, còn lót giày được làm &nbsp;bằng nhiều chất liệu khác và phần gót được&nbsp;làm bằng gỗ, cao su –&nbsp;nhựa.&nbsp;Nếu có điều kiện thì nên sử dụng giày chất liệu da 100%, trừ khi ở môi trường lạnh ẩm quanh năm.</p><h3><strong>&nbsp;2. Bảo quản giày da nam</strong></h3><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/7-16.jpg\" alt=\"giày da nam\" data-proportion=\"true\" data-align=\"none\" data-index=\"25\" data-file-name=\"7-16.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Đối với giày da, tránh hay hạn chế dính nước vì giày sẽ mau bong keo hơn. Xăng dầu hay axit là những chất không nên tiếp xúc với giày da do chúng làm cho da bị ố, tệ hơn là gây mục nát nơi tiếp xúc.</p><p><em><strong>– Đối với giày đã bị thấm nước:</strong></em>&nbsp;Đầu tiên rút ngay<span>&nbsp;</span><a target=\"_self\" href=\"https://thatlungnam.com.vn/mieng-lot-giay/\">miếng lót giày</a><span>&nbsp;</span>ra và phơi khô trong nhà. Sử dụng vải ướt lau khô lau mặt giày. Để giữ nguyên hình dáng giày ta cần vò giấy báo nhét chúng vào giầy, thay giấy khoảng 2-3 lần trong 1-2 ngày. Tránh mang ra phơi nắng sẽ dẫn đến hiện tượng co cứng, chật hẹp, da bị gãy hoặc rách.</p><p>–<em><strong>&nbsp;Khử mùi hôi trong giày:</strong></em>&nbsp;Giày dùng cả ngày thường bị mồ hôi làm ẩm ướt, gây mùi khó chịu. Nên đặt túi đựng viên chống ẩm vào trong giày để hút ẩm và rắc phấn rôm để khử mùi. Dùng miếng giấy lót khử mùi cũng là một phương pháp tốt.</p><p><em><strong>– Để giày sáng bóng: &nbsp;</strong></em>Ngoài việc dùng&nbsp;<a target=\"_self\" href=\"https://thatlungnam.com.vn/xi-danh-giay/\">xi đánh giày</a>&nbsp;thông thường ra, có thể dùng vỏ chuối để lau vết bẩn trên da giày do trong vỏ chuối có chất danning không những giúp tẩy sạch vết bẩn mà còn khiến đôi giày sáng bóng như mới. Hoặc có thể dùng sữa tươi lau giày vừa giúp đồ da sáng bóng&nbsp;và&nbsp;không bị nứt.</p><div><div><span style=\"box-sizing: border-box; font-weight: bold; color: rgb(231, 76, 60); text-decoration: none; font-size: 16px;\">Nội dung hữu ích liên quan</span>&nbsp;<span>&nbsp;</span><span style=\"box-sizing: border-box; color: rgb(231, 76, 60); font-size: 16px; text-decoration: underline !important;\">Cách phân biệt giày thể thao nữ adidas chính xác Real &amp; Fake</span></div></div><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/7-3.png\" alt=\"\" data-proportion=\"true\" data-align=\"none\" data-index=\"26\" data-file-name=\"7-3.png\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h2><strong>4 Quy luật định nghĩa sự sang trọng của&nbsp;giày da nam</strong></h2><p>Giày da nam công sở,&nbsp;<a target=\"_self\" href=\"https://thatlungnam.com.vn/giay-tay-2/\">giày tây nam</a>&nbsp;đôi khi khiến bạn phân vân vì không biết rõ mình nên đeo chúng vào dịp nào. Hãy học nằm lòng những quy tắc này, chúng là cánh cửa cho bạn bước vào thế giới giày da của các quý ông.</p><p><strong>&nbsp;1. Càng liền mạch (seamless) càng trang trọng</strong></p><p>Những đôi giày càng đơn giản, miếng da không bị cắt và đắp lên nhau – đó là loại giày sang trọng nhất. Vì vậy, wholecut là đôi giày bạn nên chọn nếu cần đi tới một sự kiện nào đó quan trọng, còn<span>&nbsp;</span><a target=\"_self\" href=\"https://thatlungnam.com.vn/cac-loai-giay-the-thao-nam/\">các loại giày</a><span>&nbsp;</span>có đục lỗ hay có phần mũi giày khác biệt, chúng sẽ không trang trọng bằng.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/8-13.jpg\" alt=\"giày da nam\" data-proportion=\"true\" data-align=\"none\" data-index=\"27\" data-file-name=\"8-13.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p><strong>&nbsp;2. Càng gọn gàng càng trang trọng</strong></p><p>Oxford trang trọng hơn Derby, Single Monk trang trọng hơn Double Monk.</p><p>Yếu tố này đôi khi khó phân định rõ ràng vì còn phụ thuộc vào thị giác. Cùng là oxfords nhưng có đôi làm nhìn to dày, có đôi mỏng nhẹ thì đôi mỏng nhẹ được tính là trang trọng hơn.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/9-17.jpg\" alt=\"giày da nam\" data-proportion=\"true\" data-align=\"none\" data-index=\"28\" data-file-name=\"9-17.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p><strong>&nbsp;3. Da càng bóng càng trang trọng.</strong></p><p>Chất liệu da bóng tạo nên vẻ ngoài vô cùng quý ông cho người diện. Những chất liệu như<span>&nbsp;</span><a target=\"_self\" href=\"https://thatlungnam.com.vn/da-lon-co-ben-khong/\">da lộn</a><span>&nbsp;</span>hay da sáp trẻ trung hơn và không phù hợp với những sự kiện quan trọng</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/10-12.jpg\" alt=\"giày da nam\" data-proportion=\"true\" data-align=\"none\" data-index=\"29\" data-file-name=\"10-12.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p><strong>&nbsp;4. Màu càng tối càng trang trọng</strong></p><p>Điều này có lẽ khá quen thuộc với đàn ông Việt. Giày đen luôn là lựa chọn tối ưu khi cần một bộ trang phục nghiêm túc, lịch sự.Màu nâu trẻ hơn và phù hợp với việc sử dụng hàng ngày. Còn các màu sắc như xanh dương đậm, trắng ngà, đỏ cam… đều tạo nên những đôi giày da tuyệt đẹp, nhưng lại không tạo nên vẻ trang trọng</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/11-10.jpg\" alt=\"giày da nam\" data-proportion=\"true\" data-align=\"none\" data-index=\"30\" data-file-name=\"11-10.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h2><strong>Hướng Dẫn Cách Chọn Khi Mua Giày Da Nam Chuẩn</strong></h2><p>Không một người đàn ông nào không có nhu cầu mua giày da. Tuỳ vào bản chất công việc, yêu cầu sự kiện, sở thích cá nhân mà người đàn ông bắt buộc phải có một đôi giày cho phù hợp. Thế thì cách thức như thế nào để chọn được cho mình một đôi giày da nam phù hợp?</p><ul><li><strong>Kiểu Dáng (tuỳ thuộc theo yêu cầu Công việc/ Dự Tiệc/ Đám Cưới/ Thời Trang)</strong></li></ul><p>Tuỳ thuộc vào yêu cầu của ngoại cảnh và sở thích cá nhân mà người đàn ông sẽ thể hiện vẻ ngoài của mình cho phù hợp. Nếu như yêu cầu là về công việc và đám cưới thì nên lựa chọn những kiểu giày mang đến vẻ ngoài lịch sự và nghiêm túc nhất có thể. Không đi sâu bàn về các kiểu oxford hay derby thì đơn giản nhất là bạn nên chọn những đôi giày cột dây đơn giản. Với môi trường làm việc sáng tạo, nhẹ nhàng, đi dự tiệc, thể hiện gu thời trang cá nhân thì khi đó bạn có thể hướng đến những kiểu giày lười, giày xỏ, giày cột dây nhiều hoạ tiết và màu sắc.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/12-5.jpg\" alt=\"giày da nam\" data-proportion=\"true\" data-align=\"none\" data-index=\"31\" data-file-name=\"12-5.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><ul><li><strong>Khuôn giày</strong></li></ul><p>Với những người đã tiếp xúc và sở hữu nhiều mẫu giày da thì hẳn sẽ hiểu được rằng kiểu dáng khác với khuôn giày. Và cũng giống như kiểu dáng, khuôn giày có rất nhiều loại chứ không phải một loại. Bàn chân mỗi người khác nhau chứ không hề giống nhau, có người chân có chiều dài thiếu chiều ngang, có người bề ngang chân to, có người xương mu bàn chân rất dày, có người xương ngón chân cái phình to… &nbsp;Do đó khuôn giày cũng phát triển nhiều loại cho phù hợp nhưng có một điểm chung là bàn chân con người luôn suôn và dài nên không có loại khuôn giày nào ngắn, vuông, hay tròn cả.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/13-4.jpg\" alt=\"\" data-proportion=\"true\" data-align=\"none\" data-index=\"32\" data-file-name=\"13-4.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Giày da được con người phát minh ra là để tôn dáng và nâng cao sự lịch lãm. Chính vì thế loại khuôn giày để sản xuất giày da nam chắc chắn phải ôm theo khuôn bàn chân và dài. Dạng giày ngắn, tròn, hay vuông bè là khuôn giày da của dòng giày lao động Worker Shoes hoặc khuôn giày tây thập niên 1990s chứ không phải chuẩn khuôn giày da hiện đại. Giày da đúng chuẩn sẽ dài và mũi nhọn hoặc hơi nhọn.</p><ul><li><strong>Màu sắc</strong></li></ul><p>Giày da nam ngày nay có rất nhiều màu sắc chứ không chỉ đơn thuần là đen hoặc nâu. Bạn chọn màu sắc giày da đen sẽ phù hợp với đại đa phần về yêu cầu trang phục mà đàn ông gặp phải.</p><p>Màu đen cũng là màu xi có tính chất ổn định và thuận tiện trong khâu bảo dưỡng hơn cả. Màu nâu sẽ phù hợp hơn với những người trẻ tuổi, có thể phối với các kiểu quần áo màu nâu, xanh, xám đều đẹp.</p><p>Tiếp theo là các loại màu sắc khác và kiểu giày dạng phối 2 hoặc 3 tone màu. Bạn chỉ nên chọn những màu sắc này khi bạn muốn nổi bật hơn mọi người, thể hiện thần thái quan trọng, tuy nhiên phải chú ý rằng giày da nam không nên là sản phẩm hút mắt đầu tiên với mọi người xung quanh. Giày da phát huy hiệu quả tốt nhất khi là một điểm nhấn kín nhưng sang trọng bên cạnh các sản phẩm, màu sắc sản phẩm thời trang khác.</p><div><div><span style=\"box-sizing: border-box; font-weight: bold; color: rgb(231, 76, 60); text-decoration: none; font-size: 16px;\">Nội dung hữu ích liên quan</span>&nbsp;<span>&nbsp;</span><span style=\"box-sizing: border-box; color: rgb(231, 76, 60); font-size: 16px; text-decoration: underline !important;\">TIP phối đồ với giày lười vải CỰC CHẤT cho nàng và chàng</span></div></div><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/14-6.jpg\" alt=\"giày da nam\" data-proportion=\"true\" data-align=\"none\" data-index=\"33\" data-file-name=\"14-6.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><ul><li><strong>Cấu Trúc Đế</strong></li></ul><p>Quy tắc đơn giản trong lựa chọn cấu trúc đế là êm ái thì chọn cao su nguyên khối còn bạn muốn khẳng định giá trị bản thân thì hãy chọn dòng&nbsp;đế may Mckay hoặc Goodyear (đế da hoặc cao su cao cấp). Với dòng đế cao cấp thì không êm ái như dòng đế cao su đúc phổ thông và sử dụng cũng kén chọn môi trường hơn nhưng đẳng cấp thì vượt trội.</p><ul><li><strong>Loại da</strong></li></ul><p>Dòng da láng sẽ dễ sử dụng và có độ bền cao hơn dòng<span>&nbsp;</span><a target=\"_self\" href=\"https://thatlungnam.com.vn/da-lon-co-ben-khong/\">da lộn</a><span>&nbsp;</span>sần sùi. Da láng cũng thể hiện yếu tố lịch sự nghiêm túc hơn<span>&nbsp;</span><a target=\"_self\" href=\"https://thatlungnam.com.vn/phan-biet-cac-loai-da/\">các loại da</a><span>&nbsp;</span>còn lại (da sần, da in vân safina). Nếu xét kỹ về<span>&nbsp;</span><a target=\"_self\" href=\"https://thatlungnam.com.vn/phan-biet-cac-loai-da/\">các loại da</a><span>&nbsp;</span>thì bạn sẽ cần khoảng 10 trang A4 để mô tả nên trong bài viết này sẽ chỉ đưa ra cho bạn cách dễ nhất để chọn giày da.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/15-6.jpg\" alt=\"giày da nam\" data-proportion=\"true\" data-align=\"none\" data-index=\"34\" data-file-name=\"15-6.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Nếu bạn chỉ cần nhu cầu đi làm hằng ngày thì những đôi giày da giá từ 500.000 vnđ cho đến khoảng 1.000.000 vnđ là đủ xài. Dòng giày da với mức giá thấp hơn thường là dòng da split không đạt chuẩn, thậm chí là simily hay còn gọi cái tên mỹ miều là Da PU.</p><p>Giày da càng dày càng nhìn rõ các lớp biểu bì thì càng bền nhưng cũng sẽ rất cứng. Có một số người đi mua giày thường có thói quen ấn hoặc uốn cong giày, thậm chí là dùng lửa để thử da. ĐÂY LÀ CÁCH THỬ DA GIÀY HOÀN TOÀN SAI LẦM. Ấn vào da chủ yếu là để xem da giày nhăn có đẹp hay không, nếu như bạn không phải là người sành về da thì làm sao bạn có thể phân định được nhăn thế nào là đẹp, thế nào là không đẹp.</p><p>Da thật chắc chắn sẽ nhăn, và bắt buộc phải nhăn mới là da thật. Sai lầm nhất là việc ấn vào mũi giày vì với một số dòng giày cao cấp mũi giày dùng da full-grain khá cứng để giữ form giày và tạo điểm thu hút. Mũi giày đúng chuẩn sẽ bóng hơn, có một số nơi phủ bóng cao cấp Mirror Shine (Bóng Gương) cho mũi giày mà nếu bạn ấn như thế có thể làm vỡ phần bóng gương đắt tiền.</p><p>Giày da là để tôn sự lịch lãm và giá trị của một người đàn ông trong môi trường sang trọng và đẳng cấp. Giày da hoàn toàn không phải giày thể thao để mà uốn cong các kiểu.</p><p>Dùng lửa để thử da giày là tối kiến nhất để phân định da thật da giả. Ngày nay một số loại simily cao cấp cũng được phủ lớp chống lửa nhất định. Thêm vào đó không cần rườm rà khi chỉ cần cố tìm vị trí mép giày nhìn các thớ vân da là phân định được da ngay.</p><ul><li><strong>Size giày</strong></li></ul><p>Size giày trong giày da nam là để tham khảo vì giày da ôm sát theo khuôn bàn chân. Do đó ở khuôn giày này có thể bạn size 40 nhưng sở khuôn giày khác bạn size 39 hay 41. Sau khi mang thử giày thì để biết chắc chắn size giày có phù hợp với mình hay không hãy dựa vào 3 yếu tố.</p><p>Thứ nhất xỏ giày vào có dễ dàng hay không?</p><p>Thứ nhì giày có bị bó ở má trong/ngoài hay ngón chân hay không?</p><p>Nếu phần má chân thoải mái, phần mũi không cấn ngón chân mà hơi ép nhẹ ở đốt xương lồi ở 2 bên bàn chân thì không sao. Sau khoảng 1 tuần sử dụng da sẽ đàn hồi nhẹ ra là vừa.</p><p>Thứ ba là bạn đứng lên đi một hai bước xem có bị tuột gót hay không? Nếu không bị tuột gót thì size giày đã phù hợp với bạn.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://thatlungnam.com.vn/wp-content/uploads/2019/03/16-2.jpg\" alt=\"giày da nam\" data-proportion=\"true\" data-align=\"none\" data-index=\"35\" data-file-name=\"16-2.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Nếu giày da nam bạn chọn là dòng giày mọi thì bạn nên chọn giày nhỏ hơn khoảng nửa size hoặc một size. Khi thử giày nên chọn giày chật hơn chân một tí là được. Lý do là giày mọi không giữ khuôn cứng như giày tây qua thời gian sử dụng. Do đó nếu chọn giày vừa đúng size thì khi sử dụng lâu giày sẽ rộng ra khiến bạn bị tuột gót.</p><p><br></p>",
+      "thumb": "https://res.cloudinary.com/vuongute/image/upload/v1631985455/runner-images/hinh-1-giaydepcrocs_wgofcl.jpg",
+      "createdAt": 1631799987811,
+      "updatedAt": 1631991721556
+    },
+    {
+      "id": 2,
+      "title": "Hướng dẫn cách chọn size giày thể thao Skechers cực dễ ai cũng làm theo được",
+      "desc": "Đối với những ai yêu giày thì sẽ không phải bận tâm về vấn đề chọn size khi mua giày Online. Đặc biệt là đối với các thương hiệu giày nước ngoài như Adidas, Nike, Puma, Skechers,… Tuy nhiên đối với những ai chưa biết, hoặc ít khi mua giày từ các hãng giày nước ngoài, thì sẽ gặp nhiều bỡ ngỡ. Hôm nay Giaydepcrocs xin được hướng dẫn các bạn các bước chọn size, chuyển đổi size giày nước ngoài dựa vào bảng chuyển đổi size có sẵn, cụ thể là hãng giày Skechers.",
+      "thumb": "https://khangdev1998.github.io/shoe/image/articles2.jpg",
+      "content": "<h2>Bạn gặp rắc rối về size khi mua giày Online</h2><p>Đối với những ai yêu giày thì sẽ không phải bận tâm về vấn đề chọn size khi mua giày Online. Đặc biệt là đối với các thương hiệu giày nước ngoài như Adidas, Nike, Puma, Skechers,… Tuy nhiên đối với những ai chưa biết, hoặc ít khi mua giày từ các hãng giày nước ngoài, thì sẽ gặp nhiều bỡ ngỡ. Hôm nay&nbsp;<strong>Giaydepcrocs</strong>&nbsp;xin được hướng dẫn các bạn các bước chọn size, chuyển đổi size giày nước ngoài dựa vào bảng chuyển đổi size có sẵn, cụ thể là hãng giày Skechers.</p><h2>Cách chọn size giày Skechers theo các bước sau</h2><ol><li>Chuẩn bị tờ giấy A4 và bút chì, thước đo.</li><li>Đặt chân lên tờ giấy theo chiều dọc trên mặt phẳng, sau đó dùng bút chì vẽ lại các đường khung chân ( chiều dài, chiều rộng của chân). Cẩn thận đặt bút chì vuông góc với mặt phẳng, ít xô lệch.</li><li>Đánh dấu lại các điểm cao nhất của ngón chân, của gót chân, độ rộng bàn chân. Dùng thước đo chiều dài chân</li><li>Sau khi có thông số chiều dài, các bạn nên làm tròn trong khoảng 0.5cm, và nên làm tròn xuống.</li><li>Quy đổi chiều dài trong bảng chuyển đổi sau ( Size người Việt Nam theo size của EU).</li></ol><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/do-chieu-dai-chan.jpg\" alt=\"đo chiều dài chân-giaydepcrocs\" data-proportion=\"true\" data-align=\"none\" data-index=\"10\" data-file-name=\"do-chieu-dai-chan.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Hình minh họa đo chiều dài chân</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/size-giay-skechers-nam.png\" alt=\"size giày skechers nam\" data-proportion=\"true\" data-align=\"none\" data-index=\"11\" data-file-name=\"size-giay-skechers-nam.png\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Bảng quy đổi size giày Skechers cho<span>&nbsp;</span><strong>Nam</strong></p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/size-giay-skechers-nu.png\" alt=\"size giày skechers nữ\" data-proportion=\"true\" data-align=\"none\" data-index=\"12\" data-file-name=\"size-giay-skechers-nu.png\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Bảng quy đổi size giày Skechers cho<span>&nbsp;</span><strong>Nữ</strong></p><p><br></p>",
+      "createdAt": 1631799987811,
+      "updatedAt": 1631991553530
+    },
+    {
+      "id": 3,
+      "title": "Giày Sneakers là gì & 4 mẹo phối đồ nam cực ngầu",
+      "desc": "Giày Sneakers và Sneaker là như nhau, đều cùng ám chỉ đến giày thể thao. Nhưng Sneaker dùng ở nước Anh, còn Sneakers thì ở Mỹ. Tuy là một tên gọi khác của giày thể thao, nhưng trong các môn thể thao chuyên biệt, họ lại không gọi như vậy. Một số người cho rằng đây là giày chạy bộ, hoặc là giày đế cao su như giày tập gym, giày chơi bóng rổ…",
+      "content": "<h2>Giày Sneakers là gì</h2><p>Giày Sneakers và Sneaker là như nhau, đều cùng ám chỉ đến giày thể thao. Nhưng Sneaker dùng ở nước Anh, còn Sneakers thì ở Mỹ. Tuy là một tên gọi khác của giày thể thao, nhưng trong các môn thể thao chuyên biệt, họ lại không gọi như vậy. Một số người cho rằng đây là giày chạy bộ, hoặc là giày đế cao su như giày tập gym, giày chơi bóng rổ…</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/giay-the-thao-sneakers-711x400.jpg\" alt=\"giay-the-thao-sneakers\" data-proportion=\"true\" data-align=\"none\" data-index=\"17\" data-file-name=\"giay-the-thao-sneakers-711x400.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Giày Sneakers là giày có đế cao su mềm</p><h2>Tên gọi Sneakers bắt nguồn khi nào ?</h2><p>Công ty giày Keds lần đầu tiên ra mắt công chúng đôi giày thể thao vào đầu thập niên 1900, và họ gọi nó là “Sneakers”. Đôi giày thể thao này có điểm đặc biệt đó là có đế cao su mềm, khi di chuyển không phát ra tiếng động. Hành động giống như lén lút chính vì vậy mà họ gọi nó là “sneaker” ( Trong tiếng Anh “sneaker” có nghĩa là kẻ lén lút). Vào những năm 1900, đa số các đôi giày thể thao đều có thiết kế đế cứng, do đó những đôi giày đế mềm Sneakers khá nổi bật, thu hút nhiều sự chú ý.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/giay-the-thao-sneakers-2.jpg\" alt=\"giay-the-thao-sneakers-2\" data-proportion=\"true\" data-align=\"none\" data-index=\"18\" data-file-name=\"giay-the-thao-sneakers-2.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Giày Sneaker xuất hiện lần đầu bởi công ty Keds</p><h3>Đâu là đôi giày Sneaker đầu tiên ?</h3><p>Có thật sự Keds là công ty phát minh ra giày sneakers đầu tiên như đã giới thiệu. Thật ra công ty Keds đã ăn cắp thiết kế từ mẫu giày đi biển khá phổ biến ở Anh, vào đầu những năm 1830.</p><p>Ngày nay khá là khó để phân biệt đâu là sneaker, vì các hãng giày đã copy những tính năng ưu việt lẫn nhau để tranh giành thị phần. Tuy nhiên giày sneaker được thiết kế hỗ trợ tối đa cho việc chạy bộ, hoặc nhiều mục đích thể thao phong phú khác. Hỗ trợ tối đa cho bàn chân, bảo vệ các ngón chân và khớp chân. Giày<span>&nbsp;</span><strong>Skechers</strong><span>&nbsp;</span>là hãng giày tên tuổi về sneaker, ứng dụng công nghệ memory foam – phát minh dành cho các phi hành gia, vào làm miếng lót giày nhằm mang lại khả năng đàn hồi cao nhất và cực kỳ êm.</p><div class=\"se-component se-image-container __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://res.cloudinary.com/vuongute/image/upload/v1631810948/runner-images/jronx0ywcpjwwt4izowv.jpg\" alt=\"\" data-rotate=\"\" data-proportion=\"true\" data-rotatex=\"\" data-rotatey=\"\" data-size=\",425px\" data-align=\"none\" data-index=\"24\" data-file-name=\"jronx0ywcpjwwt4izowv.jpg\" data-file-size=\"0\" data-origin=\",\" style=\"height: 425px;\"></figure></div><p>Giày Skechers là hãng giày sneaker nổi tiếng</p><h2>Có phải Skechers là hãng giày sneaker tốt nhất hiện nay ?</h2><p>Nói một cách khách quan, không phải tự nhiên mà doanh số của Skechers hiện nay sánh ngang với các ông lớn trong cùng lĩnh vực. Doanh thu tăng đều qua các quý đã chứng minh Skechers được nhiều người trên khắp thế giới ưa chuộng, và hiện nay Skechers đang du nhập vào Việt Nam thông qua các mặt hàng xách tay bán online, hoặc các cửa hàng trên địa bàn TPHCM. Mình có tổng hợp các địa chỉ uy tín để mua tại đây.</p><blockquote><p><a href=\"https://giaydepcrocs.com/mua-giay-skechers-o-dau-cua-hang-ban-giay-skechers-hcm/\" target=\"_blank\" rel=\"noopener\">Tổng hợp địa chỉ cửa hàng bán giày skechers uy tín tại TpHCM</a></p></blockquote><p>Còn về chủ quan, mình đã mang thử qua nhiều loại sneaker khác nhau, và nhận ra rằng thằng Skechers này có cảm giác mang tốt nhất. Mang rất nhẹ, ôm chân, và đặc biệt là có miếng lót vô cùng ảo diệu. Thấm hút mồ hôi nhanh, khô ráo, và do được thiết kế từ vật liệu đặc biệt nên mang rất êm. Cảm giác đàn hồi trong mỗi bàn chân, nếu công việc yêu cầu phải đi lại nhiều hay đứng lâu, tối về dễ bị đau chân thốn gót thì đây là vị cứu tinh cho các bạn.</p><blockquote><p><a href=\"https://giaydepcrocs.com/giay-skechers-co-tot-khong-va-chung-ta-co-nen-mua/\" target=\"_blank\" rel=\"noopener\">Mời bạn xem thêm các ưu điểm nổi trội của hãng giày Skechers và các lý do bạn nên sở hữu nó</a></p></blockquote><h2>Một số mẹo phối đồ cho giày Sneaker</h2><p>Sneaker là loại giày sporty, là mẫu giày thể thao khỏe khoắn. Không còn là đôi giày xuất hiện trong các phòng tập gym, mà giới trẻ đã phối hợp đa dạng để có thể mang đi chơi dạo phố cùng bạn bè.</p><h3>Mẹo #1</h3><p>Phối hợp giày sneaker với áo thun và quần shorts. Set đồ này sẽ khiến cánh mày râu trở nên mạnh mẽ và khỏe khoắn hơn. Còn chị em phụ nữ sẽ trở nên trẻ hơn, năng động.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/phoi-do-giay-sneaker-ao-thun-quan-short.png\" alt=\"phoi-do-giay-sneaker-ao-thun-quan-short\" data-proportion=\"true\" data-align=\"none\" data-index=\"20\" data-file-name=\"phoi-do-giay-sneaker-ao-thun-quan-short.png\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h3>Mẹo #2</h3><p>Phối quần jogger, áo tùy thích với giày sneaker.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/phoi-do-giay-sneaker-quan-jogger.png\" alt=\"phoi-do-giay-sneaker-quan-jogger\" data-proportion=\"true\" data-align=\"none\" data-index=\"21\" data-file-name=\"phoi-do-giay-sneaker-quan-jogger.png\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h3>Mẹo #3</h3><p>Kết hợp Sneaker + Suit giúp bạn trở nên thanh lịch nhưng cũng đầy khỏe khoắn.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/phoi-do-giay-sneaker-suit.png\" alt=\"phoi-do-giay-sneaker-suit\" data-proportion=\"true\" data-align=\"none\" data-index=\"22\" data-file-name=\"phoi-do-giay-sneaker-suit.png\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h3>Mẹo #4</h3><p>Áo sơ mi, quần jeans và sneaker sẽ khiến bạn trở nên lịch sự.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/phoi-do-giay-sneaker-ao-so-mi-quan-jeans-179x400.png\" alt=\"phoi-do-giay-sneaker-ao-so-mi-quan-jeans\" data-proportion=\"true\" data-align=\"none\" data-index=\"23\" data-file-name=\"phoi-do-giay-sneaker-ao-so-mi-quan-jeans-179x400.png\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p><br></p>",
+      "thumb": "https://khangdev1998.github.io/shoe/image/articles3.jpg",
+      "createdAt": 1631799987811,
+      "updatedAt": 1631991489106
+    },
+    {
+      "id": 4,
+      "title": "Giày slip on lười là gì và 5 bí quyết phối đồ đỉnh cho phái nữ",
+      "desc": "Giày slip on là loại giày dành cho những người lười, bởi vì nó không có dây thắt nên còn gọi là giày lười. Phần mặt trên tiếp xúc với mu bàn chân là khối dính liền với giày. Giày slip on chỉ cần trượt chân vào là xong, không cần buộc dây giày, vô cùng tiện lợi.",
+      "content": "<h2>Giày slip on là gì</h2><p>Giày slip on là loại giày dành cho những người lười, bởi vì nó không có dây thắt nên còn gọi là giày lười. Phần mặt trên tiếp xúc với mu bàn chân là khối dính liền với giày. Giày slip on chỉ cần trượt chân vào là xong, không cần buộc dây giày, vô cùng tiện lợi.</p><h3>Làm sao nhận dạng giày lười ?</h3><p>Thiết kế của giày hơi khác với các loại có dây cột khác. Phần trên của giày, thay vì là các lỗ nhỏ để xỏ dây giày, thì giờ đây nó là một khối dính liền với toàn bộ giày, có một lớp miếng lót hoặc không ( bằng vải) để cố định mu bàn chân.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/giay-slip-on-nu-400x400.jpg\" alt=\"giay-slip-on-nu\" data-proportion=\"true\" data-align=\"none\" data-index=\"14\" data-file-name=\"giay-slip-on-nu-400x400.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Giày slip on cho nữ mang kiểu dáng thanh lịch</p><h3>Giày Slip on có từ khi nào</h3><p>Ở nước Anh vào những năm đầu thế kỷ 19, các tầng lớp thượng lưu quý tộc, hay gia tộc hoàng gia đều quá chán ngán việc buột dây giày. Họ liên tục phải đi dự những buổi dạ tiệc, do đó mà hành động cột dây giày liên tục ám ảnh họ. Nhóm người này mới nhờ đến công ty giày BeSpoke, thiết kế mẫu giày làm sao mà không phải tốn thời gian cột dây, nhưng vẫn đảm bảo thời trang và đẹp. Vậy là mẫu giày slip on (giày lười) đầu tiên ra đời, được thiết kế dưới bàn tay đầy ma thuật của Raymond Lewis Wildsmith. Sản phẩm đầu tiên này dành cho vua George VI, sau đó được phát triển rộng rãi và dần trở nên phổ biến như hiện nay. Loại giày slip on này cũng được các công ty giày lớn như Adidas, Nike, Skechers ưu ái thiết kế khá nhiều mẫu mã, cho các bạn nhiều sự lựa chọn hơn.</p><h2>Bạn có biết đến giày slip on của hãng Skechers ?</h2><p>Skechers là hãng giày thể thao khá nổi tiếng trên thế giới, hiện nay Skechers đã du nhập vào Việt Nam nhưng vẫn còn e ấp, chưa nhận được sự hưởng ứng nhiệt tình. Nhưng mình tin rằng Skechers sẽ là xu hướng trong tương lai, đứng ngang hàng cùng các ông lớn tại Việt Nam.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/Skechers-Zalora-Brand-Banner-Female1-800x201.jpg\" alt=\"giay-slip-on-skechers-nu\" data-proportion=\"true\" data-align=\"none\" data-index=\"15\" data-file-name=\"Skechers-Zalora-Brand-Banner-Female1-800x201.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Giày lười nữ của Skechers vừa mang tập luyện thể thao, lại có thể kết hợp với đi chơi</p><h3>Giày lười Skechers có ưu điểm gì</h3><p>Thật sự, Skechers nổi tiếng hơi muộn, muộn hơn so với Adidas hay Nike, Puma,… những cái tên quá quen thuộc đối với đại đa số người dùng. Nhưng không vì vậy mà chịu lép vế, dưới đây là một số đặc điểm ưu việt của giày, giúp giày luôn có chỗ đứng trong lòng người yêu giày thế giới.</p><ul><li>Giày Skechers là loại vải lưới thoáng mát, form ôm chân, nhẹ nhất trong số các giày khác, siêu êm,…Tạo cho người mang một cảm giác êm ái và rất thoải mái.</li><li>Miếng lót Memory Foam sẽ giúp bạn loại bỏ các trường hợp đau gót chân, đau đầu ngón chân.</li><li>Điểm thu hút hơn nữa ở giày Skechers chính là dòng đế bẻ GoFlex, vì nó có thể uốn cong theo từng bước chân của bạn</li></ul><blockquote><p><a href=\"https://giaydepcrocs.com/giay-skechers-la-gi-xuat-than-tu-dau/\" target=\"_blank\" rel=\"noopener\">Xem thêm các ưu điểm cũng như khuyết điểm của giày slip on Skechers</a></p></blockquote><blockquote><p>Nếu bạn chưa biết cách chuyển size giày nước ngoài sang VN thì bạn có thể xem bài viết “<a href=\"https://giaydepcrocs.com/cach-chon-size-giay-skechers/\" target=\"_blank\" rel=\"noopener\"><span style=\"box-sizing: border-box; color: rgb(225, 77, 67);\">Hướng dẫn cách chọn size giày thể thao Skechers cực dễ ai cũng làm theo được</span></a>“</p></blockquote><h2>Bí quyết phối đồ cùng với giày Slip on</h2><h3>#1 – Giày Slip on cùng với quần shorts cạp cao</h3><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/phoi-do-giay-slip-on-01-402x400.png\" alt=\"phoi-do-giay-slip-on-01\" data-proportion=\"true\" data-align=\"none\" data-index=\"16\" data-file-name=\"phoi-do-giay-slip-on-01-402x400.png\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Bạn muốn tăng chiều cao bằng việc mang giày cao gót cả ngày, không nên chút nào nhé, vì bạn có thể đã biết đến tác hại khủng khiếp của giày cao gót, nó sẽ làm đau khớp chân và biến dạng khủng khiếp. Giờ đây chỉ với quần shorts cạp cao kết hợp với giày slip on, bộ đôi này sẽ khiến cho đôi chân của bạn trở nên thon gọn và dài hơn đáng kể. Và bạn có thể tung tăng cả ngày mà không sợ đôi chân biểu tình rồi nhé.</p><h3>#2 – Bộ đôi đơn giản cá tính – quần skinny và giày lười</h3><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/phoi-do-giay-slip-on-02-349x400.png\" alt=\"phoi-do-giay-slip-on-02\" data-proportion=\"true\" data-align=\"none\" data-index=\"17\" data-file-name=\"phoi-do-giay-slip-on-02-349x400.png\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Quần skinny dễ dàng phối hợp với nhiều loại giày khác nhau, slip on cũng không ngoại lệ. Đây là combo được nhiều người chọn nhất vì nó đơn giản và thanh lịch.</p><h3>#3 – Chọn váy xòe màu sáng cùng với giày Slip on tối màu sẽ làm cho chân bạn trở nên thon thả hơn.</h3><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/phoi-do-giay-slip-on-03-267x400.jpg\" alt=\"phoi-do-giay-slip-on-03\" data-proportion=\"true\" data-align=\"none\" data-index=\"18\" data-file-name=\"phoi-do-giay-slip-on-03-267x400.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h3>#4 – Giày lười slip on cùng với tất lửng + quần short ngắn</h3><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/phoi-do-giay-slip-on-04-294x400.jpg\" alt=\"phoi-do-giay-slip-on-04\" data-proportion=\"true\" data-align=\"none\" data-index=\"19\" data-file-name=\"phoi-do-giay-slip-on-04-294x400.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Combo này khiến cho các bạn gái trở nên dễ thương hơn, những bạn nào có chiều cao khiếm tốn sẽ trở nên cao hơn nhờ set đồ lạ mà quen này.</p><h3>#5 – Mang giày lười có màu “ton-sur-ton” với quần áo</h3><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/phoi-do-giay-slip-on-05-271x400.jpg\" alt=\"phoi-do-giay-slip-on-05\" data-proportion=\"true\" data-align=\"none\" data-index=\"20\" data-file-name=\"phoi-do-giay-slip-on-05-271x400.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Đây là một nguyên tắc cơ bản nhưng mang lại hiệu quả cao.</p><p>Trích nguồn:<span>&nbsp;</span><a rel=\"nofollow\" href=\"http://kenh14.vn/fashion/giay-slip-on-nhung-nguyen-tac-giup-ban-dien-that-chat-he-nay-20150319114429172.chn\" target=\"_blank\">http://kenh14.vn/fashion/giay-slip-on-nhung-nguyen-tac-giup-ban-dien-that-chat-he-nay-20150319114429172.chn</a></p><p><br></p>",
+      "thumb": "https://khangdev1998.github.io/shoe/image/articles4.jpg",
+      "createdAt": 1631799987811,
+      "updatedAt": 1631991359728
+    },
+    {
+      "id": 5,
+      "title": "Phù phép đôi giày bị chật hay rộng gì cũng có thể vừa chân",
+      "desc": "Giày bị chật hay trở nên quá rộng so với lúc mua không phải là trường hợp quá hiếm. Vì bàn chân chúng ta giãn nở tùy vào điều kiện thời gian trong ngày, và nhiều tác nhân khác. Do đó lúc thử mua thì vừa như in, thế nhưng hỡi ôi, một ngày đẹp trời nào đó chúng ta có ý định mang chúng để đi tiệc, hay đi chơi thì lại không còn vừa. Sau đây, Runner inn xin giới thiệu các bạn một số cách phù phép cho đôi giày trở nên vừa như in. Một số cách dưới đây còn giúp bạn đỡ đau chân, trầy gót chân khi sử dụng giày mới mua nữa đó.",
+      "content": "<h2><u><strong>Sử dụng kem dưỡng ẩm – Đối với giày da</strong></u></h2><p><u></u>Bạn có thể sử dụng bất kỳ loại kem dưỡng ẩm nào, bôi vào phần gót chân và vùng tiếp xúc với chân nhiều nhất. Kem dưỡng ẩm sẽ làm mềm da, xóa bỏ cảm giác khó chịu khi mang, phù hợp trong việc đôi giày da của bạn quá cứng hay quá chật. Nếu chưa hài lòng, bạn có thể lặp lại liên tục trong 3-5 ngày để đạt hiệu quả cao nhất nhé.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2018/01/hinh-1-giay-skechers-nu.jpg\" alt=\"hinh-1-giay-skechers-nu\" data-proportion=\"true\" data-align=\"none\" data-index=\"0\" data-file-name=\"hinh-1-giay-skechers-nu.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h2><u><strong>Sử dụng phấn rôm</strong></u></h2><p>Trước khi mang một đôi giày mới, bạn nên rắc một ít phấn rôm ( phần trẻ em) vào bên trong giày. Ngoài tác dụng<span>&nbsp;</span><span style=\"box-sizing: border-box; color: rgb(225, 77, 67);\"><strong><a href=\"https://giaydepcrocs.com/nhung-cach-khu-mui-hoi-giay-don-gian-den-khong-ngo/\" target=\"_blank\" rel=\"noopener\">khử mùi hôi giày</a></strong></span><span>&nbsp;</span>ra, phấn rôm có tác dụng giảm ma sát, do đó mà bạn sẽ đỡ bị trầy gót chân gây cảm giác khó chịu.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2018/01/hinh-2-giay-skechers-nu-569x400.jpg\" alt=\"hinh-2-giay-skechers-nu\" data-proportion=\"true\" data-align=\"none\" data-index=\"1\" data-file-name=\"hinh-2-giay-skechers-nu-569x400.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h2><u><strong>Sử dụng máy sấy + vớ + giày để nới rộng giày<br></strong></u></h2><p>Để làm vừa khít một đôi giày quá rộng, bạn có thể sử dụng mẹo như sau. Cần một đôi tất ( vớ) dày vừa đủ, rồi xỏ chân vào giày. Tiếp đó sử dụng máy sấy để sấy toàn đôi giày trong vòng 15 phút. Khi cảm thấy giày bắt đầu nóng lên, bạn cử động các ngón chân hay bàn chân cốt để giày có thể giãn ra. Sau đó bạn bỏ vớ ra và xỏ vào giày, nếu sau vài vòng đi thử vẫn khó chịu thì lặp lại các bước trên cho đến khi vừa ý.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2018/01/hinh-3-giay-skechers-nu.jpg\" alt=\"hinh-3-giay-skechers-nu\" data-proportion=\"true\" data-align=\"none\" data-index=\"2\" data-file-name=\"hinh-3-giay-skechers-nu.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h2><u><strong>Bí kíp nới rộng giày chỉ cần nước đá</strong></u></h2><p>Thật lạ kỳ làm sao, nước đá mà có thể làm rộng giày. Ý nghĩ tưởng chừng như vô lý này lại là sự thật, cách làm cũng rất đơn giản. Đầu tiên bạn cần một túi kín, đổ lượng nước vừa đủ vào rồi nhét vào mũi giày của cả đôi giày. Sau đó đặt đôi giày vào tủ lạnh ngăn đá, sau 24 giờ bạn hãy lấy ra. Lúc này túi nước đã đóng băng, đồng thời làm giãn đôi giày ra, bạn hãy chờ cho đến khi đá tan hết thì lấy bịch nước ra rồi ướm thử nhé. Nếu vẫn chưa hài lòng thì lặp lại bước trên, còn nếu quá rộng so với dự định thì bạn có thể xem cách trên để làm giày vừa khít chân nhé.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2018/01/hinh-4-giay-skechers-nu.jpg\" alt=\"hinh-4--giay-skechers-nu\" data-proportion=\"true\" data-align=\"none\" data-index=\"3\" data-file-name=\"hinh-4-giay-skechers-nu.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h2><u><strong>Làm giãn giày cao gót bằng giấy và rượu, tin nổi không ?</strong></u></h2><p>Để nới rộng dôi giày bị chật vừa mới mua, bạn có thể sử dụng kết hợp rượu và giấy. Bằng cách phun rượu vào chỗ cần nới rộng, rồi vò giấy cho vào bên trong đến khi không thể nhét được thêm nữa thì thôi. Rồi đem đi phơi nắng cho đến khi khô giấy thì lúc này giày đã giãn. Lặp lại nếu chưa vừa ý.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2018/01/hinh-5-giay-skechers-nu.jpg\" alt=\"hinh-5-giay-skechers-nu\" data-proportion=\"true\" data-align=\"none\" data-index=\"4\" data-file-name=\"hinh-5-giay-skechers-nu.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h2><u><strong>Tránh phòng rộp chân, trầy chân bằng miếng dán Urgo</strong></u></h2><p>Bất cứ đôi giày mới mua nào về khi mang đều có cảm giác hơi chật chật, tuy nhiên giày sẽ giãn dần, rộng ra theo thời gian và vừa chân. Nhưng cho đến lúc đó, bạn phải mang một thời gian và phải đương đầu với chuyện là trầy chân, trầy gót chân do cọ xát với giày. Để khắc phục điều này, các bạn chỉ cần sử dụng băng dán cá nhân, dán vào phần tiếp xúc của gót chân với giày là xong ngay.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2018/01/hinh-6-giay-skechers-nu.jpg\" alt=\"hinh-6-giay-skechers-nu\" data-proportion=\"true\" data-align=\"none\" data-index=\"5\" data-file-name=\"hinh-6-giay-skechers-nu.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h2><u><strong>Sử dụng miếng Silicon</strong></u></h2><p>Khi giày quá giãn, bạn có thể sử dụng miếng silicon để đệm vào gót chân, hoặc đệm vào các chỗ bị rộng.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2018/01/hinh-7-giay-skechers-nu.jpg\" alt=\"hinh-7-giay-skechers-nu\" data-proportion=\"true\" data-align=\"none\" data-index=\"6\" data-file-name=\"hinh-7-giay-skechers-nu.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h2>Bạn có biết giày của hãng Skechers không bao giờ làm đau chân bạn ?</h2><p>Thật sự mà nói, Skechers là hãng giày khôn ngoan khi luôn biết nắm bắt nhu cầu thật sự của người tiêu dùng. Giày của Skechers mang rất ôm chân, nó là dạng thể thao có mút đệm sử dụng công nghệ riêng memory foam, đem lại cảm giác mang êm ái nhất. Sẽ không có trường hợp mới mua về mang bị trầy gót, hay mang lâu sẽ bị giãn đâu.</p><p><br></p>",
+      "thumb": "https://khangdev1998.github.io/shoe/image/articles5.jpg",
+      "createdAt": 1631799987811,
+      "updatedAt": 1631991050979
+    },
+    {
+      "id": 6,
+      "title": "4 bí mật cách chọn giày chạy bộ được hé lộ từ chuyên gia",
+      "desc": "Đi bộ hay chạy bộ là các hoạt động thể chất đem lại sức khỏe, tăng khả năng bền bỉ của con người. Là một hoạt động rất tốt mà con người cần nên duy trì hằng ngày trong cuộc sống hiện đại ngày nay. Do đó bạn nên trang bị kiến thức về cách chọn giày chạy bộ phù hợp để tránh các nguy cơ, rủi ro về chấn thương.",
+      "content": "<h2>Các bí mật được phơi bày</h2><h3>Bí mật #1</h3><p>Ngày xưa khi học Lý, chúng ta có quy tắc bàn tay trái, thì giờ đây trong việc chọn giày, chúng ta có quy tắc ngón tay cái. Quy tắc này áp dụng bằng cách đo khoảng cách từ ngón chân đến đầu mũi giày, sao cho trong khoảng từ 1cm-1.3cm ( bằng ngón tay cái). Tất nhiên để thỏa mãn quy tắc ngón tay cái, bạn nên xem xét phần gót chân trước, cần xem xét giày có ôm trọn gót chân của bạn không ? Có bị chật quá hay lỏng quá không nhé.</p><h3>Bí mật #2</h3><p>“Cái gì mắc chưa hẳn đã tốt” là một câu nói truyền miệng từ xưa tới nay, đúng nhất là trong chuyện mua bán hàng hóa. Không phải bỏ tiền ra mua một đôi giày mắc tiền, thì mới tốt cho việc chạy bộ và bảo vệ đôi chân của bạn. Điều đó là không cần thiết, bạn vẫn có thể mua một đôi giày tốt với giá vừa túi tiền của bạn. Trong số các hãng giày danh tiếng trong nghành thể thao, chạy bộ này ngoài các tên quen thuộc như Adidas, Nike Puma,NB thì Skechers là một cái tên mới nổi, và thích chơi trội. Với các ưu điểm vượt mặt đàn anh, Skechers ngôi lên như một ngôi sao mới nổi trong cái “ShoesBiz” đầy những tai to mặt lớn. Sở hữu các tính năng độc quyền, hỗ trợ tối đa cho việc chạy bộ, còn bảo vệ và nâng niu bàn chân của bạn, đem lại cảm giác mang đỉnh cao. Nếu không tin,<span>&nbsp;</span><strong>bạn có thể xem thêm bài viết về<span style=\"box-sizing: border-box; color: rgb(225, 77, 67);\"><a href=\"https://giaydepcrocs.com/giay-skechers-co-tot-khong-va-chung-ta-co-nen-mua/\" target=\"_blank\" rel=\"noopener\"><span>&nbsp;</span>những ưu điểm của giày Skechers</a></span><span>&nbsp;</span>để hiểu rõ hơn.<br></strong></p><h3>Bí mật #3</h3><p>“Biết mình biết ta trăm trận trăm thắng” – biết rõ vóc dáng chân của mình sẽ giúp các bạn tìm được đôi giày chạy bộ thích hợp. Mỗi người có vóc dáng chân khác nhau, nếu như việc mang giày chạy bộ không thích hợp sẽ dẫn đến chấn thương đầu gối, hông, căng mắt cá chân sau khi luyện tập.</p><p>Đối với người có xu hướng nghiêng chân vào trong khi chạy (Overpronation), bạn sẽ cần một đôi giày tập giúp ổn định và kiểm soát chuyển động. Giày kiểm soát chuyển động được thiết kế để sửa chữa các lỗi nghiêng chân nghiêm trọng. Chúng giúp bảo vệ phần bên trong giày không bị vẹo và làm chậm quá trình nghiêng chân..</p><p>Ngược lại, đối với người có xu hướng nghiêng chân vào bên ngoài khi chạy (Underpronation), độ rung khi chuyển động sẽ ít bị phân tán vào gót chân như người nghiêng chân vào trong. Vì thế, một đôi giày với lớp đệm giảm hấp thụ sốc là sự lựa chọn sáng suốt nhất.</p><h3>Bí mật #4</h3><p>Có một quy trình chọn giày đúng chuẩn, được tiết lộ bởi các chuyên gia sau đây:</p><p><strong>Bước 1</strong>: Chọn giày không có mắt cá chân.</p><p><strong>Bước 2</strong>: Chọn giày có đế không được quá hẹp, đế giày nhỏ sẽ làm phần tiếp xúc giữa chân và mặt đất gần hơn, giữ thằng bằng kém, gây cảm giác khó chịu. Đế giày của<span>&nbsp;</span><strong>Skechers<span>&nbsp;</span></strong>vừa đủ không quá cao cũng không quá nhỏ, có kiểu thiết kế chịu đa lực, chính vì thế dễ dàng giữ thăng bằng khi chạy bộ.</p><div class=\"se-component se-image-container __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://res.cloudinary.com/vuongute/image/upload/v1631986035/runner-images/giay-skechers-nam_aecxze.jpg\" alt=\"\" data-rotate=\"\" data-proportion=\"true\" data-rotatex=\"\" data-rotatey=\"\" data-size=\",213px\" data-align=\"none\" data-index=\"3\" data-file-name=\"giay-skechers-nam_aecxze.jpg\" data-file-size=\"0\" data-origin=\",\" style=\"height: 213px;\"></figure></div><p><strong>Bước 3</strong>: Chọn giày có thiết kế thông hơi, chất liệu thoáng mát. Thật may mắn, Skechers có công nghệ riêng của hãng là miếng lót memory foam vừa cực kỳ êm ái lại có khả năng hút ẩm cực nhanh, giữ thoáng mát cho bàn chân cả ngày. Bạn có thể xem thêm bài viết về<span>&nbsp;</span><a href=\"https://giaydepcrocs.com/kham-pha-cong-nghe-mieng-lot-giay-memory-foam-cua-skechers/\" target=\"_blank\" rel=\"noopener\"><span style=\"box-sizing: border-box; color: rgb(225, 77, 67);\"><strong>chất liệu memory foam</strong></span></a><span>&nbsp;</span>này.</p><p><strong>Bước 4</strong>: Có thể uốn cong ở 1/3 mũi giày, 2/3 giày còn lại cần sự cứng cáp và chắc chắn. Điều này nhằm giảm ma sát và áp lực lên các ngón chân khi các bạn tập luyện chạy bộ. Skechers đã thấu hiểu điều này nên đã thiết kế kiểu giày dành riêng cho việc chạy bộ – đi bộ, mở đầu là dòng GoFlex ( dành cho cả nam lẫn nữ), có dạng đế có thể gặp cong theo từng bước chạy làm giảm tối đa sự ma sát. Kết hợp với trọng lượng siêu nhẹ, miếng lót cực êm memory foam thì cứ muốn chạy cả ngày thôi.</p><blockquote><p>Mời bạn đọc thêm “<a href=\"https://giaydepcrocs.com/giay-slip-on-la-gi-va-bi-quyet-phoi-do-dinh-danh-cho-phai-nu/\" target=\"_blank\" rel=\"noopener\"><span style=\"box-sizing: border-box; color: rgb(225, 77, 67);\"><strong>Giày slip on là gì và bí quyết phối đồ đỉnh dành cho phái nữ</strong></span></a>“</p></blockquote><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2018/01/hinh-3.jpg\" alt=\"giay-de-be-skechers-2\" data-proportion=\"true\" data-align=\"none\" data-index=\"1\" data-file-name=\"hinh-3.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p><strong>Bước 5</strong>: Thử xoắn giày bằng cách nằm phần mũi và gót giày rồi xoay ngược chiều nhau, nếu giày tốt sẽ không bị biến dạng.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2018/01/hinh-2-229x400.jpg\" alt=\"giay-de-be-skechers\" data-proportion=\"true\" data-align=\"none\" data-index=\"2\" data-file-name=\"hinh-2-229x400.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>&nbsp;</p><p>&nbsp;</p><p><strong>Trích Nguồn:</strong>http://lifestyle.cfyc.com.vn/chuyen-gia-mach-ban-cach-chon-giay-chay-bo-p2d871.html</p><p><br></p>",
+      "thumb": "https://khangdev1998.github.io/shoe/image/articles6.jpg",
+      "createdAt": 1631799987811,
+      "updatedAt": 1631991016504
+    },
+    {
+      "id": 7,
+      "title": "Cách xỏ (buộc) dây giày thể thao chuẩn không cần chỉnh",
+      "desc": "Dây giày là một thành phần không thể thiếu, và vô cùng quan trọng đối với bất kỳ đôi giày sneaker nào. Tuy nhiên không phải ai cũng biết cách xỏ (buộc) dây giày cho đúng, việc xỏ dây giày không chuẩn dễ dẫn đến tình trạng đau mắt cá chân, giày dễ bị tụt gót. Do đó hôm nay Runner inn sẽ hướng dẫn các bạn từng bước chi tiết cách xỏ dây giày.",
+      "content": "<h2>Các bước buộc dây giày thể thao</h2><p><strong>* Trong suốt quá trình làm, bạn cần ghi nhớ xỏ lỗ giày từ trong ra ngoài nhé. Bạn có thể đặt giày đối diện, mũi giày hướng về mặt cho tiện việc xỏ lỗ.</strong></p><h3>Bước #1</h3><p>Đầu tiên các bạn đưa dây giày luồn vào 2 nút cuối cùng ở phần mũi giày.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2018/01/buoc1-15072840841061.gif\" alt=\"xo-giay-buoc-1\" data-proportion=\"true\" data-align=\"none\" data-index=\"0\" data-file-name=\"buoc1-15072840841061.gif\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h3>Bước #2</h3><p>Tiếp theo, bạn nắm lấy đầu dây giày của lỗ bên trái, xỏ vào lỗ thứ hai ( từ dưới mũi giày đếm lên) ở bên phải giày.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2018/01/buoc2-15072840841081.gif\" alt=\"xo-giay-buoc-2\" data-proportion=\"true\" data-align=\"none\" data-index=\"1\" data-file-name=\"buoc2-15072840841081.gif\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h3>Bước #3</h3><p>Sau đó bạn lại nắm lấy đầu dây giày của lỗ bên phải, xỏ vào lỗ thứ hai ở bên trái ( tương tự như ở trên).</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2018/01/buoc3-15072840841091.gif\" alt=\"xo-giay-buoc-3\" data-proportion=\"true\" data-align=\"none\" data-index=\"2\" data-file-name=\"buoc3-15072840841091.gif\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h3>Bước #4</h3><p>Lắp lại bước 2 và bước 3 ở trên cho đến khi nào chạm đến lỗ cuối cùng của giày thì thôi.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2018/01/buoc4-15072840841111.gif\" alt=\"xo-giay-buoc-4\" data-proportion=\"true\" data-align=\"none\" data-index=\"3\" data-file-name=\"buoc4-15072840841111.gif\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h3>Bước #5</h3><p>Lúc này bạn xỏ 2 dây vào 2 lỗ trên cùng ( không cần phải chéo nhau như các bước làm nãy giờ), và<span>&nbsp;</span><strong>xỏ hướng từ ngoài vào trong</strong>, chừa lại một khoảng, tạo ra hình vòng dây ở mỗi bên.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2018/01/buoc5-15072840841131.gif\" alt=\"xo-giay-buoc-5\" data-proportion=\"true\" data-align=\"none\" data-index=\"4\" data-file-name=\"buoc5-15072840841131.gif\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h3>Bước #6</h3><p>Lấy dây ở bên trái, xỏ qua vòng dây vừa tạo ở bên phải, lặp lại cho dây ở bên phải. Sau đó kéo dây giày lên để cố định lại.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2018/01/buoc6-15072840841151.gif\" alt=\"xo-giay-buoc-6\" data-proportion=\"true\" data-align=\"none\" data-index=\"5\" data-file-name=\"buoc6-15072840841151.gif\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h3>Bước #7</h3><p>Cuối cùng các bạn buộc thắt nút như bình thường là xong.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2018/01/buoc7-15072840841171.gif\" alt=\"xo-giay-buoc-7\" data-proportion=\"true\" data-align=\"none\" data-index=\"6\" data-file-name=\"buoc7-15072840841171.gif\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><p>Như vậy các bạn đã có thể tự xỏ dây giày một cách chuẩn nhất, không còn phải lúng túng, lóng nga lóng ngóng với mớ dây nhợ phiền phức này. Ngoài ra các bạn cũng có thể thử loại giày Slip-on, nếu bạn cảm thấy quá phiền mỗi khi cởi ra mang vào đều phải cột dây. Hay bạn thèm khát sự tiện lợi, chỉ cần xỏ giày vào là đi, thì Slip-on sinh ra là dành cho bạn. Các bạn có thể tham khảo<span>&nbsp;</span><span style=\"box-sizing: border-box; color: rgb(225, 77, 67);\"><a href=\"https://giaydepcrocs.com/giay-slip-on-la-gi-va-bi-quyet-phoi-do-dinh-danh-cho-phai-nu/\" target=\"_blank\" rel=\"noopener\">giày Slip-on là gì</a></span><span>&nbsp;</span>và<span style=\"box-sizing: border-box; color: rgb(225, 77, 67);\"><span>&nbsp;</span><a href=\"https://giaydepcrocs.com/giay-slip-on-la-gi-va-bi-quyet-phoi-do-dinh-danh-cho-phai-nu/\" target=\"_blank\" rel=\"noopener\">các mẫu giày Slip on dành cho nữ tốt nhất</a></span></p><p><br></p>",
+      "thumb": "https://res.cloudinary.com/vuongute/image/upload/v1631986035/runner-images/giay-skechers-nam_aecxze.jpg",
+      "createdAt": 1631799987811,
+      "updatedAt": 1631990934732
+    },
+    {
+      "id": 8,
+      "title": "5 cách khử mùi hôi giày đơn giản đến không ngờ",
+      "desc": "Trong cuộc sống hiện đại ngày nay, giày là vật dụng vô cùng cần thiết và quan trọng. Tùy thuộc vào từng môi trường, sự kiện mà bạn sẽ mang những đôi giày khác nhau. Tuy nhiên việc mang giày nhiều ngày liền mà không vệ sinh đúng cách, dễ dẫn đến việc giày bị hôi, gây ra sự khó chịu. Làm ảnh hưởng đến bản thân và mọi người xung quanh, chính vì vậy hôm nay Runner inn sẽ giới thiệu các bạn cách khử mùi hôi giày, hôi chân đơn giản mà hiệu quả cao.",
+      "content": "<h2>Nguyên nhân gây ra mùi hôi ở giày</h2><ul><li>Giày không phải là loại giày thể thao, do đó mà các miếng đệm giày, lót giày thấm hút kém.</li><li>Thiết kế của đôi giày không thoáng khí, bí bách nên dễ động lại mồ hôi ẩm ướt, trở thành nơi trú ngụ của ổ vi khuẩn.</li><li>Do bạn giặt và phơi giày chưa đúng cách, phơi vào những ngày thiếu nắng hoặc nơi ẩm thấp cũng sẽ khiến giày không khô. Tình trạng lúc nào cũng ẩm ẩm khiến giày tích tụ vi khuẩn.</li><li>Mang vớ nhiều ngày liền không giặt, tích tụ mồ hôi là nơi phát triển của nấm.</li><li>Tuyến mồ hôi của bạn có vấn đề, không tiết mồ hôi đều khắp cơ thể. Vì vậy mà ở một số bộ phận trên cơ thể sẽ điều tiết mồ hôi mạnh hơn mức bình thường, cụ thể là ở chân.</li></ul><h2>Khử mùi hôi chân như thế nào ?</h2><p>Mùi hôi của giày sẽ ám vào chân của bạn, làm cho chân bạn bị hôi, và rồi trở nên mặc cảm và tự ti mỗi khi đến nhà người quen, vân vân và mây mây, các tình huống đó sẽ khiến cho bạn trở nên khó xử. Do đó trước hết, bạn nên đọc những cách tiếp theo sau đây để khử mùi hôi chân trước, lấy lại sự tự tin cho bản thân.</p><h3>Cách #1</h3><p><strong>Bạn hãy sử dụng bột phấn trẻ em</strong>: Bột phấn trẻ em có tác dụng hút ẩm rất tốt, do đó hãy rắc một ít vào lòng bàn tay, xoa đều chân, lưu ý xoa kỹ các kẽ bàn chân. Rồi sau đó hãy mang tất như bình thường.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/tri-hoi-chan-01-557x400.png\" alt=\"tri-hoi-chan-01\" data-proportion=\"true\" data-align=\"none\" data-index=\"0\" data-file-name=\"tri-hoi-chan-01-557x400.png\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h3>Cách #2</h3><p><strong>Sử dụng các bình xịt khử mùi</strong>: Hiện nay trên thị trường có khá nhiều thương hiệu xịt khử mùi cho chân, bạn có thể dễ dàng mua tại các siêu thị hay cửa hàng tiện lợi gần nhà.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/tri-hoi-chan-02.jpg\" alt=\"tri-hoi-chan-02\" data-proportion=\"true\" data-align=\"none\" data-index=\"1\" data-file-name=\"tri-hoi-chan-02.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h3>Cách #3</h3><p><strong>Ngâm chân với chanh và muối hột</strong>: Muối hột rất tốt cho sức khỏe, vì muối hột gần như giữ toàn vẹn tinh chất từ biển, do đó có tính sát khuẩn rất mạnh. Cộng với nước cốt chanh có hàm lượng axit cao thì đây là bộ đôi diệt khuẩn toàn vẹn. Giúp đánh bay mọi mùi hôi khó chịu, chỉ cần bạn ngâm chân với nước ấm, một vài muỗng muối hột và 1-2 trái chanh. Ngâm và thư giãn trong vòng 15-30 phút, vừa giúp cho chân thư giãn vừa đánh bật mùi hôi.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/tri-hoi-chan-03-442x400.jpg\" alt=\"tri-hoi-chan-03\" data-proportion=\"true\" data-align=\"none\" data-index=\"2\" data-file-name=\"tri-hoi-chan-03-442x400.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h3>Cách #4</h3><p><strong>Ngâm chân với giấm pha loãng hay phèn chua</strong>: Ngoài ngâm với muối hột và chanh, bạn có thể pha với một ít giấm, khoảng 10-15ml giấm cho một lần ngâm, liên tục trong vòng 3-5 ngày sẽ hết. Hoặc có thể sử dụng loại nguyên liệu phổ biến khác là phèn chua. Bạn chỉ cần bỏ 50g vào nước nóng và ngâm trong vòng 10-15 phút.</p><h3>Cách #5</h3><p><strong>Ngâm chân với nước trà</strong>: Trà ngoài là thức uống được đại đa số người yêu thích từ già trẻ lớn bé. Thì trà còn có công dụng khử mùi rất tốt, bạn dùng 100g trà ngâm với 2 lít nước nóng. Đợi cho trà nóng lên,thì bạn bắt đầu ngâm chân trong 10-15 phút. Thực hiện đều đặn bạn sẽ hết hôi chân sau vài ngày.</p><h2>Khử mùi hôi giày như thế nào</h2><h3>Cách #1</h3><p><strong>Sử dụng báo cũ</strong>: Báo là loại vật liệu hút ẩm rất nhanh, nếu bạn hay người thân trong gia đình bạn có thói quen đọc báo vào mỗi sáng, thì bạn có thể tận dụng lại, vừa nhanh vừa tiết kiệm. Cách sử dụng là vo tròn giấy báo rồi nhét thật sâu vào mũi giày. Cách làm này vừa giúp định hình lại đôi giày, vừa hút ẩm khiến cho vi khuẩn không còn đường sinh sôi.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/tri-hoi-chan-04.jpg\" alt=\"tri-hoi-chan-04\" data-proportion=\"true\" data-align=\"none\" data-index=\"3\" data-file-name=\"tri-hoi-chan-04.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h3>Cách #2</h3><p><strong>Sử dụng phấn rôm (phấn trẻ em)</strong>: Nếu bạn sử dụng phần trẻ em để khử mùi hôi chân như cách ở trên, thì có thể sử dụng để tiếp tục khử mùi hôi giày, bằng cách rắc bột vào bên trong đôi giày. Lưu ý rắc đều vào mọi ngõ ngách trong giày.</p><h3>Cách #3</h3><p><strong>Sử dụng bột baking soda</strong>: Rắc một ít bột vào bên trong giày và để qua đêm, lưu ý không sử dụng đối với giày da, vì nó có thể làm hỏng lớp da.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/tri-hoi-chan-05-601x400.jpg\" alt=\"tri-hoi-chan-05\" data-proportion=\"true\" data-align=\"none\" data-index=\"4\" data-file-name=\"tri-hoi-chan-05-601x400.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h3>Cách #4</h3><p><strong>Phơi giày ngoài nắng</strong>: Trong những ngày ẩm ướt thì việc phơi quần áo và giày khá khó khăn. Nếu không đủ nắng, thì giày và quần áo sẽ có mùi, mặc cho đã xả với nước thơm đi nữa. Vì vậy hạn chế giặt giày vào những ngày thời tiết có mưa, kéo dài vài ngày. Phơi ngoài nắng sẽ có tác dụng giết chết toàn bộ vi khuẩn, ức chế nấm, giày sẽ không bị hôi nữa.</p><div class=\"se-component se-image-container __se__float- __se__float-none\" contenteditable=\"false\"><figure style=\"margin: 0px;\"><img src=\"https://giaydepcrocs.com/wp-content/uploads/2017/12/tri-hoi-chan-06-600x400.jpg\" alt=\"tri-hoi-chan-06\" data-proportion=\"true\" data-align=\"none\" data-index=\"5\" data-file-name=\"tri-hoi-chan-06-600x400.jpg\" data-file-size=\"0\" data-origin=\",\" data-size=\",\" data-rotate=\"\" data-rotatex=\"\" data-rotatey=\"\" data-percentage=\"auto,auto\" style=\"\"></figure></div><p><br></p><h3>Cách #5</h3><p><strong>Sử dụng giấy báo và chanh</strong>: Nguyên liệu thực hiện gồm có chanh và giấy báo vụn. Đầu tiên hãy cắt 1/2 trái chanh cho mỗi giấy báo vụn, sau đó vắt lấy nước cốt chanh thấm vào giấy báo rồi vo tròn lại. Đặt vào đôi giày và để ít nhất là 8 tiếng.</p><h3>Bạn có cảm thấy phiền phức khi cứ phải lặp lại các bước trên để khử mùi hôi giày sau một thời gian sử dụng ?</h3><p><strong>Nếu có</strong><span>&nbsp;</span>– Bạn nên chọn hãng giày thể thao tốt hơn, sử dụng các chất liệu thấm hút tốt, thiết kế có khả năng thoáng khí cao.</p><p><strong>Nếu không</strong><span>&nbsp;</span>– Bạn thật là người siêng năng, nhưng bạn đang lãng phí nhiều hơn bạn nghĩ, cả về thời gian công sức và tiền bạc. Hãy đầu tư đúng đắn ngay từ đầu, bạn sẽ tiết kiệm được cả khối tiền đấy.</p><p>Do đó,<span>&nbsp;</span><strong>Giaydepcrocs<span>&nbsp;</span></strong>khuyên bạn nên sử dụng giày của các hãng giày thể thao nổi tiếng như<span>&nbsp;</span><strong>Adidas, Nike hay Skechers, Puma</strong>… để khắc phục các vấn đề trên.</p><p><br></p>",
+      "thumb": "https://res.cloudinary.com/vuongute/image/upload/v1631986131/runner-images/khu-mui-hoi-giay-01_jkd6av.jpg",
+      "createdAt": 1631799987811,
+      "updatedAt": 1631990098547
+    }
+  ],
   "orders": [
     {
       "userId": 5,
@@ -1874,6 +2068,324 @@
       "createdAt": 1631801997123,
       "updatedAt": 1631801997123,
       "id": 5
+    },
+    {
+      "userId": 7,
+      "name": "tuyet",
+      "email": "hotuyet@gmail.com",
+      "phoneNumber": "0337987824",
+      "address": "jjj - Phường Bình Thuận - Quận Hải Châu - Thành phố Đà Nẵng",
+      "products": [
+        {
+          "productId": "32",
+          "count": 3,
+          "name": "Deviate Nitro Elite Racer SP Men's Running Sneakers",
+          "price": 4600000,
+          "color": "multiColor",
+          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/195419/01/sv03/fnd/PNA/fmt/png/Deviate-Nitro-Elite-Racer-SP-Men's-Running-Sneakers",
+          "category": "Puma",
+          "type": "Giày chạy bộ",
+          "department": "Giày nam",
+          "option": {}
+        }
+      ],
+      "totalPrice": 13800000,
+      "checkoutInfo": "cod",
+      "status": "confirm",
+      "createdAt": 1631696330576,
+      "updatedAt": 1631710967626,
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "name": "Dương Vương",
+      "email": "quocvuongta1023@gmail.com",
+      "phoneNumber": "0949443045",
+      "address": "Số 23 - Phường 02 - Quận 10 - Thành phố Hồ Chí Minh",
+      "products": [
+        {
+          "productId": 33,
+          "count": 1,
+          "name": "Scorch Runner Men's Running Shoes",
+          "price": 900000,
+          "color": "e7352b",
+          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/sv03/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes",
+          "quantity": 10,
+          "category": "Puma",
+          "type": "Giày chạy bộ",
+          "department": "Giày nam",
+          "option": {}
+        }
+      ],
+      "totalPrice": 900000,
+      "paymentID": "",
+      "checkoutInfo": "cod",
+      "status": "waiting",
+      "createdAt": 1631896492838,
+      "updatedAt": 1631896492838,
+      "id": 7
+    },
+    {
+      "userId": 3,
+      "name": "Dương Vương",
+      "email": "quocvuongta1023@gmail.com",
+      "phoneNumber": "0949443045",
+      "address": "Quảng Trị - Phường Bình Thuận - Quận Hải Châu - Thành phố Đà Nẵng",
+      "products": [
+        {
+          "productId": 33,
+          "count": 1,
+          "name": "Scorch Runner Men's Running Shoes",
+          "price": 900000,
+          "color": "e7352b",
+          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/sv03/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes",
+          "quantity": 9,
+          "category": "Puma",
+          "type": "Giày chạy bộ",
+          "department": "Giày nam",
+          "option": {}
+        }
+      ],
+      "totalPrice": 900000,
+      "paymentID": "PAYID-MFCMJEQ27491717Y2602981D",
+      "checkoutInfo": "paypal",
+      "status": "delivery",
+      "createdAt": 1631896699807,
+      "updatedAt": 1632019047981,
+      "id": 8
+    },
+    {
+      "userId": 3,
+      "name": "Dương Vương",
+      "email": "quocvuongta1023@gmail.com",
+      "phoneNumber": "0949443045",
+      "address": "Số 123 - Phường Bến Nghé - Quận 1 - Thành phố Hồ Chí Minh",
+      "products": [
+        {
+          "productId": 34,
+          "count": 1,
+          "name": "Future Z 4.2 TT Soccer Cleats JR",
+          "price": 1250000,
+          "color": "1790c8",
+          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/106509/01/sv03/fnd/PNA/fmt/png/Future-Z-4.2-TT-Soccer-Cleats-JR",
+          "quantity": 10,
+          "category": "Puma",
+          "type": "Giày đá bóng",
+          "department": "Giày trẻ em",
+          "option": {}
+        }
+      ],
+      "totalPrice": 1250000,
+      "paymentID": "PAYID-MFCMPYQ5A128511FY181640M",
+      "checkoutInfo": "paypal",
+      "status": "confirm",
+      "createdAt": 1631897545782,
+      "updatedAt": 1632019042840,
+      "id": 9
+    },
+    {
+      "userId": 3,
+      "name": "Dương Vương",
+      "email": "quocvuongta1023@gmail.com",
+      "phoneNumber": "0949443045",
+      "address": "Số 23 - Phường Lãm Hà - Quận Kiến An - Thành phố Hải Phòng",
+      "products": [
+        {
+          "productId": 33,
+          "count": 1,
+          "name": "Scorch Runner Men's Running Shoes",
+          "price": 900000,
+          "color": "e7352b",
+          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/sv03/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes",
+          "quantity": 8,
+          "category": "Puma",
+          "type": "Giày chạy bộ",
+          "department": "Giày nam",
+          "option": {}
+        }
+      ],
+      "totalPrice": 900000,
+      "paymentID": "PAYID-MFC6G4I8YH41688RC4706504",
+      "checkoutInfo": "paypal",
+      "status": "shipping",
+      "createdAt": 1631970141547,
+      "updatedAt": 1632019039546,
+      "id": 10
+    },
+    {
+      "userId": 3,
+      "name": "Dương Vương",
+      "email": "quocvuongta1023@gmail.com",
+      "phoneNumber": "0949443045",
+      "address": "Số 23 - Phường 02 - Quận 10 - Thành phố Hồ Chí Minh",
+      "products": [
+        {
+          "productId": 31,
+          "count": 1,
+          "name": "Deviate NITRO Women's Running Shoes",
+          "price": 3500000,
+          "color": "000000",
+          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194453/07/sv03/fnd/PNA/fmt/png/Deviate-NITRO-Women's-Running-Shoes",
+          "quantity": 20,
+          "category": "Puma",
+          "type": "Giày chạy bộ",
+          "department": "Giày nữ",
+          "option": {}
+        }
+      ],
+      "totalPrice": 3500000,
+      "paymentID": "",
+      "checkoutInfo": "cod",
+      "status": "shipping",
+      "createdAt": 1631970251442,
+      "updatedAt": 1632019035988,
+      "id": 11
+    },
+    {
+      "userId": 3,
+      "name": "Dương Vương",
+      "email": "quocvuongta1023@gmail.com",
+      "phoneNumber": "0949443045",
+      "address": "Số 23 - Phường Hưng Phú - Quận Cái Răng - Thành phố Cần Thơ",
+      "products": [
+        {
+          "productId": 20,
+          "count": 2,
+          "name": "Nike Air Zoom G.T. Cut",
+          "price": 3450000,
+          "color": "e7352b",
+          "image": "https://static.nike.com/a/images/t_PDP_864_v1/f_auto,b_rgb:f5f5f5,q_80/3b15aaaa-0168-421d-8da9-531620da2e78/air-zoom-gt-cut-basketball-shoes-kTDfNK.png",
+          "quantity": 74,
+          "category": "Nike",
+          "type": "Giày đá bóng",
+          "department": "Giày nữ",
+          "option": {}
+        }
+      ],
+      "totalPrice": 6210000,
+      "paymentID": "",
+      "checkoutInfo": "cod",
+      "status": "waiting",
+      "createdAt": 1632314059346,
+      "updatedAt": 1632314059346,
+      "id": 12
+    },
+    {
+      "userId": 3,
+      "name": "Dương Vương",
+      "email": "quocvuongta1023@gmail.com",
+      "phoneNumber": "0949443045",
+      "address": "Số 23 - Phường 02 - Quận 10 - Thành phố Hồ Chí Minh",
+      "products": [
+        {
+          "productId": 34,
+          "count": 3,
+          "name": "Future Z 4.2 TT Soccer Cleats JR",
+          "price": 1250000,
+          "color": "1790c8",
+          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/106509/01/sv03/fnd/PNA/fmt/png/Future-Z-4.2-TT-Soccer-Cleats-JR",
+          "quantity": 9,
+          "category": "Puma",
+          "type": "Giày đá bóng",
+          "department": "Giày trẻ em",
+          "option": {}
+        }
+      ],
+      "totalPrice": 3750000,
+      "paymentID": "",
+      "checkoutInfo": "cod",
+      "status": "delivery",
+      "createdAt": 1632314205997,
+      "updatedAt": 1632316826098,
+      "id": 13
+    },
+    {
+      "userId": 3,
+      "name": "Dương Vương",
+      "email": "quocvuongta1023@gmail.com",
+      "phoneNumber": "0949443045",
+      "address": "Số 23 - Phường 04 - Quận 10 - Thành phố Hồ Chí Minh",
+      "products": [
+        {
+          "productId": 34,
+          "count": 1,
+          "name": "Future Z 4.2 TT Soccer Cleats JR",
+          "price": 1250000,
+          "color": "1790c8",
+          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/106509/01/sv03/fnd/PNA/fmt/png/Future-Z-4.2-TT-Soccer-Cleats-JR",
+          "quantity": 6,
+          "category": "Puma",
+          "type": "Giày đá bóng",
+          "department": "Giày trẻ em",
+          "option": {}
+        }
+      ],
+      "totalPrice": 1250000,
+      "paymentID": "PAYID-MFFSK2I1CJ81329UL756140L",
+      "checkoutInfo": "paypal",
+      "status": "shipping",
+      "createdAt": 1632314703327,
+      "updatedAt": 1632316820631,
+      "id": 14
+    },
+    {
+      "userId": 3,
+      "name": "Dương Vương",
+      "email": "quocvuongta1023@gmail.com",
+      "phoneNumber": "0949443045",
+      "address": "Số 123 - Phường Bến Nghé - Quận 1 - Thành phố Hồ Chí Minh",
+      "products": [
+        {
+          "productId": 33,
+          "count": 2,
+          "name": "Scorch Runner Men's Running Shoes",
+          "price": 900000,
+          "color": "e7352b",
+          "image": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/194459/12/sv03/fnd/PNA/fmt/png/Scorch-Runner-Men's-Running-Shoes",
+          "quantity": 7,
+          "category": "Puma",
+          "type": "Giày chạy bộ",
+          "department": "Giày nam",
+          "option": {}
+        }
+      ],
+      "totalPrice": 1080000,
+      "paymentID": "",
+      "checkoutInfo": "cod",
+      "status": "confirm",
+      "createdAt": 1632314874843,
+      "updatedAt": 1632316816370,
+      "id": 15
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "code": "runner10",
+      "percent": 0.1,
+      "createdAt": 1628858111692,
+      "updatedAt": 1631801997119
+    },
+    {
+      "id": 2,
+      "code": "runner20",
+      "percent": 0.2,
+      "createdAt": 1628858111692,
+      "updatedAt": 1631801997119
+    },
+    {
+      "id": 3,
+      "code": "runner30",
+      "percent": 0.3,
+      "createdAt": 1628858111692,
+      "updatedAt": 1631801997119
+    },
+    {
+      "code": "runner40",
+      "percent": 0.4,
+      "createdAt": 1632306326387,
+      "updatedAt": 1632306345168,
+      "id": 4
     }
   ]
 }
